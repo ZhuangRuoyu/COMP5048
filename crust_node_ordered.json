@@ -1,0 +1,387 @@
+[
+    [
+        "Australia",
+        {
+            "weight": 0.02564102564102564,
+            "confederation": "AFC"
+        }
+    ],
+    [
+        "China",
+        {
+            "weight": 0.0,
+            "confederation": "AFC"
+        }
+    ],
+    [
+        "Iran",
+        {
+            "weight": 0.02564102564102564,
+            "confederation": "AFC"
+        }
+    ],
+    [
+        "Iraq",
+        {
+            "weight": 0.0,
+            "confederation": "AFC"
+        }
+    ],
+    [
+        "Japan",
+        {
+            "weight": 0.05128205128205128,
+            "confederation": "AFC"
+        }
+    ],
+    [
+        "Kuwait",
+        {
+            "weight": 0.0,
+            "confederation": "AFC"
+        }
+    ],
+    [
+        "New Zealand",
+        {
+            "weight": 0.0,
+            "confederation": "AFC"
+        }
+    ],
+    [
+        "No. Korea",
+        {
+            "weight": 0.02564102564102564,
+            "confederation": "AFC"
+        }
+    ],
+    [
+        "Saudi Arabia",
+        {
+            "weight": 0.02564102564102564,
+            "confederation": "AFC"
+        }
+    ],
+    [
+        "UAE",
+        {
+            "weight": 0.0,
+            "confederation": "AFC"
+        }
+    ],
+    [
+        "Algeria",
+        {
+            "weight": 0.02564102564102564,
+            "confederation": "CAF"
+        }
+    ],
+    [
+        "Angola",
+        {
+            "weight": 0.0,
+            "confederation": "CAF"
+        }
+    ],
+    [
+        "Cameroon",
+        {
+            "weight": 0.07692307692307693,
+            "confederation": "CAF"
+        }
+    ],
+    [
+        "Egypt",
+        {
+            "weight": 0.0,
+            "confederation": "CAF"
+        }
+    ],
+    [
+        "Ghana",
+        {
+            "weight": 0.02564102564102564,
+            "confederation": "CAF"
+        }
+    ],
+    [
+        "Ivory Coast",
+        {
+            "weight": 0.01282051282051282,
+            "confederation": "CAF"
+        }
+    ],
+    [
+        "Morocco",
+        {
+            "weight": 0.038461538461538464,
+            "confederation": "CAF"
+        }
+    ],
+    [
+        "Nigeria",
+        {
+            "weight": 0.0641025641025641,
+            "confederation": "CAF"
+        }
+    ],
+    [
+        "Senegal",
+        {
+            "weight": 0.038461538461538464,
+            "confederation": "CAF"
+        }
+    ],
+    [
+        "So. Africa",
+        {
+            "weight": 0.038461538461538464,
+            "confederation": "CAF"
+        }
+    ],
+    [
+        "Togo",
+        {
+            "weight": 0.0,
+            "confederation": "CAF"
+        }
+    ],
+    [
+        "Tunisia",
+        {
+            "weight": 0.038461538461538464,
+            "confederation": "CAF"
+        }
+    ],
+    [
+        "Zaire",
+        {
+            "weight": 0.0,
+            "confederation": "CAF"
+        }
+    ],
+    [
+        "Canada",
+        {
+            "weight": 0.0,
+            "confederation": "CONCACAF"
+        }
+    ],
+    [
+        "Costa Rica",
+        {
+            "weight": 0.05128205128205128,
+            "confederation": "CONCACAF"
+        }
+    ],
+    [
+        "Cuba",
+        {
+            "weight": 0.02564102564102564,
+            "confederation": "CONCACAF"
+        }
+    ],
+    [
+        "El Salvador",
+        {
+            "weight": 0.0,
+            "confederation": "CONCACAF"
+        }
+    ],
+    [
+        "Haiti",
+        {
+            "weight": 0.0,
+            "confederation": "CONCACAF"
+        }
+    ],
+    [
+        "Honduras",
+        {
+            "weight": 0.0,
+            "confederation": "CONCACAF"
+        }
+    ],
+    [
+        "Jamaica",
+        {
+            "weight": 0.01282051282051282,
+            "confederation": "CONCACAF"
+        }
+    ],
+    [
+        "Bolivia",
+        {
+            "weight": 0.0,
+            "confederation": "CONMEBOL"
+        }
+    ],
+    [
+        "Colombia",
+        {
+            "weight": 0.038461538461538464,
+            "confederation": "CONMEBOL"
+        }
+    ],
+    [
+        "Ecuador",
+        {
+            "weight": 0.038461538461538464,
+            "confederation": "CONMEBOL"
+        }
+    ],
+    [
+        "Paraguay",
+        {
+            "weight": 0.11538461538461538,
+            "confederation": "CONMEBOL"
+        }
+    ],
+    [
+        "Peru",
+        {
+            "weight": 0.05128205128205128,
+            "confederation": "CONMEBOL"
+        }
+    ],
+    [
+        "Trinidad and Tobago",
+        {
+            "weight": 0.01282051282051282,
+            "confederation": "CONMEBOL"
+        }
+    ],
+    [
+        "Croatia",
+        {
+            "weight": 0.08974358974358974,
+            "confederation": "UEFA"
+        }
+    ],
+    [
+        "Czech Republic",
+        {
+            "weight": 0.01282051282051282,
+            "confederation": "UEFA"
+        }
+    ],
+    [
+        "Denmark",
+        {
+            "weight": 0.10256410256410256,
+            "confederation": "UEFA"
+        }
+    ],
+    [
+        "E. Germany",
+        {
+            "weight": 0.038461538461538464,
+            "confederation": "UEFA"
+        }
+    ],
+    [
+        "Greece",
+        {
+            "weight": 0.0,
+            "confederation": "UEFA"
+        }
+    ],
+    [
+        "Ireland",
+        {
+            "weight": 0.07692307692307693,
+            "confederation": "UEFA"
+        }
+    ],
+    [
+        "Israel",
+        {
+            "weight": 0.0,
+            "confederation": "UEFA"
+        }
+    ],
+    [
+        "Neth. East Indies",
+        {
+            "weight": 0.0,
+            "confederation": "UEFA"
+        }
+    ],
+    [
+        "No. Ireland",
+        {
+            "weight": 0.07692307692307693,
+            "confederation": "UEFA"
+        }
+    ],
+    [
+        "Norway",
+        {
+            "weight": 0.02564102564102564,
+            "confederation": "UEFA"
+        }
+    ],
+    [
+        "Portugal",
+        {
+            "weight": 0.15384615384615385,
+            "confederation": "UEFA"
+        }
+    ],
+    [
+        "Romania",
+        {
+            "weight": 0.11538461538461538,
+            "confederation": "UEFA"
+        }
+    ],
+    [
+        "Russia",
+        {
+            "weight": 0.02564102564102564,
+            "confederation": "UEFA"
+        }
+    ],
+    [
+        "Scotland",
+        {
+            "weight": 0.08974358974358974,
+            "confederation": "UEFA"
+        }
+    ],
+    [
+        "Serbia and Montenegro",
+        {
+            "weight": 0.0,
+            "confederation": "UEFA"
+        }
+    ],
+    [
+        "Slovenia",
+        {
+            "weight": 0.0,
+            "confederation": "UEFA"
+        }
+    ],
+    [
+        "Turkey",
+        {
+            "weight": 0.0641025641025641,
+            "confederation": "UEFA"
+        }
+    ],
+    [
+        "Ukraine",
+        {
+            "weight": 0.038461538461538464,
+            "confederation": "UEFA"
+        }
+    ],
+    [
+        "Wales",
+        {
+            "weight": 0.0,
+            "confederation": "UEFA"
+        }
+    ]
+]
