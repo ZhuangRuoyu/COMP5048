@@ -1,0 +1,695 @@
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="content-Type" content="text/html; charset=utf-8" />
+<!-- <meta name="description" content="The global center of mass of higher education: university rankings mapped #education #arwu #d3js @csaladenes" /> -->
+<!-- <meta name="keywords" content="center of mass, center of gravity, geocenter, csaladenes, d3.js, d3, university, rankings, infographic, data visualization" /> -->
+<meta property="og:image" content="snapshot.png" />
+<!-- <meta property="og:description" content="The global center of mass of higher education: university rankings mapped #education #arwu #d3js @csaladenes" /> -->
+<!-- <meta property="og:title" content="The global center of mass of higher education: university rankings mapped" /> -->
+<meta property="og:type" content="article" />
+<meta property="og:site_name" content="blog.csaladen.es" />
+<meta property="fb:admins" content="100943737036023614165" />
+<title>The global center of mass of higher education: university rankings mapped</title>
+<style>
+html,
+        body {
+            font-family: "Trebuchet MS", "Open Sans", Segoe UI light, Verdana, Tahoma, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            height: 100%;
+            width: 100%;
+        }
+.background {
+  fill: #FFFFFF;
+  pointer-events: all;
+}
+
+.feature{
+  fill: #D3D3D3;
+  cursor: pointer;
+}
+
+.feature.active {
+  fill: #777;
+}
+.feature:hover {
+  fill: #777;
+}
+
+.mesh {
+  fill: none;
+  stroke: #a1a1a1;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.graticule {
+            fill: none;
+            stroke: #000;
+            stroke-opacity: .3;
+            stroke-width: .5px;
+        }
+        .graticule.outline {
+            stroke: #333;
+            stroke-opacity: 1;
+            stroke-width: 1.5px;
+        }
+        div.tooltip {
+            line-height: 1;
+            font-weight: bold;
+            font-size: 12px;
+            padding: 6px;
+            background: rgba(255, 255, 255, 0.8);
+            color: #000;
+            border-radius: 4px;
+            border-color: black;
+            border: solid 1px;
+            z-index: 2000;
+            position: absolute;
+        }
+        .dragdealer {
+            height: 18px;
+            background: #FFFFFF;
+            z-index: 50;
+        }
+        .dragdealer .handle {
+            top: 0;
+            left: 0;
+
+            cursor: pointer;
+			z-index: 52;
+        }
+        .dragdealer .orange-bar {
+            width: 80px;
+            height: 18px;
+/*            background: #00c7ff;*/
+            background: #99d8c9;
+            color: #444;
+            font-size: 14px;
+            line-height: 19px;
+            text-align: center;
+            font-weight: bold;
+			z-index: 52;
+        }
+        .dragdealer .orange-bar:hover {
+        	background: #99d8c9;
+/*            background: #777;*/
+        }
+		a {
+		   text-decoration: none;
+		   color:#b20000;
+		}
+		#social {
+			position: fixed;
+            top: 0;
+            right: 0;
+            text-decoration: none;
+			text-align:right;
+			padding: 3px;
+            z-index: 800;
+			white-space:nowrap;
+			overflow:hidden;
+			opacity:0;
+        }
+    </style>
+<script type="text/javascript">var switchTo5x=true;</script>
+<script type="text/javascript" src="https://ws.sharethis.com/button/buttons.js"></script>
+<script type="text/javascript">stLight.options({publisher: "505a26ad-d820-47bd-a500-7f49d04a30f5", doNotHash: true, doNotCopy: false, hashAddressBar: false});</script>
+<body>
+<div id="container" style="width:900px;height:500px;margin:0px;opacity:0;border:solid 1px #777;">
+<!-- <div style="position:fixed;float:left;top:485px;left:805px;opacity:1;font-size:8px;color:#99d8c9;"><a href="http://www.csaladen.es" target="_blank">csaladen.es</a> | <a href="https://twitter.com/csaladenes" target="_blank">@csaladenes</a></div> -->
+<!-- <div style="position:fixed;float:left;top:445px;left:5px;opacity:1;"><a href="http://blog.csaladen.es" target="_blank"><img style="width:50px;height:50px;border:solid 1px #99d8c9;" src="tsne.png" /></a></div> -->
+<div style="position:fixed;float:left;top:440px;left:350px;opacity:1;font-size:24px;">
+<a target="_blank" style="color:#000;background:#FFFFFF;"> The global center of World Cup 
+</a>
+</div>
+<div id="pslider" title="Drag slider to cycle over years" class="dragdealer" style="position:fixed;float:left;top:475px;left:270px;opacity:1;width:495px;background:#e8eaea">
+<div class="description" style="position:fixed;margin-left:100px;font-size:12px;background:#9999ff;"></div>
+<!-- <div id="prev" class="orange-bar" style="cursor: pointer;position:fixed;margin-left:0px;width:14px;">&lt;</div>
+<div id="next" class="orange-bar" style="cursor: pointer;position:fixed;margin-left:481px;width:14px;">&gt;</div> -->
+<!-- <div id="prev" style="position:fixed;margin-left:0px;width:14px;">&lt;</div>
+<div id="next" style="position:fixed;margin-left:481px;width:14px;">&gt;</div> -->
+<div class="handle orange-bar" id="syear">2006</div>
+<!-- </div>
+<div style="position:fixed;float:left;top:420px;left:5px;opacity:1;width:50px;height:10px;background:#5e3c99;color:#99d8c9;font-size:8px;text-align:center;line-height:10px;">401-500</div>
+<div style="position:fixed;float:left;top:405px;left:5px;opacity:1;width:50px;height:10px;background:#b2abd2;color:#444;font-size:8px;text-align:center;line-height:10px;">301-400</div>
+<div style="position:fixed;float:left;top:390px;left:5px;opacity:1;width:50px;height:10px;background:#f7f7f7;color:#444;font-size:8px;text-align:center;line-height:10px;">201-300</div>
+<div style="position:fixed;float:left;top:375px;left:5px;opacity:1;width:50px;height:10px;background:#fdb863;color:#444;font-size:8px;text-align:center;line-height:10px;">101-200</div>
+<div style="position:fixed;float:left;top:360px;left:5px;opacity:1;width:50px;height:10px;background:#e66101;color:#444;font-size:8px;text-align:center;line-height:10px;">1-100</div>
+<div style="position:fixed;float:left;top:433px;left:5px;opacity:1;width:50px;height:10px;color:#99d8c9;font-size:8px;text-align:center;line-height:10px;">Ranking</div>
+<div style="position:fixed;float:left;top:348px;left:5px;opacity:1;width:50px;height:10px;color:#99d8c9;font-size:8px;text-align:center;line-height:10px;">Geocenter</div>
+</div> -->
+<!-- <div id="social">
+<span class='st_facebook'></span>
+<span class='st_twitter'></span>
+<span class='st_googleplus'></span>
+<span class='st_linkedin'></span>
+<span class='st_tumblr'></span>
+<span class='st_reddit'></span>
+<span class='st_email'></span>
+</div> -->
+
+<script src="//d3js.org/d3.v3.min.js"></script>
+<script src="//d3js.org/d3-color.v1.min.js"></script>
+<script src="//d3js.org/d3-interpolate.v1.min.js"></script>
+<script src="//d3js.org/queue.v1.min.js"></script>
+<script src="//d3js.org/topojson.v1.min.js"></script>
+
+
+
+<script src="https://d3js.org/d3.v3.min.js"></script>
+<script src="https://d3js.org/d3.geo.projection.v0.min.js"></script>
+<script src="https://d3js.org/topojson.v1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/dragdealer/0.9.8/dragdealer.min.js"></script>
+<script>
+var colors2=["#c994c7",
+"#df65b0",
+"#e7298a",
+"#ce1256",
+"#980043",
+"#67001f"]
+var colors3=["#a6bddb",
+"#67a9cf",
+"#3690c0",
+"#02818a",
+"#016c59",
+"#014636"]
+var colors=[
+"#5f5fa4",
+"#aaed94",
+"#557e55",
+"#ff9a9a",
+"#6a5252",
+"#4c7d4c"]
+
+// var colors=[
+// "#ff0000",
+// "#b20000",
+// "#7f0000",
+// "#4c0000",
+// "#4c0000"]
+
+var width = document.getElementById("container").offsetWidth - 2,
+    height = document.getElementById("container").offsetHeight - 2,
+    active = d3.select(null);
+
+var projection = d3.geo.naturalEarth();
+
+var defaultZoom = 1.3;
+var defaultTranslateX = -220;
+var defaultTranslateY = -40;
+	
+
+var path = d3.geo.path()
+    .projection(projection);
+
+var tiptext = "no data";
+
+var tooltipdiv = d3.select("body")
+	.append("div")
+	.attr("class", "tooltip")
+	.style("visibility", "hidden")
+
+// var tipshow = function() {
+// 	tooltipdiv.style("visibility", "visible");
+
+// 	tooltipdiv.html(function() {
+// 			var tt = '<table><tr><td colspan="2"  style="color:#e66101;">' + tiptext[0].name +
+// 				'</td></tr><tr><td>Rank: </td><td>'+tiptext[0].rank+'</td></tr>'
+				
+// 			for (ii=0;ii<tiptext[1].length;ii++){
+			
+// 				var queue=true;
+// 				if (tiptext[2][ii]==2011) {
+// 					queue=false;
+// 					var save=tiptext[1][ii];
+// 					}
+// 				if (queue)
+// 					{tt=tt+'<tr><td>'+tiptext[2][ii]+'</td>'+'<td>'+tiptext[1][ii]+'</td></tr>';}
+// 				if ((tiptext[2][ii]==2010)&&(queue))
+// 					{tt=tt+'<tr><td>2011</td>'+'<td>'+save+'</td></tr>';}
+// 			}
+				
+// 			return tt+'</table>';
+// 		})
+// 		.style("left", (d3.event.pageX + 30) + "px")
+// 		.style("top", (d3.event.pageY - 30) + "px");
+
+// }
+// var tiphide = function() {
+// 	tooltipdiv.style("visibility", "hidden");
+// }	
+	
+ 
+// d3.json("u.json",  function(error, u) {
+// d3.json("v.json",  function(error, v) {
+
+
+
+
+
+
+
+
+
+
+// d3.json("world.json", function(error, world) {
+//   g.selectAll("path")
+//       .data(topojson.feature(world, world.objects.countries).features)
+//     .enter().append("path")
+//       .attr("d", path)
+//       .attr("class", "feature");
+//       // .on("click", clicked);
+
+//   g.append("path")
+//       .datum(topojson.mesh(world, world.objects.countries, function(a, b) { return a !== b; }))
+//       .attr("class", "mesh")
+//       .attr("d", path);
+	
+// });	
+
+
+
+
+
+
+
+d3.json("world_cup_year_modnew.json",  function(error, cups) {
+
+	var svg = d3.select("#container").append("svg")
+    .attr("width", width)
+    .attr("height", height)
+    .on("click", stopped, true);
+
+    svg.append("rect")
+        .attr("class", "background")
+        .attr("width", width)
+        .attr("height", height)
+        .on("click", reset);
+
+    var g = svg.append("g");
+	
+    var zoom = d3.behavior.zoom()
+        .translate([defaultTranslateX, defaultTranslateY])
+        .scale(defaultZoom)
+        .scaleExtent([defaultZoom, 100])
+        .on("zoom", zoomed);
+
+    svg
+        .call(zoom) // delete this line to disable free zooming
+        .call(zoom.event);
+
+
+function reset() {
+  active.classed("active", false);
+  active = d3.select(null);
+  scale=defaultZoom;
+  translate=[defaultTranslateX, defaultTranslateY];
+  svg.transition()
+      .duration(750)
+      .call(zoom.translate([defaultTranslateX, defaultTranslateY]).scale(defaultZoom).event);
+
+}
+
+
+
+function zoomed() {
+  scale=d3.event.scale;
+  translate=d3.event.translate;
+  g.style("stroke-width", 1.5 / d3.event.scale + "px");
+  g.attr("transform", "translate(" + d3.event.translate + ")scale(" + d3.event.scale + ")");
+  d3.selectAll("circle").attr("transform", "translate(" + d3.event.translate + ")scale(" + d3.event.scale + ")")
+  .attr("r",function(d){
+	return (Math.sqrt(2000/Math.max(1,(d.rank-0)))+2)/d3.event.scale;
+  })
+  .attr("stroke-width",1/d3.event.scale);
+  d3.selectAll(".geocenter").attr("transform", "translate(" + d3.event.translate + ")scale(" + d3.event.scale + ")");
+}
+
+
+function stopped() {
+  if (d3.event.defaultPrevented) d3.event.stopPropagation();
+}
+
+
+
+
+var yr =2006;
+
+
+
+
+d3.json("world.json", function(error, world) {
+  g.selectAll("path")
+      .data(topojson.feature(world, world.objects.countries).features)
+    .enter().append("path")
+      .attr("d", path)
+      .attr("class", "feature");
+      // .on("click", clicked);
+
+  g.append("path")
+      .datum(topojson.mesh(world, world.objects.countries, function(a, b) { return a !== b; }))
+      .attr("class", "mesh")
+      .attr("d", path);
+
+
+
+
+	
+
+
+
+var countries = topojson.feature(world, world.objects.countries).features
+
+
+
+var findcountry = function (id){
+
+	for (var i in countries) {
+
+		// console.log(countries[i]);
+
+		if (countries[i].id == id) return d3.geo.centroid(countries[i])
+
+	}
+
+};
+
+
+
+// var test =  findcountry(410)
+
+
+// console.log(test);
+// console.log(findcountry(38));
+
+// var p = d3.geo.centroid(countries[i])
+
+// var yr =2006;
+// var scale=defaultZoom;
+// var translate=[defaultTranslateX, defaultTranslateY];
+
+var update=function(year){
+
+	var cupdata = cups[year];
+
+/*	delete cupdata['length']
+*/
+	// console.log(cupdata);
+	
+	svg.selectAll(".pin")
+                .data(cupdata)
+				.exit().remove();
+	
+	svg.selectAll(".pin")
+                .data(cupdata)
+				.enter().append("circle")
+				.attr("class", "pin")
+				<!-- .attr("stroke", "black") -->
+				<!-- .atrr("stroke-width", 1) -->
+				.style("opacity",0.6);
+                // .on("mouseout", tiphide);
+	
+	svg.selectAll(".pin")
+                .attr("r",function(d){
+					return (Math.sqrt(2000/Math.max(1,(d.rank-0)))+2)/scale;
+				})
+                .attr("cx", function(d) {
+                	// console.log(d3.geo.centroid(countries[d.id])[1]);
+                    return (projection([findcountry(d.id)[0], findcountry(d.id)[1]])[0]-0)*1;
+                })
+                .attr("cy", function(d) {
+                    return (projection([findcountry(d.id)[0], findcountry(d.id)[1]])[1]-0)*1;
+                })
+				.attr("fill", function(d){
+					return colors[parseInt(d.rank/5.5)];
+				})
+				.attr("transform", "translate(" + translate + ")scale(" + scale + ")")
+    			.attr("stroke-width",1/scale);
+				// .on("mouseover", function(d) {
+    //                 tiptext = [d,v[d.name].ranks,v[d.name].years];
+    //                 tipshow();
+    //                 return;
+    //             });
+				
+				center();
+				d3.select("#pslider").select("#syear").text(year);
+
+
+// var svg = d3.select("body").append("svg")
+
+//   .attr("width", 800)
+
+//   .attr("height", 400);
+
+// var polygon = svg.append("polygon")
+
+//   .attr("points", "350,75  379,161 469,161 397,215 423,301 350,250 277,301 303,215 231,161 321,161");
+
+
+function center(){
+
+	svg.selectAll(".geocurrent").remove();
+	
+	var lat = 0;
+	var lon = 0;
+	var su =0;
+	for (var i in cups[year]) {
+
+		// console.log(cups[year][i]);
+
+		lat = lat + findcountry(cups[year][i].id)[0]*1.0/parseInt(Math.sqrt(cups[year][i].rank))
+		lon = lon + findcountry(cups[year][i].id)[1]*1.0/parseInt(Math.sqrt(cups[year][i].rank))
+		su = su + 1.0/parseInt(Math.sqrt(cups[year][i].rank));
+	}
+
+	lat = lat / su;
+	lon = lon / su;
+	var xs = projection([lat, lon])[0];
+	var ys = projection([lat, lon])[1];
+	svg.append("polygon")
+	    //.attr("points", "350,75  379,161 469,161 397,215 423,301 350,250 277,301 303,215 231,161 321,161")
+		.attr("points", xs+","+(ys+15)+" "+(xs+15/defaultZoom)+","+(ys+51/defaultZoom)+" "+(xs-15/defaultZoom)+","+(ys+51/defaultZoom))
+		.attr("transform", "translate(" + translate + ")scale(" + scale + ")")
+    	.attr("class","geocurrent geocenter")
+		.attr("fill", "#c63636" )
+				.attr("stroke", "#593636")
+				.attr("stroke-width",1/defaultZoom)
+				.style("opacity",0.8);
+				// .on("mouseover", function() {
+    //                 tiptext = [{"name":"Geocenter","rank":"Weighted"},[year],["Year"]];
+    //                 tipshow();
+    //                 return;
+    //             })
+				// .on("mouseout", tiphide);
+	
+	// var lat = 0;
+	// var lon = 0;
+	// for (var i in cups[year]) {
+	// 	lat = lat + findcountry(cups[year][i].id)[0]*1
+	// 	lon = lon + findcountry(cups[year][i].id)[1]*1
+	// }
+
+	// lat = lat / cups[year].length;
+	// lon = lon / cups[year].length;
+	// var xs = projection([lat, lon])[0];
+	// var ys = projection([lat, lon])[1];
+	// svg.append("polygon")
+	// 	.attr("points", xs+","+(ys+5)+" "+(xs+5/defaultZoom)+","+(ys+17/defaultZoom)+" "+(xs-5/defaultZoom)+","+(ys+17/defaultZoom))
+	// 	.attr("transform", "translate(" + translate + ")scale(" + scale + ")")
+ //    	.attr("class","geocurrent geocenter")
+	// 	.attr("fill", "red" )
+	// 			.attr("stroke", "black")
+	// 			.attr("stroke-width",1/defaultZoom)
+	// 			.style("opacity",0.8);
+	// 			// .on("mouseover", function() {
+ //    //                 tiptext = [{"name":"Geocenter","rank":"Unweighted"},[year],["Year"]];
+ //    //                 tipshow();
+ //    //                 return;
+ //    //             })
+	// 			// .on("mouseout", tiphide);
+	// //console.log(lat,lon);
+};
+				
+};
+
+// var yr =2006;
+
+update(yr);
+reset();
+
+
+function clicked(d) {
+  if (active.node() === this) return reset();
+  active.classed("active", false);
+  active = d3.select(this).classed("active", true);
+
+  var bounds = path.bounds(d),
+      dx = bounds[1][0] - bounds[0][0],
+      dy = bounds[1][1] - bounds[0][1],
+      x = (bounds[0][0] + bounds[1][0]) / 2,
+      y = (bounds[0][1] + bounds[1][1]) / 2;
+      
+  scale = .9 / Math.max(dx / width, dy / height);
+  
+  translate = [width / 2 - scale * x, height / 2 - scale * y];
+
+  svg.transition()
+      .duration(750)
+      .call(zoom.translate(translate).scale(scale).event);
+}
+
+
+
+
+
+// If the drag behavior prevents the default click,
+// also stop propagation so we don’t click-to-zoom.
+
+
+
+// $('#next').click(function() {
+//   slideshow.setStep(slideshow.getStep()[0] + 1);
+//   return false;
+// });
+// $('#prev').click(function() {
+//   slideshow.setStep(slideshow.getStep()[0] - 1);
+//   return false;
+// });
+
+
+
+
+years = [1930, 1934, 1938, 1950, 1954, 1958, 1962, 1966, 1970, 1974, 1978, 1982, 1986, 1990, 1994, 1998, 2002, 2006]
+
+
+// var nextbutton = new Dragdealer('next', {
+// 	animationCallback: function() {
+// 		yr = densityslider.getStep()[0] + 1
+// 		update(yr)
+
+// 	}
+
+
+//   });
+// $('#next').click(function() {
+//     yr = densityslider.getStep()[0] + 1
+//     update(yr);
+// });
+
+
+
+
+// $('#next').click(function() {
+//     nextbutton.setStep(densityslider.getStep()[0] + 1);
+
+//     return false;
+// });
+
+
+
+
+
+// $('#next').click(function() {
+//     densityslider.setStep(densityslider.getStep()[0] + 1);
+//     return false;
+// });
+
+
+
+
+
+
+
+
+
+
+var densityslider = new Dragdealer("pslider", {
+
+            x: 1,
+            steps: years.length,
+            snap: true,
+            animationCallback: function(a) {
+
+            	//console.log(a)
+
+            	//console.log(Math.round( (years.length-1) * a));
+            	
+                yr = years[Math.round( (years.length-1)* a)];
+                //console.log(yr);
+                update(yr);
+            }
+        });
+
+//         scroll = function(a) {
+//             if (a < 0) yr =Math.max(years[0], years[densityslider.getStep()[0] - 1])
+//             else yr = Math.min(years[densityslider.getStep()[0] + 1], years[17])
+//             densityslider.setStep(densityslider.getStep()[0]);
+//         }
+
+
+// // $('#next').click(function() {
+// //     densityslider.setStep(densityslider.getStep()[0] + 1);
+// //     return false;
+// // })
+
+//         //console.log(1)
+
+
+//         document.addEventListener("keydown", function(event) {
+        	
+//         	console.log(event.keyCode)
+//             if ((event.keyCode >= 33 && event.keyCode <= 34) || (event.keyCode >= 37 && event.keyCode <= 40)) {
+//                 switch (event.keyCode) {
+//                     case 33: // pg up
+//                     case 37: // left
+//                     case 38: // up
+//                         scroll(-1);
+//                         break;
+//                     case 34: // pg down
+//                     case 39: // right
+//                     case 40: // down 
+//                         scroll(1);
+//                         break;
+//                 }
+
+//                 event.preventDefault();
+//             }
+//         }, false);
+
+});
+
+
+});	
+
+
+		
+var rescale = function() {
+//scale content
+var scal = Math.min((document.getElementById("container").parentElement.offsetWidth) / document.getElementById("container").offsetWidth, (document.getElementById("container").parentElement.offsetHeight) / document.getElementById("container").offsetHeight)
+document.getElementById("container").style.WebkitTransform = "scale(" + scal + ")";
+document.getElementById("container").style.OTransform = "scale(" + scal + ")";
+document.getElementById("container").style.MozTransform = "scale(" + scal + ")";
+document.getElementById("container").style.msTransform = "scale(" + scal + ")";
+document.getElementById("container").style.Transform = "scale(" + scal + ")";
+
+document.getElementById("container").style.WebkitTransformOrigin = "0 0";
+document.getElementById("container").style.OTransformOrigin = "0 0";
+document.getElementById("container").style.MozTransformOrigin = "0 0";
+document.getElementById("container").style.msTransformOrigin = "0 0";
+document.getElementById("container").style.TransformOrigin = "0 0";
+
+};
+
+window.onresize = function() {
+rescale();
+}
+
+//init content
+rescale();
+d3.select("#container").transition().delay(1000).duration(500).style("opacity", "1");
+// d3.select("#social").transition().delay(3000).duration(500).style("opacity", "1");
+</script>
