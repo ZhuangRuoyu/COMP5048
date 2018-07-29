@@ -1,0 +1,6719 @@
+{
+    "1998": [
+        {
+            "name": "Brazil",
+            "node": "A2",
+            "startnode": "A1",
+            "level": "1",
+            "rank": 2,
+            "group": "A",
+            "abrev": "Brazil",
+            "position": 29
+        },
+        {
+            "name": "Brazil",
+            "node": "A1",
+            "startnode": "A1",
+            "level": "1",
+            "rank": 2,
+            "group": "A",
+            "abrev": "Brazil",
+            "position": 49
+        },
+        {
+            "name": "Scotland",
+            "node": "A2",
+            "startnode": "A",
+            "level": "5",
+            "rank": 27,
+            "group": "A",
+            "abrev": "Scotland",
+            "position": 30
+        },
+        {
+            "name": "Scotland",
+            "node": "A1",
+            "startnode": "A",
+            "level": "5",
+            "rank": 27,
+            "group": "A",
+            "abrev": "Scotland",
+            "position": 50
+        },
+        {
+            "name": "Morocco",
+            "node": "A2",
+            "startnode": "A",
+            "level": "5",
+            "rank": 18,
+            "group": "A",
+            "abrev": "Morocco",
+            "position": 31
+        },
+        {
+            "name": "Morocco",
+            "node": "A1",
+            "startnode": "A",
+            "level": "5",
+            "rank": 18,
+            "group": "A",
+            "abrev": "Morocco",
+            "position": 51
+        },
+        {
+            "name": "Norway",
+            "node": "A2",
+            "startnode": "A2",
+            "level": "4",
+            "rank": 15,
+            "group": "A",
+            "abrev": "Norway",
+            "position": 32
+        },
+        {
+            "name": "Norway",
+            "node": "A1",
+            "startnode": "A2",
+            "level": "4",
+            "rank": 15,
+            "group": "A",
+            "abrev": "Norway",
+            "position": 52
+        },
+        {
+            "name": "Italy",
+            "node": "B1",
+            "startnode": "B1",
+            "level": "3",
+            "rank": 5,
+            "group": "B",
+            "abrev": "Italy",
+            "position": 25
+        },
+        {
+            "name": "Italy",
+            "node": "B2",
+            "startnode": "B1",
+            "level": "3",
+            "rank": 5,
+            "group": "B",
+            "abrev": "Italy",
+            "position": 53
+        },
+        {
+            "name": "Chile",
+            "node": "B1",
+            "startnode": "B2",
+            "level": "4",
+            "rank": 16,
+            "group": "B",
+            "abrev": "Chile",
+            "position": 26
+        },
+        {
+            "name": "Chile",
+            "node": "B2",
+            "startnode": "B2",
+            "level": "4",
+            "rank": 16,
+            "group": "B",
+            "abrev": "Chile",
+            "position": 54
+        },
+        {
+            "name": "Cameroon",
+            "node": "B1",
+            "startnode": "B",
+            "level": "5",
+            "rank": 25,
+            "group": "B",
+            "abrev": "Cameroon",
+            "position": 27
+        },
+        {
+            "name": "Cameroon",
+            "node": "B2",
+            "startnode": "B",
+            "level": "5",
+            "rank": 25,
+            "group": "B",
+            "abrev": "Cameroon",
+            "position": 55
+        },
+        {
+            "name": "Austria",
+            "node": "B1",
+            "startnode": "B",
+            "level": "5",
+            "rank": 23,
+            "group": "B",
+            "abrev": "Austria",
+            "position": 28
+        },
+        {
+            "name": "Austria",
+            "node": "B2",
+            "startnode": "B",
+            "level": "5",
+            "rank": 23,
+            "group": "B",
+            "abrev": "Austria",
+            "position": 56
+        },
+        {
+            "name": "France",
+            "node": "C1",
+            "startnode": "C1",
+            "level": "0",
+            "rank": 1,
+            "group": "C",
+            "abrev": "France",
+            "position": 17
+        },
+        {
+            "name": "France",
+            "node": "C2",
+            "startnode": "C1",
+            "level": "0",
+            "rank": 1,
+            "group": "C",
+            "abrev": "France",
+            "position": 57
+        },
+        {
+            "name": "So. Africa",
+            "node": "C1",
+            "startnode": "C",
+            "level": "5",
+            "rank": 24,
+            "group": "C",
+            "abrev": "SoAfrica",
+            "position": 18
+        },
+        {
+            "name": "So. Africa",
+            "node": "C2",
+            "startnode": "C",
+            "level": "5",
+            "rank": 24,
+            "group": "C",
+            "abrev": "SoAfrica",
+            "position": 58
+        },
+        {
+            "name": "Denmark",
+            "node": "C1",
+            "startnode": "C2",
+            "level": "3",
+            "rank": 8,
+            "group": "C",
+            "abrev": "Denmark",
+            "position": 19
+        },
+        {
+            "name": "Denmark",
+            "node": "C2",
+            "startnode": "C2",
+            "level": "3",
+            "rank": 8,
+            "group": "C",
+            "abrev": "Denmark",
+            "position": 59
+        },
+        {
+            "name": "Saudi Arabia",
+            "node": "C1",
+            "startnode": "C",
+            "level": "5",
+            "rank": 28,
+            "group": "C",
+            "abrev": "SaudiArabia",
+            "position": 20
+        },
+        {
+            "name": "Saudi Arabia",
+            "node": "C2",
+            "startnode": "C",
+            "level": "5",
+            "rank": 28,
+            "group": "C",
+            "abrev": "SaudiArabia",
+            "position": 60
+        },
+        {
+            "name": "Spain",
+            "node": "D2",
+            "startnode": "D",
+            "level": "5",
+            "rank": 17,
+            "group": "D",
+            "abrev": "Spain",
+            "position": 21
+        },
+        {
+            "name": "Spain",
+            "node": "D1",
+            "startnode": "D",
+            "level": "5",
+            "rank": 17,
+            "group": "D",
+            "abrev": "Spain",
+            "position": 61
+        },
+        {
+            "name": "Nigeria",
+            "node": "D2",
+            "startnode": "D1",
+            "level": "4",
+            "rank": 12,
+            "group": "D",
+            "abrev": "Nigeria",
+            "position": 22
+        },
+        {
+            "name": "Nigeria",
+            "node": "D1",
+            "startnode": "D1",
+            "level": "4",
+            "rank": 12,
+            "group": "D",
+            "abrev": "Nigeria",
+            "position": 62
+        },
+        {
+            "name": "Paraguay",
+            "node": "D2",
+            "startnode": "D2",
+            "level": "4",
+            "rank": 14,
+            "group": "D",
+            "abrev": "Paraguay",
+            "position": 23
+        },
+        {
+            "name": "Paraguay",
+            "node": "D1",
+            "startnode": "D2",
+            "level": "4",
+            "rank": 14,
+            "group": "D",
+            "abrev": "Paraguay",
+            "position": 63
+        },
+        {
+            "name": "Bulgaria",
+            "node": "D2",
+            "startnode": "D",
+            "level": "5",
+            "rank": 29,
+            "group": "D",
+            "abrev": "Bulgaria",
+            "position": 24
+        },
+        {
+            "name": "Bulgaria",
+            "node": "D1",
+            "startnode": "D",
+            "level": "5",
+            "rank": 29,
+            "group": "D",
+            "abrev": "Bulgaria",
+            "position": 64
+        },
+        {
+            "name": "Holland",
+            "node": "E1",
+            "startnode": "E1",
+            "level": "2",
+            "rank": 4,
+            "group": "E",
+            "abrev": "Holland",
+            "position": 1
+        },
+        {
+            "name": "Holland",
+            "node": "E2",
+            "startnode": "E1",
+            "level": "2",
+            "rank": 4,
+            "group": "E",
+            "abrev": "Holland",
+            "position": 45
+        },
+        {
+            "name": "Belgium",
+            "node": "E1",
+            "startnode": "E",
+            "level": "5",
+            "rank": 19,
+            "group": "E",
+            "abrev": "Belgium",
+            "position": 2
+        },
+        {
+            "name": "Belgium",
+            "node": "E2",
+            "startnode": "E",
+            "level": "5",
+            "rank": 19,
+            "group": "E",
+            "abrev": "Belgium",
+            "position": 46
+        },
+        {
+            "name": "So. Korea",
+            "node": "E1",
+            "startnode": "E",
+            "level": "5",
+            "rank": 30,
+            "group": "E",
+            "abrev": "SoKorea",
+            "position": 3
+        },
+        {
+            "name": "So. Korea",
+            "node": "E2",
+            "startnode": "E",
+            "level": "5",
+            "rank": 30,
+            "group": "E",
+            "abrev": "SoKorea",
+            "position": 47
+        },
+        {
+            "name": "Mexico",
+            "node": "E1",
+            "startnode": "E2",
+            "level": "4",
+            "rank": 13,
+            "group": "E",
+            "abrev": "Mexico",
+            "position": 4
+        },
+        {
+            "name": "Mexico",
+            "node": "E2",
+            "startnode": "E2",
+            "level": "4",
+            "rank": 13,
+            "group": "E",
+            "abrev": "Mexico",
+            "position": 48
+        },
+        {
+            "name": "Germany",
+            "node": "F2",
+            "startnode": "F1",
+            "level": "3",
+            "rank": 7,
+            "group": "F",
+            "abrev": "Germany",
+            "position": 5
+        },
+        {
+            "name": "Germany",
+            "node": "F1",
+            "startnode": "F1",
+            "level": "3",
+            "rank": 7,
+            "group": "F",
+            "abrev": "Germany",
+            "position": 41
+        },
+        {
+            "name": "USA",
+            "node": "F2",
+            "startnode": "F",
+            "level": "5",
+            "rank": 32,
+            "group": "F",
+            "abrev": "USA",
+            "position": 6
+        },
+        {
+            "name": "USA",
+            "node": "F1",
+            "startnode": "F",
+            "level": "5",
+            "rank": 32,
+            "group": "F",
+            "abrev": "USA",
+            "position": 42
+        },
+        {
+            "name": "Yugoslavia",
+            "node": "F2",
+            "startnode": "F2",
+            "level": "4",
+            "rank": 10,
+            "group": "F",
+            "abrev": "Yugoslavia",
+            "position": 7
+        },
+        {
+            "name": "Yugoslavia",
+            "node": "F1",
+            "startnode": "F2",
+            "level": "4",
+            "rank": 10,
+            "group": "F",
+            "abrev": "Yugoslavia",
+            "position": 43
+        },
+        {
+            "name": "Iran",
+            "node": "F2",
+            "startnode": "F",
+            "level": "5",
+            "rank": 20,
+            "group": "F",
+            "abrev": "Iran",
+            "position": 8
+        },
+        {
+            "name": "Iran",
+            "node": "F1",
+            "startnode": "F",
+            "level": "5",
+            "rank": 20,
+            "group": "F",
+            "abrev": "Iran",
+            "position": 44
+        },
+        {
+            "name": "Romania",
+            "node": "G2",
+            "startnode": "G1",
+            "level": "4",
+            "rank": 11,
+            "group": "G",
+            "abrev": "Romania",
+            "position": 13
+        },
+        {
+            "name": "Romania",
+            "node": "G1",
+            "startnode": "G1",
+            "level": "4",
+            "rank": 11,
+            "group": "G",
+            "abrev": "Romania",
+            "position": 37
+        },
+        {
+            "name": "Colombia",
+            "node": "G2",
+            "startnode": "G",
+            "level": "5",
+            "rank": 21,
+            "group": "G",
+            "abrev": "Colombia",
+            "position": 14
+        },
+        {
+            "name": "Colombia",
+            "node": "G1",
+            "startnode": "G",
+            "level": "5",
+            "rank": 21,
+            "group": "G",
+            "abrev": "Colombia",
+            "position": 38
+        },
+        {
+            "name": "England",
+            "node": "G2",
+            "startnode": "G2",
+            "level": "4",
+            "rank": 9,
+            "group": "G",
+            "abrev": "England",
+            "position": 15
+        },
+        {
+            "name": "England",
+            "node": "G1",
+            "startnode": "G2",
+            "level": "4",
+            "rank": 9,
+            "group": "G",
+            "abrev": "England",
+            "position": 39
+        },
+        {
+            "name": "Tunisia",
+            "node": "G2",
+            "startnode": "G",
+            "level": "5",
+            "rank": 26,
+            "group": "G",
+            "abrev": "Tunisia",
+            "position": 16
+        },
+        {
+            "name": "Tunisia",
+            "node": "G1",
+            "startnode": "G",
+            "level": "5",
+            "rank": 26,
+            "group": "G",
+            "abrev": "Tunisia",
+            "position": 40
+        },
+        {
+            "name": "Argentina",
+            "node": "H1",
+            "startnode": "H1",
+            "level": "3",
+            "rank": 6,
+            "group": "H",
+            "abrev": "Argentina",
+            "position": 9
+        },
+        {
+            "name": "Argentina",
+            "node": "H2",
+            "startnode": "H1",
+            "level": "3",
+            "rank": 6,
+            "group": "H",
+            "abrev": "Argentina",
+            "position": 33
+        },
+        {
+            "name": "Japan",
+            "node": "H1",
+            "startnode": "H",
+            "level": "5",
+            "rank": 31,
+            "group": "H",
+            "abrev": "Japan",
+            "position": 10
+        },
+        {
+            "name": "Japan",
+            "node": "H2",
+            "startnode": "H",
+            "level": "5",
+            "rank": 31,
+            "group": "H",
+            "abrev": "Japan",
+            "position": 34
+        },
+        {
+            "name": "Jamaica",
+            "node": "H1",
+            "startnode": "H",
+            "level": "5",
+            "rank": 22,
+            "group": "H",
+            "abrev": "Jamaica",
+            "position": 11
+        },
+        {
+            "name": "Jamaica",
+            "node": "H2",
+            "startnode": "H",
+            "level": "5",
+            "rank": 22,
+            "group": "H",
+            "abrev": "Jamaica",
+            "position": 35
+        },
+        {
+            "name": "Croatia",
+            "node": "H1",
+            "startnode": "H2",
+            "level": "2",
+            "rank": 3,
+            "group": "H",
+            "abrev": "Croatia",
+            "position": 12
+        },
+        {
+            "name": "Croatia",
+            "node": "H2",
+            "startnode": "H2",
+            "level": "2",
+            "rank": 3,
+            "group": "H",
+            "abrev": "Croatia",
+            "position": 36
+        }
+    ],
+    "1962": [
+        {
+            "name": "USSR",
+            "node": "A1",
+            "startnode": "A1",
+            "level": "3",
+            "rank": 6,
+            "group": "A",
+            "abrev": "USSR",
+            "position": 5
+        },
+        {
+            "name": "USSR",
+            "node": "A2",
+            "startnode": "A1",
+            "level": "3",
+            "rank": 6,
+            "group": "A",
+            "abrev": "USSR",
+            "position": 17
+        },
+        {
+            "name": "Yugoslavia",
+            "node": "A1",
+            "startnode": "A2",
+            "level": "2",
+            "rank": 4,
+            "group": "A",
+            "abrev": "Yugoslavia",
+            "position": 6
+        },
+        {
+            "name": "Yugoslavia",
+            "node": "A2",
+            "startnode": "A2",
+            "level": "2",
+            "rank": 4,
+            "group": "A",
+            "abrev": "Yugoslavia",
+            "position": 18
+        },
+        {
+            "name": "Uruguay",
+            "node": "A1",
+            "startnode": "A",
+            "level": "4",
+            "rank": 13,
+            "group": "A",
+            "abrev": "Uruguay",
+            "position": 7
+        },
+        {
+            "name": "Uruguay",
+            "node": "A2",
+            "startnode": "A",
+            "level": "4",
+            "rank": 13,
+            "group": "A",
+            "abrev": "Uruguay",
+            "position": 19
+        },
+        {
+            "name": "Colombia",
+            "node": "A1",
+            "startnode": "A",
+            "level": "4",
+            "rank": 14,
+            "group": "A",
+            "abrev": "Colombia",
+            "position": 8
+        },
+        {
+            "name": "Colombia",
+            "node": "A2",
+            "startnode": "A",
+            "level": "4",
+            "rank": 14,
+            "group": "A",
+            "abrev": "Colombia",
+            "position": 20
+        },
+        {
+            "name": "W. Germany",
+            "node": "B2",
+            "startnode": "B1",
+            "level": "3",
+            "rank": 7,
+            "group": "B",
+            "abrev": "WGermany",
+            "position": 1
+        },
+        {
+            "name": "W. Germany",
+            "node": "B1",
+            "startnode": "B1",
+            "level": "3",
+            "rank": 7,
+            "group": "B",
+            "abrev": "WGermany",
+            "position": 21
+        },
+        {
+            "name": "Chile",
+            "node": "B2",
+            "startnode": "B2",
+            "level": "2",
+            "rank": 3,
+            "group": "B",
+            "abrev": "Chile",
+            "position": 2
+        },
+        {
+            "name": "Chile",
+            "node": "B1",
+            "startnode": "B2",
+            "level": "2",
+            "rank": 3,
+            "group": "B",
+            "abrev": "Chile",
+            "position": 22
+        },
+        {
+            "name": "Italy",
+            "node": "B2",
+            "startnode": "B",
+            "level": "4",
+            "rank": 9,
+            "group": "B",
+            "abrev": "Italy",
+            "position": 3
+        },
+        {
+            "name": "Italy",
+            "node": "B1",
+            "startnode": "B",
+            "level": "4",
+            "rank": 9,
+            "group": "B",
+            "abrev": "Italy",
+            "position": 23
+        },
+        {
+            "name": "Switzerland",
+            "node": "B2",
+            "startnode": "B",
+            "level": "4",
+            "rank": 16,
+            "group": "B",
+            "abrev": "Switzerland",
+            "position": 4
+        },
+        {
+            "name": "Switzerland",
+            "node": "B1",
+            "startnode": "B",
+            "level": "4",
+            "rank": 16,
+            "group": "B",
+            "abrev": "Switzerland",
+            "position": 24
+        },
+        {
+            "name": "Brazil",
+            "node": "C2",
+            "startnode": "C1",
+            "level": "0",
+            "rank": 1,
+            "group": "C",
+            "abrev": "Brazil",
+            "position": 9
+        },
+        {
+            "name": "Brazil",
+            "node": "C1",
+            "startnode": "C1",
+            "level": "0",
+            "rank": 1,
+            "group": "C",
+            "abrev": "Brazil",
+            "position": 25
+        },
+        {
+            "name": "Czechoslovakia",
+            "node": "C2",
+            "startnode": "C2",
+            "level": "1",
+            "rank": 2,
+            "group": "C",
+            "abrev": "Czechoslovakia",
+            "position": 10
+        },
+        {
+            "name": "Czechoslovakia",
+            "node": "C1",
+            "startnode": "C2",
+            "level": "1",
+            "rank": 2,
+            "group": "C",
+            "abrev": "Czechoslovakia",
+            "position": 26
+        },
+        {
+            "name": "Mexico",
+            "node": "C2",
+            "startnode": "C",
+            "level": "4",
+            "rank": 11,
+            "group": "C",
+            "abrev": "Mexico",
+            "position": 11
+        },
+        {
+            "name": "Mexico",
+            "node": "C1",
+            "startnode": "C",
+            "level": "4",
+            "rank": 11,
+            "group": "C",
+            "abrev": "Mexico",
+            "position": 27
+        },
+        {
+            "name": "Spain",
+            "node": "C2",
+            "startnode": "C",
+            "level": "4",
+            "rank": 12,
+            "group": "C",
+            "abrev": "Spain",
+            "position": 12
+        },
+        {
+            "name": "Spain",
+            "node": "C1",
+            "startnode": "C",
+            "level": "4",
+            "rank": 12,
+            "group": "C",
+            "abrev": "Spain",
+            "position": 28
+        },
+        {
+            "name": "Hungary",
+            "node": "D1",
+            "startnode": "D1",
+            "level": "3",
+            "rank": 5,
+            "group": "D",
+            "abrev": "Hungary",
+            "position": 13
+        },
+        {
+            "name": "Hungary",
+            "node": "D2",
+            "startnode": "D1",
+            "level": "3",
+            "rank": 5,
+            "group": "D",
+            "abrev": "Hungary",
+            "position": 29
+        },
+        {
+            "name": "England",
+            "node": "D1",
+            "startnode": "D2",
+            "level": "3",
+            "rank": 8,
+            "group": "D",
+            "abrev": "England",
+            "position": 14
+        },
+        {
+            "name": "England",
+            "node": "D2",
+            "startnode": "D2",
+            "level": "3",
+            "rank": 8,
+            "group": "D",
+            "abrev": "England",
+            "position": 30
+        },
+        {
+            "name": "Argentina",
+            "node": "D1",
+            "startnode": "D",
+            "level": "4",
+            "rank": 10,
+            "group": "D",
+            "abrev": "Argentina",
+            "position": 15
+        },
+        {
+            "name": "Argentina",
+            "node": "D2",
+            "startnode": "D",
+            "level": "4",
+            "rank": 10,
+            "group": "D",
+            "abrev": "Argentina",
+            "position": 31
+        },
+        {
+            "name": "Bulgaria",
+            "node": "D1",
+            "startnode": "D",
+            "level": "4",
+            "rank": 15,
+            "group": "D",
+            "abrev": "Bulgaria",
+            "position": 16
+        },
+        {
+            "name": "Bulgaria",
+            "node": "D2",
+            "startnode": "D",
+            "level": "4",
+            "rank": 15,
+            "group": "D",
+            "abrev": "Bulgaria",
+            "position": 32
+        }
+    ],
+    "1950": [
+        {
+            "name": "Brazil",
+            "node": "A1",
+            "startnode": "A1",
+            "level": "1",
+            "rank": 2,
+            "group": "A",
+            "abrev": "Brazil",
+            "position": 12
+        },
+        {
+            "name": "Yugoslavia",
+            "node": "A1",
+            "startnode": "A",
+            "level": "3",
+            "rank": 5,
+            "group": "A",
+            "abrev": "Yugoslavia",
+            "position": 13
+        },
+        {
+            "name": "Switzerland",
+            "node": "A1",
+            "startnode": "A",
+            "level": "3",
+            "rank": 6,
+            "group": "A",
+            "abrev": "Switzerland",
+            "position": 14
+        },
+        {
+            "name": "Mexico",
+            "node": "A1",
+            "startnode": "A",
+            "level": "3",
+            "rank": 13,
+            "group": "A",
+            "abrev": "Mexico",
+            "position": 15
+        },
+        {
+            "name": "Spain",
+            "node": "B1",
+            "startnode": "B1",
+            "level": "2",
+            "rank": 4,
+            "group": "B",
+            "abrev": "Spain",
+            "position": 1
+        },
+        {
+            "name": "England",
+            "node": "B1",
+            "startnode": "B",
+            "level": "3",
+            "rank": 8,
+            "group": "B",
+            "abrev": "England",
+            "position": 2
+        },
+        {
+            "name": "Chile",
+            "node": "B1",
+            "startnode": "B",
+            "level": "3",
+            "rank": 9,
+            "group": "B",
+            "abrev": "Chile",
+            "position": 3
+        },
+        {
+            "name": "USA",
+            "node": "B1",
+            "startnode": "B",
+            "level": "3",
+            "rank": 10,
+            "group": "B",
+            "abrev": "USA",
+            "position": 4
+        },
+        {
+            "name": "Sweden",
+            "node": "C1",
+            "startnode": "C1",
+            "level": "2",
+            "rank": 3,
+            "group": "C",
+            "abrev": "Sweden",
+            "position": 11
+        },
+        {
+            "name": "Italy",
+            "node": "C1",
+            "startnode": "C",
+            "level": "3",
+            "rank": 7,
+            "group": "C",
+            "abrev": "Italy",
+            "position": 8
+        },
+        {
+            "name": "Paraguay",
+            "node": "C1",
+            "startnode": "C",
+            "level": "3",
+            "rank": 11,
+            "group": "C",
+            "abrev": "Paraguay",
+            "position": 9
+        },
+        {
+            "name": "India",
+            "node": "C1",
+            "startnode": "C",
+            "level": "3",
+            "rank": 15,
+            "group": "C",
+            "abrev": "India",
+            "position": 10
+        },
+        {
+            "name": "Uruguay",
+            "node": "D1",
+            "startnode": "D1",
+            "level": "0",
+            "rank": 1,
+            "group": "D",
+            "abrev": "Uruguay",
+            "position": 5
+        },
+        {
+            "name": "Bolivia",
+            "node": "D1",
+            "startnode": "D",
+            "level": "3",
+            "rank": 12,
+            "group": "D",
+            "abrev": "Bolivia",
+            "position": 6
+        },
+        {
+            "name": "France",
+            "node": "D1",
+            "startnode": "D",
+            "level": "3",
+            "rank": 14,
+            "group": "D",
+            "abrev": "France",
+            "position": 7
+        }
+    ],
+    "1990": [
+        {
+            "name": "Italy",
+            "node": "A1",
+            "startnode": "A1",
+            "level": "2",
+            "rank": 3,
+            "group": "A",
+            "abrev": "Italy",
+            "position": 1
+        },
+        {
+            "name": "Italy",
+            "node": "A2",
+            "startnode": "A1",
+            "level": "2",
+            "rank": 3,
+            "group": "A",
+            "abrev": "Italy",
+            "position": 25
+        },
+        {
+            "name": "Czechoslovakia",
+            "node": "A1",
+            "startnode": "A2",
+            "level": "3",
+            "rank": 6,
+            "group": "A",
+            "abrev": "Czechoslovakia",
+            "position": 2
+        },
+        {
+            "name": "Czechoslovakia",
+            "node": "A2",
+            "startnode": "A2",
+            "level": "3",
+            "rank": 6,
+            "group": "A",
+            "abrev": "Czechoslovakia",
+            "position": 26
+        },
+        {
+            "name": "Austria",
+            "node": "A1",
+            "startnode": "A",
+            "level": "5",
+            "rank": 19,
+            "group": "A",
+            "abrev": "Austria",
+            "position": 3
+        },
+        {
+            "name": "Austria",
+            "node": "A2",
+            "startnode": "A",
+            "level": "5",
+            "rank": 19,
+            "group": "A",
+            "abrev": "Austria",
+            "position": 27
+        },
+        {
+            "name": "USA",
+            "node": "A1",
+            "startnode": "A",
+            "level": "5",
+            "rank": 23,
+            "group": "A",
+            "abrev": "USA",
+            "position": 4
+        },
+        {
+            "name": "USA",
+            "node": "A2",
+            "startnode": "A",
+            "level": "5",
+            "rank": 23,
+            "group": "A",
+            "abrev": "USA",
+            "position": 28
+        },
+        {
+            "name": "Cameroon",
+            "node": "B2",
+            "startnode": "B1",
+            "level": "3",
+            "rank": 7,
+            "group": "B",
+            "abrev": "Cameroon",
+            "position": 13
+        },
+        {
+            "name": "Cameroon",
+            "node": "B1",
+            "startnode": "B1",
+            "level": "3",
+            "rank": 7,
+            "group": "B",
+            "abrev": "Cameroon",
+            "position": 41
+        },
+        {
+            "name": "Cameroon",
+            "node": "B3",
+            "startnode": "B1",
+            "level": "3",
+            "rank": 7,
+            "group": "B",
+            "abrev": "Cameroon",
+            "position": 49
+        },
+        {
+            "name": "Romania",
+            "node": "B2",
+            "startnode": "B2",
+            "level": "4",
+            "rank": 12,
+            "group": "B",
+            "abrev": "Romania",
+            "position": 14
+        },
+        {
+            "name": "Romania",
+            "node": "B1",
+            "startnode": "B2",
+            "level": "4",
+            "rank": 12,
+            "group": "B",
+            "abrev": "Romania",
+            "position": 42
+        },
+        {
+            "name": "Romania",
+            "node": "B3",
+            "startnode": "B2",
+            "level": "4",
+            "rank": 12,
+            "group": "B",
+            "abrev": "Romania",
+            "position": 50
+        },
+        {
+            "name": "Argentina",
+            "node": "B2",
+            "startnode": "B3",
+            "level": "1",
+            "rank": 2,
+            "group": "B",
+            "abrev": "Argentina",
+            "position": 15
+        },
+        {
+            "name": "Argentina",
+            "node": "B1",
+            "startnode": "B3",
+            "level": "1",
+            "rank": 2,
+            "group": "B",
+            "abrev": "Argentina",
+            "position": 43
+        },
+        {
+            "name": "Argentina",
+            "node": "B3",
+            "startnode": "B3",
+            "level": "1",
+            "rank": 2,
+            "group": "B",
+            "abrev": "Argentina",
+            "position": 51
+        },
+        {
+            "name": "USSR",
+            "node": "B2",
+            "startnode": "B",
+            "level": "5",
+            "rank": 17,
+            "group": "B",
+            "abrev": "USSR",
+            "position": 16
+        },
+        {
+            "name": "USSR",
+            "node": "B1",
+            "startnode": "B",
+            "level": "5",
+            "rank": 17,
+            "group": "B",
+            "abrev": "USSR",
+            "position": 44
+        },
+        {
+            "name": "USSR",
+            "node": "B3",
+            "startnode": "B",
+            "level": "5",
+            "rank": 17,
+            "group": "B",
+            "abrev": "USSR",
+            "position": 52
+        },
+        {
+            "name": "Brazil",
+            "node": "C2",
+            "startnode": "C1",
+            "level": "4",
+            "rank": 9,
+            "group": "C",
+            "abrev": "Brazil",
+            "position": 29
+        },
+        {
+            "name": "Brazil",
+            "node": "C1",
+            "startnode": "C1",
+            "level": "4",
+            "rank": 9,
+            "group": "C",
+            "abrev": "Brazil",
+            "position": 53
+        },
+        {
+            "name": "Costa Rica",
+            "node": "C2",
+            "startnode": "C2",
+            "level": "4",
+            "rank": 13,
+            "group": "C",
+            "abrev": "CostaRica",
+            "position": 30
+        },
+        {
+            "name": "Costa Rica",
+            "node": "C1",
+            "startnode": "C2",
+            "level": "4",
+            "rank": 13,
+            "group": "C",
+            "abrev": "CostaRica",
+            "position": 54
+        },
+        {
+            "name": "Scotland",
+            "node": "C2",
+            "startnode": "C",
+            "level": "5",
+            "rank": 18,
+            "group": "C",
+            "abrev": "Scotland",
+            "position": 31
+        },
+        {
+            "name": "Scotland",
+            "node": "C1",
+            "startnode": "C",
+            "level": "5",
+            "rank": 18,
+            "group": "C",
+            "abrev": "Scotland",
+            "position": 55
+        },
+        {
+            "name": "Sweden",
+            "node": "C2",
+            "startnode": "C",
+            "level": "5",
+            "rank": 21,
+            "group": "C",
+            "abrev": "Sweden",
+            "position": 32
+        },
+        {
+            "name": "Sweden",
+            "node": "C1",
+            "startnode": "C",
+            "level": "5",
+            "rank": 21,
+            "group": "C",
+            "abrev": "Sweden",
+            "position": 56
+        },
+        {
+            "name": "W. Germany",
+            "node": "D1",
+            "startnode": "D1",
+            "level": "0",
+            "rank": 1,
+            "group": "D",
+            "abrev": "WGermany",
+            "position": 17
+        },
+        {
+            "name": "W. Germany",
+            "node": "D3",
+            "startnode": "D1",
+            "level": "0",
+            "rank": 1,
+            "group": "D",
+            "abrev": "WGermany",
+            "position": 45
+        },
+        {
+            "name": "W. Germany",
+            "node": "D2",
+            "startnode": "D1",
+            "level": "0",
+            "rank": 1,
+            "group": "D",
+            "abrev": "WGermany",
+            "position": 57
+        },
+        {
+            "name": "Yugoslavia",
+            "node": "D1",
+            "startnode": "D2",
+            "level": "3",
+            "rank": 5,
+            "group": "D",
+            "abrev": "Yugoslavia",
+            "position": 18
+        },
+        {
+            "name": "Yugoslavia",
+            "node": "D3",
+            "startnode": "D2",
+            "level": "3",
+            "rank": 5,
+            "group": "D",
+            "abrev": "Yugoslavia",
+            "position": 46
+        },
+        {
+            "name": "Yugoslavia",
+            "node": "D2",
+            "startnode": "D2",
+            "level": "3",
+            "rank": 5,
+            "group": "D",
+            "abrev": "Yugoslavia",
+            "position": 58
+        },
+        {
+            "name": "Colombia",
+            "node": "D1",
+            "startnode": "D3",
+            "level": "4",
+            "rank": 14,
+            "group": "D",
+            "abrev": "Colombia",
+            "position": 19
+        },
+        {
+            "name": "Colombia",
+            "node": "D3",
+            "startnode": "D3",
+            "level": "4",
+            "rank": 14,
+            "group": "D",
+            "abrev": "Colombia",
+            "position": 47
+        },
+        {
+            "name": "Colombia",
+            "node": "D2",
+            "startnode": "D3",
+            "level": "4",
+            "rank": 14,
+            "group": "D",
+            "abrev": "Colombia",
+            "position": 59
+        },
+        {
+            "name": "UAE",
+            "node": "D1",
+            "startnode": "D",
+            "level": "5",
+            "rank": 24,
+            "group": "D",
+            "abrev": "UAE",
+            "position": 20
+        },
+        {
+            "name": "UAE",
+            "node": "D3",
+            "startnode": "D",
+            "level": "5",
+            "rank": 24,
+            "group": "D",
+            "abrev": "UAE",
+            "position": 48
+        },
+        {
+            "name": "UAE",
+            "node": "D2",
+            "startnode": "D",
+            "level": "5",
+            "rank": 24,
+            "group": "D",
+            "abrev": "UAE",
+            "position": 60
+        },
+        {
+            "name": "Spain",
+            "node": "E3",
+            "startnode": "E1",
+            "level": "4",
+            "rank": 10,
+            "group": "E",
+            "abrev": "Spain",
+            "position": 5
+        },
+        {
+            "name": "Spain",
+            "node": "E2",
+            "startnode": "E1",
+            "level": "4",
+            "rank": 10,
+            "group": "E",
+            "abrev": "Spain",
+            "position": 37
+        },
+        {
+            "name": "Spain",
+            "node": "E1",
+            "startnode": "E1",
+            "level": "4",
+            "rank": 10,
+            "group": "E",
+            "abrev": "Spain",
+            "position": 61
+        },
+        {
+            "name": "Belgium",
+            "node": "E3",
+            "startnode": "E2",
+            "level": "4",
+            "rank": 11,
+            "group": "E",
+            "abrev": "Belgium",
+            "position": 6
+        },
+        {
+            "name": "Belgium",
+            "node": "E2",
+            "startnode": "E2",
+            "level": "4",
+            "rank": 11,
+            "group": "E",
+            "abrev": "Belgium",
+            "position": 38
+        },
+        {
+            "name": "Belgium",
+            "node": "E1",
+            "startnode": "E2",
+            "level": "4",
+            "rank": 11,
+            "group": "E",
+            "abrev": "Belgium",
+            "position": 62
+        },
+        {
+            "name": "Uruguay",
+            "node": "E3",
+            "startnode": "E3",
+            "level": "4",
+            "rank": 16,
+            "group": "E",
+            "abrev": "Uruguay",
+            "position": 7
+        },
+        {
+            "name": "Uruguay",
+            "node": "E2",
+            "startnode": "E3",
+            "level": "4",
+            "rank": 16,
+            "group": "E",
+            "abrev": "Uruguay",
+            "position": 39
+        },
+        {
+            "name": "Uruguay",
+            "node": "E1",
+            "startnode": "E3",
+            "level": "4",
+            "rank": 16,
+            "group": "E",
+            "abrev": "Uruguay",
+            "position": 63
+        },
+        {
+            "name": "So. Korea",
+            "node": "E3",
+            "startnode": "E",
+            "level": "5",
+            "rank": 22,
+            "group": "E",
+            "abrev": "SoKorea",
+            "position": 8
+        },
+        {
+            "name": "So. Korea",
+            "node": "E2",
+            "startnode": "E",
+            "level": "5",
+            "rank": 22,
+            "group": "E",
+            "abrev": "SoKorea",
+            "position": 40
+        },
+        {
+            "name": "So. Korea",
+            "node": "E1",
+            "startnode": "E",
+            "level": "5",
+            "rank": 22,
+            "group": "E",
+            "abrev": "SoKorea",
+            "position": 64
+        },
+        {
+            "name": "England",
+            "node": "F2",
+            "startnode": "F1",
+            "level": "2",
+            "rank": 4,
+            "group": "F",
+            "abrev": "England",
+            "position": 9
+        },
+        {
+            "name": "England",
+            "node": "F3",
+            "startnode": "F1",
+            "level": "2",
+            "rank": 4,
+            "group": "F",
+            "abrev": "England",
+            "position": 21
+        },
+        {
+            "name": "England",
+            "node": "F1",
+            "startnode": "F1",
+            "level": "2",
+            "rank": 4,
+            "group": "F",
+            "abrev": "England",
+            "position": 33
+        },
+        {
+            "name": "Ireland",
+            "node": "F2",
+            "startnode": "F2",
+            "level": "3",
+            "rank": 8,
+            "group": "F",
+            "abrev": "Ireland",
+            "position": 10
+        },
+        {
+            "name": "Ireland",
+            "node": "F3",
+            "startnode": "F2",
+            "level": "3",
+            "rank": 8,
+            "group": "F",
+            "abrev": "Ireland",
+            "position": 22
+        },
+        {
+            "name": "Ireland",
+            "node": "F1",
+            "startnode": "F2",
+            "level": "3",
+            "rank": 8,
+            "group": "F",
+            "abrev": "Ireland",
+            "position": 34
+        },
+        {
+            "name": "Holland",
+            "node": "F2",
+            "startnode": "F3",
+            "level": "4",
+            "rank": 15,
+            "group": "F",
+            "abrev": "Holland",
+            "position": 11
+        },
+        {
+            "name": "Holland",
+            "node": "F3",
+            "startnode": "F3",
+            "level": "4",
+            "rank": 15,
+            "group": "F",
+            "abrev": "Holland",
+            "position": 23
+        },
+        {
+            "name": "Holland",
+            "node": "F1",
+            "startnode": "F3",
+            "level": "4",
+            "rank": 15,
+            "group": "F",
+            "abrev": "Holland",
+            "position": 35
+        },
+        {
+            "name": "Egypt",
+            "node": "F2",
+            "startnode": "F",
+            "level": "5",
+            "rank": 20,
+            "group": "F",
+            "abrev": "Egypt",
+            "position": 12
+        },
+        {
+            "name": "Egypt",
+            "node": "F3",
+            "startnode": "F",
+            "level": "5",
+            "rank": 20,
+            "group": "F",
+            "abrev": "Egypt",
+            "position": 24
+        },
+        {
+            "name": "Egypt",
+            "node": "F1",
+            "startnode": "F",
+            "level": "5",
+            "rank": 20,
+            "group": "F",
+            "abrev": "Egypt",
+            "position": 36
+        }
+    ],
+    "2006": [
+        {
+            "name": "Germany",
+            "node": "A1",
+            "startnode": "A1",
+            "level": "2",
+            "rank": 3,
+            "group": "A",
+            "abrev": "Germany",
+            "position": 1
+        },
+        {
+            "name": "Germany",
+            "node": "A2",
+            "startnode": "A1",
+            "level": "2",
+            "rank": 3,
+            "group": "A",
+            "abrev": "Germany",
+            "position": 45
+        },
+        {
+            "name": "Costa Rica",
+            "node": "A1",
+            "startnode": "A",
+            "level": "5",
+            "rank": 31,
+            "group": "A",
+            "abrev": "CostaRica",
+            "position": 2
+        },
+        {
+            "name": "Costa Rica",
+            "node": "A2",
+            "startnode": "A",
+            "level": "5",
+            "rank": 31,
+            "group": "A",
+            "abrev": "CostaRica",
+            "position": 46
+        },
+        {
+            "name": "Ecuador",
+            "node": "A1",
+            "startnode": "A2",
+            "level": "4",
+            "rank": 12,
+            "group": "A",
+            "abrev": "Ecuador",
+            "position": 3
+        },
+        {
+            "name": "Ecuador",
+            "node": "A2",
+            "startnode": "A2",
+            "level": "4",
+            "rank": 12,
+            "group": "A",
+            "abrev": "Ecuador",
+            "position": 47
+        },
+        {
+            "name": "Poland",
+            "node": "A1",
+            "startnode": "A",
+            "level": "5",
+            "rank": 21,
+            "group": "A",
+            "abrev": "Poland",
+            "position": 4
+        },
+        {
+            "name": "Poland",
+            "node": "A2",
+            "startnode": "A",
+            "level": "5",
+            "rank": 21,
+            "group": "A",
+            "abrev": "Poland",
+            "position": 48
+        },
+        {
+            "name": "England",
+            "node": "B2",
+            "startnode": "B1",
+            "level": "3",
+            "rank": 7,
+            "group": "B",
+            "abrev": "England",
+            "position": 5
+        },
+        {
+            "name": "England",
+            "node": "B1",
+            "startnode": "B1",
+            "level": "3",
+            "rank": 7,
+            "group": "B",
+            "abrev": "England",
+            "position": 41
+        },
+        {
+            "name": "Paraguay",
+            "node": "B2",
+            "startnode": "B",
+            "level": "5",
+            "rank": 18,
+            "group": "B",
+            "abrev": "Paraguay",
+            "position": 6
+        },
+        {
+            "name": "Paraguay",
+            "node": "B1",
+            "startnode": "B",
+            "level": "5",
+            "rank": 18,
+            "group": "B",
+            "abrev": "Paraguay",
+            "position": 42
+        },
+        {
+            "name": "Trinidad and Tobago",
+            "node": "B2",
+            "startnode": "B",
+            "level": "5",
+            "rank": 27,
+            "group": "B",
+            "abrev": "TrinidadandTobago",
+            "position": 7
+        },
+        {
+            "name": "Trinidad and Tobago",
+            "node": "B1",
+            "startnode": "B",
+            "level": "5",
+            "rank": 27,
+            "group": "B",
+            "abrev": "TrinidadandTobago",
+            "position": 43
+        },
+        {
+            "name": "Sweden",
+            "node": "B2",
+            "startnode": "B2",
+            "level": "4",
+            "rank": 14,
+            "group": "B",
+            "abrev": "Sweden",
+            "position": 8
+        },
+        {
+            "name": "Sweden",
+            "node": "B1",
+            "startnode": "B2",
+            "level": "4",
+            "rank": 14,
+            "group": "B",
+            "abrev": "Sweden",
+            "position": 44
+        },
+        {
+            "name": "Argentina",
+            "node": "C1",
+            "startnode": "C1",
+            "level": "3",
+            "rank": 6,
+            "group": "C",
+            "abrev": "Argentina",
+            "position": 9
+        },
+        {
+            "name": "Argentina",
+            "node": "C2",
+            "startnode": "C1",
+            "level": "3",
+            "rank": 6,
+            "group": "C",
+            "abrev": "Argentina",
+            "position": 37
+        },
+        {
+            "name": "Ivory Coast",
+            "node": "C1",
+            "startnode": "C",
+            "level": "5",
+            "rank": 19,
+            "group": "C",
+            "abrev": "IvoryCoast",
+            "position": 10
+        },
+        {
+            "name": "Ivory Coast",
+            "node": "C2",
+            "startnode": "C",
+            "level": "5",
+            "rank": 19,
+            "group": "C",
+            "abrev": "IvoryCoast",
+            "position": 38
+        },
+        {
+            "name": "Serbia and Montenegro",
+            "node": "C1",
+            "startnode": "C",
+            "level": "5",
+            "rank": 32,
+            "group": "C",
+            "abrev": "SerbiaandMontenegro",
+            "position": 11
+        },
+        {
+            "name": "Serbia and Montenegro",
+            "node": "C2",
+            "startnode": "C",
+            "level": "5",
+            "rank": 32,
+            "group": "C",
+            "abrev": "SerbiaandMontenegro",
+            "position": 39
+        },
+        {
+            "name": "Holland",
+            "node": "C1",
+            "startnode": "C2",
+            "level": "4",
+            "rank": 11,
+            "group": "C",
+            "abrev": "Holland",
+            "position": 12
+        },
+        {
+            "name": "Holland",
+            "node": "C2",
+            "startnode": "C2",
+            "level": "4",
+            "rank": 11,
+            "group": "C",
+            "abrev": "Holland",
+            "position": 40
+        },
+        {
+            "name": "Mexico",
+            "node": "D2",
+            "startnode": "D2",
+            "level": "4",
+            "rank": 15,
+            "group": "D",
+            "abrev": "Mexico",
+            "position": 13
+        },
+        {
+            "name": "Mexico",
+            "node": "D1",
+            "startnode": "D2",
+            "level": "4",
+            "rank": 15,
+            "group": "D",
+            "abrev": "Mexico",
+            "position": 33
+        },
+        {
+            "name": "Iran",
+            "node": "D2",
+            "startnode": "D",
+            "level": "5",
+            "rank": 25,
+            "group": "D",
+            "abrev": "Iran",
+            "position": 14
+        },
+        {
+            "name": "Iran",
+            "node": "D1",
+            "startnode": "D",
+            "level": "5",
+            "rank": 25,
+            "group": "D",
+            "abrev": "Iran",
+            "position": 34
+        },
+        {
+            "name": "Angola",
+            "node": "D2",
+            "startnode": "D",
+            "level": "5",
+            "rank": 23,
+            "group": "D",
+            "abrev": "Angola",
+            "position": 15
+        },
+        {
+            "name": "Angola",
+            "node": "D1",
+            "startnode": "D",
+            "level": "5",
+            "rank": 23,
+            "group": "D",
+            "abrev": "Angola",
+            "position": 35
+        },
+        {
+            "name": "Portugal",
+            "node": "D2",
+            "startnode": "D1",
+            "level": "2",
+            "rank": 4,
+            "group": "D",
+            "abrev": "Portugal",
+            "position": 16
+        },
+        {
+            "name": "Portugal",
+            "node": "D1",
+            "startnode": "D1",
+            "level": "2",
+            "rank": 4,
+            "group": "D",
+            "abrev": "Portugal",
+            "position": 36
+        },
+        {
+            "name": "Italy",
+            "node": "E2",
+            "startnode": "E1",
+            "level": "0",
+            "rank": 1,
+            "group": "E",
+            "abrev": "Italy",
+            "position": 29
+        },
+        {
+            "name": "Italy",
+            "node": "E1",
+            "startnode": "E1",
+            "level": "0",
+            "rank": 1,
+            "group": "E",
+            "abrev": "Italy",
+            "position": 49
+        },
+        {
+            "name": "Ghana",
+            "node": "E2",
+            "startnode": "E2",
+            "level": "4",
+            "rank": 13,
+            "group": "E",
+            "abrev": "Ghana",
+            "position": 30
+        },
+        {
+            "name": "Ghana",
+            "node": "E1",
+            "startnode": "E2",
+            "level": "4",
+            "rank": 13,
+            "group": "E",
+            "abrev": "Ghana",
+            "position": 50
+        },
+        {
+            "name": "USA",
+            "node": "E2",
+            "startnode": "E",
+            "level": "5",
+            "rank": 26,
+            "group": "E",
+            "abrev": "USA",
+            "position": 31
+        },
+        {
+            "name": "USA",
+            "node": "E1",
+            "startnode": "E",
+            "level": "5",
+            "rank": 26,
+            "group": "E",
+            "abrev": "USA",
+            "position": 51
+        },
+        {
+            "name": "Czech Republic",
+            "node": "E2",
+            "startnode": "E",
+            "level": "5",
+            "rank": 20,
+            "group": "E",
+            "abrev": "CzechRepublic",
+            "position": 32
+        },
+        {
+            "name": "Czech Republic",
+            "node": "E1",
+            "startnode": "E",
+            "level": "5",
+            "rank": 20,
+            "group": "E",
+            "abrev": "CzechRepublic",
+            "position": 52
+        },
+        {
+            "name": "Australia",
+            "node": "F1",
+            "startnode": "F2",
+            "level": "4",
+            "rank": 16,
+            "group": "F",
+            "abrev": "Australia",
+            "position": 25
+        },
+        {
+            "name": "Australia",
+            "node": "F2",
+            "startnode": "F2",
+            "level": "4",
+            "rank": 16,
+            "group": "F",
+            "abrev": "Australia",
+            "position": 53
+        },
+        {
+            "name": "Japan",
+            "node": "F1",
+            "startnode": "F",
+            "level": "5",
+            "rank": 29,
+            "group": "F",
+            "abrev": "Japan",
+            "position": 26
+        },
+        {
+            "name": "Japan",
+            "node": "F2",
+            "startnode": "F",
+            "level": "5",
+            "rank": 29,
+            "group": "F",
+            "abrev": "Japan",
+            "position": 54
+        },
+        {
+            "name": "Brazil",
+            "node": "F1",
+            "startnode": "F1",
+            "level": "3",
+            "rank": 5,
+            "group": "F",
+            "abrev": "Brazil",
+            "position": 27
+        },
+        {
+            "name": "Brazil",
+            "node": "F2",
+            "startnode": "F1",
+            "level": "3",
+            "rank": 5,
+            "group": "F",
+            "abrev": "Brazil",
+            "position": 55
+        },
+        {
+            "name": "Croatia",
+            "node": "F1",
+            "startnode": "F",
+            "level": "5",
+            "rank": 22,
+            "group": "F",
+            "abrev": "Croatia",
+            "position": 28
+        },
+        {
+            "name": "Croatia",
+            "node": "F2",
+            "startnode": "F",
+            "level": "5",
+            "rank": 22,
+            "group": "F",
+            "abrev": "Croatia",
+            "position": 56
+        },
+        {
+            "name": "France",
+            "node": "G2",
+            "startnode": "G2",
+            "level": "1",
+            "rank": 2,
+            "group": "G",
+            "abrev": "France",
+            "position": 17
+        },
+        {
+            "name": "France",
+            "node": "G1",
+            "startnode": "G2",
+            "level": "1",
+            "rank": 2,
+            "group": "G",
+            "abrev": "France",
+            "position": 61
+        },
+        {
+            "name": "Switzerland",
+            "node": "G2",
+            "startnode": "G1",
+            "level": "4",
+            "rank": 10,
+            "group": "G",
+            "abrev": "Switzerland",
+            "position": 18
+        },
+        {
+            "name": "Switzerland",
+            "node": "G1",
+            "startnode": "G1",
+            "level": "4",
+            "rank": 10,
+            "group": "G",
+            "abrev": "Switzerland",
+            "position": 62
+        },
+        {
+            "name": "So. Korea",
+            "node": "G2",
+            "startnode": "G",
+            "level": "5",
+            "rank": 17,
+            "group": "G",
+            "abrev": "SoKorea",
+            "position": 19
+        },
+        {
+            "name": "So. Korea",
+            "node": "G1",
+            "startnode": "G",
+            "level": "5",
+            "rank": 17,
+            "group": "G",
+            "abrev": "SoKorea",
+            "position": 63
+        },
+        {
+            "name": "Togo",
+            "node": "G2",
+            "startnode": "G",
+            "level": "5",
+            "rank": 30,
+            "group": "G",
+            "abrev": "Togo",
+            "position": 20
+        },
+        {
+            "name": "Togo",
+            "node": "G1",
+            "startnode": "G",
+            "level": "5",
+            "rank": 30,
+            "group": "G",
+            "abrev": "Togo",
+            "position": 64
+        },
+        {
+            "name": "Spain",
+            "node": "H1",
+            "startnode": "H1",
+            "level": "4",
+            "rank": 9,
+            "group": "H",
+            "abrev": "Spain",
+            "position": 21
+        },
+        {
+            "name": "Spain",
+            "node": "H2",
+            "startnode": "H1",
+            "level": "4",
+            "rank": 9,
+            "group": "H",
+            "abrev": "Spain",
+            "position": 57
+        },
+        {
+            "name": "Ukraine",
+            "node": "H1",
+            "startnode": "H2",
+            "level": "3",
+            "rank": 8,
+            "group": "H",
+            "abrev": "Ukraine",
+            "position": 22
+        },
+        {
+            "name": "Ukraine",
+            "node": "H2",
+            "startnode": "H2",
+            "level": "3",
+            "rank": 8,
+            "group": "H",
+            "abrev": "Ukraine",
+            "position": 58
+        },
+        {
+            "name": "Tunisia",
+            "node": "H1",
+            "startnode": "H",
+            "level": "5",
+            "rank": 24,
+            "group": "H",
+            "abrev": "Tunisia",
+            "position": 23
+        },
+        {
+            "name": "Tunisia",
+            "node": "H2",
+            "startnode": "H",
+            "level": "5",
+            "rank": 24,
+            "group": "H",
+            "abrev": "Tunisia",
+            "position": 59
+        },
+        {
+            "name": "Saudi Arabia",
+            "node": "H1",
+            "startnode": "H",
+            "level": "5",
+            "rank": 28,
+            "group": "H",
+            "abrev": "SaudiArabia",
+            "position": 24
+        },
+        {
+            "name": "Saudi Arabia",
+            "node": "H2",
+            "startnode": "H",
+            "level": "5",
+            "rank": 28,
+            "group": "H",
+            "abrev": "SaudiArabia",
+            "position": 60
+        }
+    ],
+    "1982": [
+        {
+            "name": "Poland",
+            "node": "A1",
+            "startnode": "A1",
+            "level": "2",
+            "rank": 3,
+            "group": "A",
+            "abrev": "Poland",
+            "position": 1
+        },
+        {
+            "name": "Poland",
+            "node": "A2",
+            "startnode": "A1",
+            "level": "2",
+            "rank": 3,
+            "group": "A",
+            "abrev": "Poland",
+            "position": 25
+        },
+        {
+            "name": "Italy",
+            "node": "A1",
+            "startnode": "A2",
+            "level": "0",
+            "rank": 1,
+            "group": "A",
+            "abrev": "Italy",
+            "position": 2
+        },
+        {
+            "name": "Italy",
+            "node": "A2",
+            "startnode": "A2",
+            "level": "0",
+            "rank": 1,
+            "group": "A",
+            "abrev": "Italy",
+            "position": 26
+        },
+        {
+            "name": "Cameroon",
+            "node": "A1",
+            "startnode": "A",
+            "level": "4",
+            "rank": 17,
+            "group": "A",
+            "abrev": "Cameroon",
+            "position": 3
+        },
+        {
+            "name": "Cameroon",
+            "node": "A2",
+            "startnode": "A",
+            "level": "4",
+            "rank": 17,
+            "group": "A",
+            "abrev": "Cameroon",
+            "position": 27
+        },
+        {
+            "name": "Peru",
+            "node": "A1",
+            "startnode": "A",
+            "level": "4",
+            "rank": 20,
+            "group": "A",
+            "abrev": "Peru",
+            "position": 4
+        },
+        {
+            "name": "Peru",
+            "node": "A2",
+            "startnode": "A",
+            "level": "4",
+            "rank": 20,
+            "group": "A",
+            "abrev": "Peru",
+            "position": 28
+        },
+        {
+            "name": "W. Germany",
+            "node": "B1",
+            "startnode": "B1",
+            "level": "1",
+            "rank": 2,
+            "group": "B",
+            "abrev": "WGermany",
+            "position": 9
+        },
+        {
+            "name": "Austria",
+            "node": "B1",
+            "startnode": "B2",
+            "level": "3",
+            "rank": 8,
+            "group": "B",
+            "abrev": "Austria",
+            "position": 10
+        },
+        {
+            "name": "Algeria",
+            "node": "B1",
+            "startnode": "B",
+            "level": "4",
+            "rank": 13,
+            "group": "B",
+            "abrev": "Algeria",
+            "position": 11
+        },
+        {
+            "name": "Chile",
+            "node": "B1",
+            "startnode": "B",
+            "level": "4",
+            "rank": 22,
+            "group": "B",
+            "abrev": "Chile",
+            "position": 12
+        },
+        {
+            "name": "England",
+            "node": "D2",
+            "startnode": "D1",
+            "level": "3",
+            "rank": 6,
+            "group": "D",
+            "abrev": "England",
+            "position": 17
+        },
+        {
+            "name": "France",
+            "node": "D2",
+            "startnode": "D2",
+            "level": "2",
+            "rank": 4,
+            "group": "D",
+            "abrev": "France",
+            "position": 18
+        },
+        {
+            "name": "Czechoslovakia",
+            "node": "D2",
+            "startnode": "D",
+            "level": "4",
+            "rank": 18,
+            "group": "D",
+            "abrev": "Czechoslovakia",
+            "position": 19
+        },
+        {
+            "name": "Kuwait",
+            "node": "D2",
+            "startnode": "D",
+            "level": "4",
+            "rank": 21,
+            "group": "D",
+            "abrev": "Kuwait",
+            "position": 20
+        },
+        {
+            "name": "No. Ireland",
+            "node": "E2",
+            "startnode": "E1",
+            "level": "3",
+            "rank": 9,
+            "group": "E",
+            "abrev": "NoIreland",
+            "position": 13
+        },
+        {
+            "name": "No. Ireland",
+            "node": "E1",
+            "startnode": "E1",
+            "level": "3",
+            "rank": 9,
+            "group": "E",
+            "abrev": "NoIreland",
+            "position": 21
+        },
+        {
+            "name": "Spain",
+            "node": "E2",
+            "startnode": "E2",
+            "level": "3",
+            "rank": 12,
+            "group": "E",
+            "abrev": "Spain",
+            "position": 14
+        },
+        {
+            "name": "Spain",
+            "node": "E1",
+            "startnode": "E2",
+            "level": "3",
+            "rank": 12,
+            "group": "E",
+            "abrev": "Spain",
+            "position": 22
+        },
+        {
+            "name": "Yugoslavia",
+            "node": "E2",
+            "startnode": "E",
+            "level": "4",
+            "rank": 16,
+            "group": "E",
+            "abrev": "Yugoslavia",
+            "position": 15
+        },
+        {
+            "name": "Yugoslavia",
+            "node": "E1",
+            "startnode": "E",
+            "level": "4",
+            "rank": 16,
+            "group": "E",
+            "abrev": "Yugoslavia",
+            "position": 23
+        },
+        {
+            "name": "Honduras",
+            "node": "E2",
+            "startnode": "E",
+            "level": "4",
+            "rank": 19,
+            "group": "E",
+            "abrev": "Honduras",
+            "position": 16
+        },
+        {
+            "name": "Honduras",
+            "node": "E1",
+            "startnode": "E",
+            "level": "4",
+            "rank": 19,
+            "group": "E",
+            "abrev": "Honduras",
+            "position": 24
+        },
+        {
+            "name": "Brazil",
+            "node": "F2",
+            "startnode": "F1",
+            "level": "3",
+            "rank": 5,
+            "group": "F",
+            "abrev": "Brazil",
+            "position": 5
+        },
+        {
+            "name": "Brazil",
+            "node": "F1",
+            "startnode": "F1",
+            "level": "3",
+            "rank": 5,
+            "group": "F",
+            "abrev": "Brazil",
+            "position": 29
+        },
+        {
+            "name": "USSR",
+            "node": "F2",
+            "startnode": "F2",
+            "level": "3",
+            "rank": 7,
+            "group": "F",
+            "abrev": "USSR",
+            "position": 6
+        },
+        {
+            "name": "USSR",
+            "node": "F1",
+            "startnode": "F2",
+            "level": "3",
+            "rank": 7,
+            "group": "F",
+            "abrev": "USSR",
+            "position": 30
+        },
+        {
+            "name": "Scotland",
+            "node": "F2",
+            "startnode": "F",
+            "level": "4",
+            "rank": 15,
+            "group": "F",
+            "abrev": "Scotland",
+            "position": 7
+        },
+        {
+            "name": "Scotland",
+            "node": "F1",
+            "startnode": "F",
+            "level": "4",
+            "rank": 15,
+            "group": "F",
+            "abrev": "Scotland",
+            "position": 31
+        },
+        {
+            "name": "New Zealand",
+            "node": "F2",
+            "startnode": "F",
+            "level": "4",
+            "rank": 23,
+            "group": "F",
+            "abrev": "NewZealand",
+            "position": 8
+        },
+        {
+            "name": "New Zealand",
+            "node": "F1",
+            "startnode": "F",
+            "level": "4",
+            "rank": 23,
+            "group": "F",
+            "abrev": "NewZealand",
+            "position": 32
+        }
+    ],
+    "1966": [
+        {
+            "name": "England",
+            "node": "A2",
+            "startnode": "A1",
+            "level": "0",
+            "rank": 1,
+            "group": "A",
+            "abrev": "England",
+            "position": 13
+        },
+        {
+            "name": "England",
+            "node": "A1",
+            "startnode": "A1",
+            "level": "0",
+            "rank": 1,
+            "group": "A",
+            "abrev": "England",
+            "position": 25
+        },
+        {
+            "name": "Uruguay",
+            "node": "A2",
+            "startnode": "A2",
+            "level": "3",
+            "rank": 7,
+            "group": "A",
+            "abrev": "Uruguay",
+            "position": 14
+        },
+        {
+            "name": "Uruguay",
+            "node": "A1",
+            "startnode": "A2",
+            "level": "3",
+            "rank": 7,
+            "group": "A",
+            "abrev": "Uruguay",
+            "position": 26
+        },
+        {
+            "name": "Mexico",
+            "node": "A2",
+            "startnode": "A",
+            "level": "4",
+            "rank": 12,
+            "group": "A",
+            "abrev": "Mexico",
+            "position": 15
+        },
+        {
+            "name": "Mexico",
+            "node": "A1",
+            "startnode": "A",
+            "level": "4",
+            "rank": 12,
+            "group": "A",
+            "abrev": "Mexico",
+            "position": 27
+        },
+        {
+            "name": "France",
+            "node": "A2",
+            "startnode": "A",
+            "level": "4",
+            "rank": 13,
+            "group": "A",
+            "abrev": "France",
+            "position": 16
+        },
+        {
+            "name": "France",
+            "node": "A1",
+            "startnode": "A",
+            "level": "4",
+            "rank": 13,
+            "group": "A",
+            "abrev": "France",
+            "position": 28
+        },
+        {
+            "name": "W. Germany",
+            "node": "B1",
+            "startnode": "B1",
+            "level": "1",
+            "rank": 2,
+            "group": "B",
+            "abrev": "WGermany",
+            "position": 9
+        },
+        {
+            "name": "W. Germany",
+            "node": "B2",
+            "startnode": "B1",
+            "level": "1",
+            "rank": 2,
+            "group": "B",
+            "abrev": "WGermany",
+            "position": 29
+        },
+        {
+            "name": "Argentina",
+            "node": "B1",
+            "startnode": "B2",
+            "level": "3",
+            "rank": 5,
+            "group": "B",
+            "abrev": "Argentina",
+            "position": 10
+        },
+        {
+            "name": "Argentina",
+            "node": "B2",
+            "startnode": "B2",
+            "level": "3",
+            "rank": 5,
+            "group": "B",
+            "abrev": "Argentina",
+            "position": 30
+        },
+        {
+            "name": "Spain",
+            "node": "B1",
+            "startnode": "B",
+            "level": "4",
+            "rank": 10,
+            "group": "B",
+            "abrev": "Spain",
+            "position": 11
+        },
+        {
+            "name": "Spain",
+            "node": "B2",
+            "startnode": "B",
+            "level": "4",
+            "rank": 10,
+            "group": "B",
+            "abrev": "Spain",
+            "position": 31
+        },
+        {
+            "name": "Switzerland",
+            "node": "B1",
+            "startnode": "B",
+            "level": "4",
+            "rank": 16,
+            "group": "B",
+            "abrev": "Switzerland",
+            "position": 12
+        },
+        {
+            "name": "Switzerland",
+            "node": "B2",
+            "startnode": "B",
+            "level": "4",
+            "rank": 16,
+            "group": "B",
+            "abrev": "Switzerland",
+            "position": 32
+        },
+        {
+            "name": "Portugal",
+            "node": "C1",
+            "startnode": "C1",
+            "level": "2",
+            "rank": 3,
+            "group": "C",
+            "abrev": "Portugal",
+            "position": 1
+        },
+        {
+            "name": "Portugal",
+            "node": "C2",
+            "startnode": "C1",
+            "level": "2",
+            "rank": 3,
+            "group": "C",
+            "abrev": "Portugal",
+            "position": 21
+        },
+        {
+            "name": "Hungary",
+            "node": "C1",
+            "startnode": "C2",
+            "level": "3",
+            "rank": 6,
+            "group": "C",
+            "abrev": "Hungary",
+            "position": 2
+        },
+        {
+            "name": "Hungary",
+            "node": "C2",
+            "startnode": "C2",
+            "level": "3",
+            "rank": 6,
+            "group": "C",
+            "abrev": "Hungary",
+            "position": 22
+        },
+        {
+            "name": "Brazil",
+            "node": "C1",
+            "startnode": "C",
+            "level": "4",
+            "rank": 11,
+            "group": "C",
+            "abrev": "Brazil",
+            "position": 3
+        },
+        {
+            "name": "Brazil",
+            "node": "C2",
+            "startnode": "C",
+            "level": "4",
+            "rank": 11,
+            "group": "C",
+            "abrev": "Brazil",
+            "position": 23
+        },
+        {
+            "name": "Bulgaria",
+            "node": "C1",
+            "startnode": "C",
+            "level": "4",
+            "rank": 15,
+            "group": "C",
+            "abrev": "Bulgaria",
+            "position": 4
+        },
+        {
+            "name": "Bulgaria",
+            "node": "C2",
+            "startnode": "C",
+            "level": "4",
+            "rank": 15,
+            "group": "C",
+            "abrev": "Bulgaria",
+            "position": 24
+        },
+        {
+            "name": "USSR",
+            "node": "D2",
+            "startnode": "D1",
+            "level": "2",
+            "rank": 4,
+            "group": "D",
+            "abrev": "USSR",
+            "position": 5
+        },
+        {
+            "name": "USSR",
+            "node": "D1",
+            "startnode": "D1",
+            "level": "2",
+            "rank": 4,
+            "group": "D",
+            "abrev": "USSR",
+            "position": 17
+        },
+        {
+            "name": "No. Korea",
+            "node": "D2",
+            "startnode": "D2",
+            "level": "3",
+            "rank": 8,
+            "group": "D",
+            "abrev": "NoKorea",
+            "position": 6
+        },
+        {
+            "name": "No. Korea",
+            "node": "D1",
+            "startnode": "D2",
+            "level": "3",
+            "rank": 8,
+            "group": "D",
+            "abrev": "NoKorea",
+            "position": 18
+        },
+        {
+            "name": "Italy",
+            "node": "D2",
+            "startnode": "D",
+            "level": "4",
+            "rank": 9,
+            "group": "D",
+            "abrev": "Italy",
+            "position": 7
+        },
+        {
+            "name": "Italy",
+            "node": "D1",
+            "startnode": "D",
+            "level": "4",
+            "rank": 9,
+            "group": "D",
+            "abrev": "Italy",
+            "position": 19
+        },
+        {
+            "name": "Chile",
+            "node": "D2",
+            "startnode": "D",
+            "level": "4",
+            "rank": 14,
+            "group": "D",
+            "abrev": "Chile",
+            "position": 8
+        },
+        {
+            "name": "Chile",
+            "node": "D1",
+            "startnode": "D",
+            "level": "4",
+            "rank": 14,
+            "group": "D",
+            "abrev": "Chile",
+            "position": 20
+        }
+    ],
+    "1930": [
+        {
+            "name": "Argentina",
+            "node": "A1",
+            "startnode": "A1",
+            "level": "1",
+            "rank": 2,
+            "group": "A",
+            "abrev": "Argentina",
+            "position": 10
+        },
+        {
+            "name": "Chile",
+            "node": "A1",
+            "startnode": "A",
+            "level": "3",
+            "rank": 5,
+            "group": "A",
+            "abrev": "Chile",
+            "position": 11
+        },
+        {
+            "name": "France",
+            "node": "A1",
+            "startnode": "A",
+            "level": "3",
+            "rank": 9,
+            "group": "A",
+            "abrev": "France",
+            "position": 12
+        },
+        {
+            "name": "Mexico",
+            "node": "A1",
+            "startnode": "A",
+            "level": "3",
+            "rank": 13,
+            "group": "A",
+            "abrev": "Mexico",
+            "position": 13
+        },
+        {
+            "name": "Yugoslavia",
+            "node": "B1",
+            "startnode": "B1",
+            "level": "2",
+            "rank": 4,
+            "group": "B",
+            "abrev": "Yugoslavia",
+            "position": 7
+        },
+        {
+            "name": "Brazil",
+            "node": "B1",
+            "startnode": "B",
+            "level": "3",
+            "rank": 6,
+            "group": "B",
+            "abrev": "Brazil",
+            "position": 8
+        },
+        {
+            "name": "Bolivia",
+            "node": "B1",
+            "startnode": "B",
+            "level": "3",
+            "rank": 12,
+            "group": "B",
+            "abrev": "Bolivia",
+            "position": 9
+        },
+        {
+            "name": "Uruguay",
+            "node": "C1",
+            "startnode": "C1",
+            "level": "0",
+            "rank": 1,
+            "group": "C",
+            "abrev": "Uruguay",
+            "position": 4
+        },
+        {
+            "name": "Romania",
+            "node": "C1",
+            "startnode": "C",
+            "level": "3",
+            "rank": 7,
+            "group": "C",
+            "abrev": "Romania",
+            "position": 5
+        },
+        {
+            "name": "Peru",
+            "node": "C1",
+            "startnode": "C",
+            "level": "3",
+            "rank": 10,
+            "group": "C",
+            "abrev": "Peru",
+            "position": 6
+        },
+        {
+            "name": "USA",
+            "node": "D1",
+            "startnode": "D1",
+            "level": "2",
+            "rank": 3,
+            "group": "D",
+            "abrev": "USA",
+            "position": 1
+        },
+        {
+            "name": "Paraguay",
+            "node": "D1",
+            "startnode": "D",
+            "level": "3",
+            "rank": 8,
+            "group": "D",
+            "abrev": "Paraguay",
+            "position": 2
+        },
+        {
+            "name": "Belgium",
+            "node": "D1",
+            "startnode": "D",
+            "level": "3",
+            "rank": 11,
+            "group": "D",
+            "abrev": "Belgium",
+            "position": 3
+        }
+    ],
+    "1970": [
+        {
+            "name": "USSR",
+            "node": "A1",
+            "startnode": "A1",
+            "level": "3",
+            "rank": 5,
+            "group": "A",
+            "abrev": "USSR",
+            "position": 21
+        },
+        {
+            "name": "USSR",
+            "node": "A2",
+            "startnode": "A1",
+            "level": "3",
+            "rank": 5,
+            "group": "A",
+            "abrev": "USSR",
+            "position": 29
+        },
+        {
+            "name": "Mexico",
+            "node": "A1",
+            "startnode": "A2",
+            "level": "3",
+            "rank": 6,
+            "group": "A",
+            "abrev": "Mexico",
+            "position": 22
+        },
+        {
+            "name": "Mexico",
+            "node": "A2",
+            "startnode": "A2",
+            "level": "3",
+            "rank": 6,
+            "group": "A",
+            "abrev": "Mexico",
+            "position": 30
+        },
+        {
+            "name": "Belgium",
+            "node": "A1",
+            "startnode": "A",
+            "level": "4",
+            "rank": 11,
+            "group": "A",
+            "abrev": "Belgium",
+            "position": 23
+        },
+        {
+            "name": "Belgium",
+            "node": "A2",
+            "startnode": "A",
+            "level": "4",
+            "rank": 11,
+            "group": "A",
+            "abrev": "Belgium",
+            "position": 31
+        },
+        {
+            "name": "El Salvador",
+            "node": "A1",
+            "startnode": "A",
+            "level": "4",
+            "rank": 16,
+            "group": "A",
+            "abrev": "ElSalvador",
+            "position": 24
+        },
+        {
+            "name": "El Salvador",
+            "node": "A2",
+            "startnode": "A",
+            "level": "4",
+            "rank": 16,
+            "group": "A",
+            "abrev": "ElSalvador",
+            "position": 32
+        },
+        {
+            "name": "Italy",
+            "node": "B2",
+            "startnode": "B1",
+            "level": "1",
+            "rank": 2,
+            "group": "B",
+            "abrev": "Italy",
+            "position": 17
+        },
+        {
+            "name": "Italy",
+            "node": "B1",
+            "startnode": "B1",
+            "level": "1",
+            "rank": 2,
+            "group": "B",
+            "abrev": "Italy",
+            "position": 25
+        },
+        {
+            "name": "Uruguay",
+            "node": "B2",
+            "startnode": "B2",
+            "level": "2",
+            "rank": 4,
+            "group": "B",
+            "abrev": "Uruguay",
+            "position": 18
+        },
+        {
+            "name": "Uruguay",
+            "node": "B1",
+            "startnode": "B2",
+            "level": "2",
+            "rank": 4,
+            "group": "B",
+            "abrev": "Uruguay",
+            "position": 26
+        },
+        {
+            "name": "Sweden",
+            "node": "B2",
+            "startnode": "B",
+            "level": "4",
+            "rank": 9,
+            "group": "B",
+            "abrev": "Sweden",
+            "position": 19
+        },
+        {
+            "name": "Sweden",
+            "node": "B1",
+            "startnode": "B",
+            "level": "4",
+            "rank": 9,
+            "group": "B",
+            "abrev": "Sweden",
+            "position": 27
+        },
+        {
+            "name": "Israel",
+            "node": "B2",
+            "startnode": "B",
+            "level": "4",
+            "rank": 12,
+            "group": "B",
+            "abrev": "Israel",
+            "position": 20
+        },
+        {
+            "name": "Israel",
+            "node": "B1",
+            "startnode": "B",
+            "level": "4",
+            "rank": 12,
+            "group": "B",
+            "abrev": "Israel",
+            "position": 28
+        },
+        {
+            "name": "Brazil",
+            "node": "C2",
+            "startnode": "C1",
+            "level": "0",
+            "rank": 1,
+            "group": "C",
+            "abrev": "Brazil",
+            "position": 5
+        },
+        {
+            "name": "Brazil",
+            "node": "C1",
+            "startnode": "C1",
+            "level": "0",
+            "rank": 1,
+            "group": "C",
+            "abrev": "Brazil",
+            "position": 9
+        },
+        {
+            "name": "England",
+            "node": "C2",
+            "startnode": "C2",
+            "level": "3",
+            "rank": 8,
+            "group": "C",
+            "abrev": "England",
+            "position": 6
+        },
+        {
+            "name": "England",
+            "node": "C1",
+            "startnode": "C2",
+            "level": "3",
+            "rank": 8,
+            "group": "C",
+            "abrev": "England",
+            "position": 10
+        },
+        {
+            "name": "Romania",
+            "node": "C2",
+            "startnode": "C",
+            "level": "4",
+            "rank": 10,
+            "group": "C",
+            "abrev": "Romania",
+            "position": 7
+        },
+        {
+            "name": "Romania",
+            "node": "C1",
+            "startnode": "C",
+            "level": "4",
+            "rank": 10,
+            "group": "C",
+            "abrev": "Romania",
+            "position": 11
+        },
+        {
+            "name": "Czechoslovakia",
+            "node": "C2",
+            "startnode": "C",
+            "level": "4",
+            "rank": 15,
+            "group": "C",
+            "abrev": "Czechoslovakia",
+            "position": 8
+        },
+        {
+            "name": "Czechoslovakia",
+            "node": "C1",
+            "startnode": "C",
+            "level": "4",
+            "rank": 15,
+            "group": "C",
+            "abrev": "Czechoslovakia",
+            "position": 12
+        },
+        {
+            "name": "W. Germany",
+            "node": "D1",
+            "startnode": "D1",
+            "level": "2",
+            "rank": 3,
+            "group": "D",
+            "abrev": "WGermany",
+            "position": 1
+        },
+        {
+            "name": "W. Germany",
+            "node": "D2",
+            "startnode": "D1",
+            "level": "2",
+            "rank": 3,
+            "group": "D",
+            "abrev": "WGermany",
+            "position": 13
+        },
+        {
+            "name": "Peru",
+            "node": "D1",
+            "startnode": "D2",
+            "level": "3",
+            "rank": 7,
+            "group": "D",
+            "abrev": "Peru",
+            "position": 2
+        },
+        {
+            "name": "Peru",
+            "node": "D2",
+            "startnode": "D2",
+            "level": "3",
+            "rank": 7,
+            "group": "D",
+            "abrev": "Peru",
+            "position": 14
+        },
+        {
+            "name": "Bulgaria",
+            "node": "D1",
+            "startnode": "D",
+            "level": "4",
+            "rank": 13,
+            "group": "D",
+            "abrev": "Bulgaria",
+            "position": 3
+        },
+        {
+            "name": "Bulgaria",
+            "node": "D2",
+            "startnode": "D",
+            "level": "4",
+            "rank": 13,
+            "group": "D",
+            "abrev": "Bulgaria",
+            "position": 15
+        },
+        {
+            "name": "Morocco",
+            "node": "D1",
+            "startnode": "D",
+            "level": "4",
+            "rank": 14,
+            "group": "D",
+            "abrev": "Morocco",
+            "position": 4
+        },
+        {
+            "name": "Morocco",
+            "node": "D2",
+            "startnode": "D",
+            "level": "4",
+            "rank": 14,
+            "group": "D",
+            "abrev": "Morocco",
+            "position": 16
+        }
+    ],
+    "1978": [
+        {
+            "name": "Italy",
+            "node": "A1",
+            "startnode": "A1",
+            "level": "2",
+            "rank": 4,
+            "group": "A",
+            "abrev": "Italy",
+            "position": 9
+        },
+        {
+            "name": "Italy",
+            "node": "A2",
+            "startnode": "A1",
+            "level": "2",
+            "rank": 4,
+            "group": "A",
+            "abrev": "Italy",
+            "position": 13
+        },
+        {
+            "name": "Argentina",
+            "node": "A1",
+            "startnode": "A2",
+            "level": "0",
+            "rank": 1,
+            "group": "A",
+            "abrev": "Argentina",
+            "position": 10
+        },
+        {
+            "name": "Argentina",
+            "node": "A2",
+            "startnode": "A2",
+            "level": "0",
+            "rank": 1,
+            "group": "A",
+            "abrev": "Argentina",
+            "position": 14
+        },
+        {
+            "name": "France",
+            "node": "A1",
+            "startnode": "A",
+            "level": "3",
+            "rank": 12,
+            "group": "A",
+            "abrev": "France",
+            "position": 11
+        },
+        {
+            "name": "France",
+            "node": "A2",
+            "startnode": "A",
+            "level": "3",
+            "rank": 12,
+            "group": "A",
+            "abrev": "France",
+            "position": 15
+        },
+        {
+            "name": "Hungary",
+            "node": "A1",
+            "startnode": "A",
+            "level": "3",
+            "rank": 15,
+            "group": "A",
+            "abrev": "Hungary",
+            "position": 12
+        },
+        {
+            "name": "Hungary",
+            "node": "A2",
+            "startnode": "A",
+            "level": "3",
+            "rank": 15,
+            "group": "A",
+            "abrev": "Hungary",
+            "position": 16
+        },
+        {
+            "name": "Peru",
+            "node": "D1",
+            "startnode": "D1",
+            "level": "2",
+            "rank": 8,
+            "group": "D",
+            "abrev": "Peru",
+            "position": 1
+        },
+        {
+            "name": "Peru",
+            "node": "D2",
+            "startnode": "D1",
+            "level": "2",
+            "rank": 8,
+            "group": "D",
+            "abrev": "Peru",
+            "position": 5
+        },
+        {
+            "name": "Holland",
+            "node": "D1",
+            "startnode": "D2",
+            "level": "1",
+            "rank": 2,
+            "group": "D",
+            "abrev": "Holland",
+            "position": 2
+        },
+        {
+            "name": "Holland",
+            "node": "D2",
+            "startnode": "D2",
+            "level": "1",
+            "rank": 2,
+            "group": "D",
+            "abrev": "Holland",
+            "position": 6
+        },
+        {
+            "name": "Scotland",
+            "node": "D1",
+            "startnode": "D",
+            "level": "3",
+            "rank": 11,
+            "group": "D",
+            "abrev": "Scotland",
+            "position": 3
+        },
+        {
+            "name": "Scotland",
+            "node": "D2",
+            "startnode": "D",
+            "level": "3",
+            "rank": 11,
+            "group": "D",
+            "abrev": "Scotland",
+            "position": 7
+        },
+        {
+            "name": "Iran",
+            "node": "D1",
+            "startnode": "D",
+            "level": "3",
+            "rank": 14,
+            "group": "D",
+            "abrev": "Iran",
+            "position": 4
+        },
+        {
+            "name": "Iran",
+            "node": "D2",
+            "startnode": "D",
+            "level": "3",
+            "rank": 14,
+            "group": "D",
+            "abrev": "Iran",
+            "position": 8
+        }
+    ],
+    "1974": [
+        {
+            "name": "E. Germany",
+            "node": "A2",
+            "startnode": "A1",
+            "level": "2",
+            "rank": 6,
+            "group": "A",
+            "abrev": "EGermany",
+            "position": 13
+        },
+        {
+            "name": "W. Germany",
+            "node": "A2",
+            "startnode": "A2",
+            "level": "0",
+            "rank": 1,
+            "group": "A",
+            "abrev": "WGermany",
+            "position": 14
+        },
+        {
+            "name": "Chile",
+            "node": "A2",
+            "startnode": "A",
+            "level": "3",
+            "rank": 11,
+            "group": "A",
+            "abrev": "Chile",
+            "position": 15
+        },
+        {
+            "name": "Australia",
+            "node": "A2",
+            "startnode": "A",
+            "level": "3",
+            "rank": 14,
+            "group": "A",
+            "abrev": "Australia",
+            "position": 16
+        },
+        {
+            "name": "Yugoslavia",
+            "node": "B2",
+            "startnode": "B1",
+            "level": "2",
+            "rank": 7,
+            "group": "B",
+            "abrev": "Yugoslavia",
+            "position": 9
+        },
+        {
+            "name": "Brazil",
+            "node": "B2",
+            "startnode": "B2",
+            "level": "2",
+            "rank": 4,
+            "group": "B",
+            "abrev": "Brazil",
+            "position": 10
+        },
+        {
+            "name": "Scotland",
+            "node": "B2",
+            "startnode": "B",
+            "level": "3",
+            "rank": 9,
+            "group": "B",
+            "abrev": "Scotland",
+            "position": 11
+        },
+        {
+            "name": "Zaire",
+            "node": "B2",
+            "startnode": "B",
+            "level": "3",
+            "rank": 16,
+            "group": "B",
+            "abrev": "Zaire",
+            "position": 12
+        },
+        {
+            "name": "Holland",
+            "node": "C1",
+            "startnode": "C1",
+            "level": "1",
+            "rank": 2,
+            "group": "C",
+            "abrev": "Holland",
+            "position": 5
+        },
+        {
+            "name": "Sweden",
+            "node": "C1",
+            "startnode": "C2",
+            "level": "2",
+            "rank": 5,
+            "group": "C",
+            "abrev": "Sweden",
+            "position": 6
+        },
+        {
+            "name": "Bulgaria",
+            "node": "C1",
+            "startnode": "C",
+            "level": "3",
+            "rank": 12,
+            "group": "C",
+            "abrev": "Bulgaria",
+            "position": 7
+        },
+        {
+            "name": "Uruguay",
+            "node": "C1",
+            "startnode": "C",
+            "level": "3",
+            "rank": 13,
+            "group": "C",
+            "abrev": "Uruguay",
+            "position": 8
+        },
+        {
+            "name": "Poland",
+            "node": "D1",
+            "startnode": "D1",
+            "level": "2",
+            "rank": 3,
+            "group": "D",
+            "abrev": "Poland",
+            "position": 1
+        },
+        {
+            "name": "Argentina",
+            "node": "D1",
+            "startnode": "D2",
+            "level": "2",
+            "rank": 8,
+            "group": "D",
+            "abrev": "Argentina",
+            "position": 2
+        },
+        {
+            "name": "Italy",
+            "node": "D1",
+            "startnode": "D",
+            "level": "3",
+            "rank": 10,
+            "group": "D",
+            "abrev": "Italy",
+            "position": 3
+        },
+        {
+            "name": "Haiti",
+            "node": "D1",
+            "startnode": "D",
+            "level": "3",
+            "rank": 15,
+            "group": "D",
+            "abrev": "Haiti",
+            "position": 4
+        }
+    ],
+    "1994": [
+        {
+            "name": "Romania",
+            "node": "A1",
+            "startnode": "A1",
+            "level": "3",
+            "rank": 6,
+            "group": "A",
+            "abrev": "Romania",
+            "position": 9
+        },
+        {
+            "name": "Romania",
+            "node": "A2",
+            "startnode": "A1",
+            "level": "3",
+            "rank": 6,
+            "group": "A",
+            "abrev": "Romania",
+            "position": 29
+        },
+        {
+            "name": "Romania",
+            "node": "A3",
+            "startnode": "A1",
+            "level": "3",
+            "rank": 6,
+            "group": "A",
+            "abrev": "Romania",
+            "position": 53
+        },
+        {
+            "name": "Switzerland",
+            "node": "A1",
+            "startnode": "A2",
+            "level": "4",
+            "rank": 15,
+            "group": "A",
+            "abrev": "Switzerland",
+            "position": 10
+        },
+        {
+            "name": "Switzerland",
+            "node": "A2",
+            "startnode": "A2",
+            "level": "4",
+            "rank": 15,
+            "group": "A",
+            "abrev": "Switzerland",
+            "position": 30
+        },
+        {
+            "name": "Switzerland",
+            "node": "A3",
+            "startnode": "A2",
+            "level": "4",
+            "rank": 15,
+            "group": "A",
+            "abrev": "Switzerland",
+            "position": 54
+        },
+        {
+            "name": "USA",
+            "node": "A1",
+            "startnode": "A3",
+            "level": "4",
+            "rank": 14,
+            "group": "A",
+            "abrev": "USA",
+            "position": 11
+        },
+        {
+            "name": "USA",
+            "node": "A2",
+            "startnode": "A3",
+            "level": "4",
+            "rank": 14,
+            "group": "A",
+            "abrev": "USA",
+            "position": 31
+        },
+        {
+            "name": "USA",
+            "node": "A3",
+            "startnode": "A3",
+            "level": "4",
+            "rank": 14,
+            "group": "A",
+            "abrev": "USA",
+            "position": 55
+        },
+        {
+            "name": "Colombia",
+            "node": "A1",
+            "startnode": "A",
+            "level": "5",
+            "rank": 19,
+            "group": "A",
+            "abrev": "Colombia",
+            "position": 12
+        },
+        {
+            "name": "Colombia",
+            "node": "A2",
+            "startnode": "A",
+            "level": "5",
+            "rank": 19,
+            "group": "A",
+            "abrev": "Colombia",
+            "position": 32
+        },
+        {
+            "name": "Colombia",
+            "node": "A3",
+            "startnode": "A",
+            "level": "5",
+            "rank": 19,
+            "group": "A",
+            "abrev": "Colombia",
+            "position": 56
+        },
+        {
+            "name": "Brazil",
+            "node": "B2",
+            "startnode": "B1",
+            "level": "0",
+            "rank": 1,
+            "group": "B",
+            "abrev": "Brazil",
+            "position": 1
+        },
+        {
+            "name": "Brazil",
+            "node": "B1",
+            "startnode": "B1",
+            "level": "0",
+            "rank": 1,
+            "group": "B",
+            "abrev": "Brazil",
+            "position": 49
+        },
+        {
+            "name": "Sweden",
+            "node": "B2",
+            "startnode": "B2",
+            "level": "2",
+            "rank": 3,
+            "group": "B",
+            "abrev": "Sweden",
+            "position": 2
+        },
+        {
+            "name": "Sweden",
+            "node": "B1",
+            "startnode": "B2",
+            "level": "2",
+            "rank": 3,
+            "group": "B",
+            "abrev": "Sweden",
+            "position": 50
+        },
+        {
+            "name": "Russia",
+            "node": "B2",
+            "startnode": "B",
+            "level": "5",
+            "rank": 18,
+            "group": "B",
+            "abrev": "Russia",
+            "position": 3
+        },
+        {
+            "name": "Russia",
+            "node": "B1",
+            "startnode": "B",
+            "level": "5",
+            "rank": 18,
+            "group": "B",
+            "abrev": "Russia",
+            "position": 51
+        },
+        {
+            "name": "Cameroon",
+            "node": "B2",
+            "startnode": "B",
+            "level": "5",
+            "rank": 22,
+            "group": "B",
+            "abrev": "Cameroon",
+            "position": 4
+        },
+        {
+            "name": "Cameroon",
+            "node": "B1",
+            "startnode": "B",
+            "level": "5",
+            "rank": 22,
+            "group": "B",
+            "abrev": "Cameroon",
+            "position": 52
+        },
+        {
+            "name": "Germany",
+            "node": "C2",
+            "startnode": "C1",
+            "level": "3",
+            "rank": 5,
+            "group": "C",
+            "abrev": "Germany",
+            "position": 25
+        },
+        {
+            "name": "Germany",
+            "node": "C1",
+            "startnode": "C1",
+            "level": "3",
+            "rank": 5,
+            "group": "C",
+            "abrev": "Germany",
+            "position": 41
+        },
+        {
+            "name": "Spain",
+            "node": "C2",
+            "startnode": "C2",
+            "level": "3",
+            "rank": 8,
+            "group": "C",
+            "abrev": "Spain",
+            "position": 26
+        },
+        {
+            "name": "Spain",
+            "node": "C1",
+            "startnode": "C2",
+            "level": "3",
+            "rank": 8,
+            "group": "C",
+            "abrev": "Spain",
+            "position": 42
+        },
+        {
+            "name": "So. Korea",
+            "node": "C2",
+            "startnode": "C",
+            "level": "5",
+            "rank": 20,
+            "group": "C",
+            "abrev": "SoKorea",
+            "position": 27
+        },
+        {
+            "name": "So. Korea",
+            "node": "C1",
+            "startnode": "C",
+            "level": "5",
+            "rank": 20,
+            "group": "C",
+            "abrev": "SoKorea",
+            "position": 43
+        },
+        {
+            "name": "Bolivia",
+            "node": "C2",
+            "startnode": "C",
+            "level": "5",
+            "rank": 21,
+            "group": "C",
+            "abrev": "Bolivia",
+            "position": 28
+        },
+        {
+            "name": "Bolivia",
+            "node": "C1",
+            "startnode": "C",
+            "level": "5",
+            "rank": 21,
+            "group": "C",
+            "abrev": "Bolivia",
+            "position": 44
+        },
+        {
+            "name": "Nigeria",
+            "node": "D3",
+            "startnode": "D1",
+            "level": "4",
+            "rank": 9,
+            "group": "D",
+            "abrev": "Nigeria",
+            "position": 13
+        },
+        {
+            "name": "Nigeria",
+            "node": "D1",
+            "startnode": "D1",
+            "level": "4",
+            "rank": 9,
+            "group": "D",
+            "abrev": "Nigeria",
+            "position": 21
+        },
+        {
+            "name": "Nigeria",
+            "node": "D2",
+            "startnode": "D1",
+            "level": "4",
+            "rank": 9,
+            "group": "D",
+            "abrev": "Nigeria",
+            "position": 33
+        },
+        {
+            "name": "Bulgaria",
+            "node": "D3",
+            "startnode": "D2",
+            "level": "2",
+            "rank": 4,
+            "group": "D",
+            "abrev": "Bulgaria",
+            "position": 14
+        },
+        {
+            "name": "Bulgaria",
+            "node": "D1",
+            "startnode": "D2",
+            "level": "2",
+            "rank": 4,
+            "group": "D",
+            "abrev": "Bulgaria",
+            "position": 22
+        },
+        {
+            "name": "Bulgaria",
+            "node": "D2",
+            "startnode": "D2",
+            "level": "2",
+            "rank": 4,
+            "group": "D",
+            "abrev": "Bulgaria",
+            "position": 34
+        },
+        {
+            "name": "Argentina",
+            "node": "D3",
+            "startnode": "D3",
+            "level": "4",
+            "rank": 10,
+            "group": "D",
+            "abrev": "Argentina",
+            "position": 15
+        },
+        {
+            "name": "Argentina",
+            "node": "D1",
+            "startnode": "D3",
+            "level": "4",
+            "rank": 10,
+            "group": "D",
+            "abrev": "Argentina",
+            "position": 23
+        },
+        {
+            "name": "Argentina",
+            "node": "D2",
+            "startnode": "D3",
+            "level": "4",
+            "rank": 10,
+            "group": "D",
+            "abrev": "Argentina",
+            "position": 35
+        },
+        {
+            "name": "Greece",
+            "node": "D3",
+            "startnode": "D",
+            "level": "5",
+            "rank": 24,
+            "group": "D",
+            "abrev": "Greece",
+            "position": 16
+        },
+        {
+            "name": "Greece",
+            "node": "D1",
+            "startnode": "D",
+            "level": "5",
+            "rank": 24,
+            "group": "D",
+            "abrev": "Greece",
+            "position": 24
+        },
+        {
+            "name": "Greece",
+            "node": "D2",
+            "startnode": "D",
+            "level": "5",
+            "rank": 24,
+            "group": "D",
+            "abrev": "Greece",
+            "position": 36
+        },
+        {
+            "name": "Mexico",
+            "node": "E3",
+            "startnode": "E1",
+            "level": "4",
+            "rank": 13,
+            "group": "E",
+            "abrev": "Mexico",
+            "position": 17
+        },
+        {
+            "name": "Mexico",
+            "node": "E1",
+            "startnode": "E1",
+            "level": "4",
+            "rank": 13,
+            "group": "E",
+            "abrev": "Mexico",
+            "position": 37
+        },
+        {
+            "name": "Mexico",
+            "node": "E2",
+            "startnode": "E1",
+            "level": "4",
+            "rank": 13,
+            "group": "E",
+            "abrev": "Mexico",
+            "position": 61
+        },
+        {
+            "name": "Ireland",
+            "node": "E3",
+            "startnode": "E2",
+            "level": "4",
+            "rank": 16,
+            "group": "E",
+            "abrev": "Ireland",
+            "position": 18
+        },
+        {
+            "name": "Ireland",
+            "node": "E1",
+            "startnode": "E2",
+            "level": "4",
+            "rank": 16,
+            "group": "E",
+            "abrev": "Ireland",
+            "position": 38
+        },
+        {
+            "name": "Ireland",
+            "node": "E2",
+            "startnode": "E2",
+            "level": "4",
+            "rank": 16,
+            "group": "E",
+            "abrev": "Ireland",
+            "position": 62
+        },
+        {
+            "name": "Italy",
+            "node": "E3",
+            "startnode": "E3",
+            "level": "1",
+            "rank": 2,
+            "group": "E",
+            "abrev": "Italy",
+            "position": 19
+        },
+        {
+            "name": "Italy",
+            "node": "E1",
+            "startnode": "E3",
+            "level": "1",
+            "rank": 2,
+            "group": "E",
+            "abrev": "Italy",
+            "position": 39
+        },
+        {
+            "name": "Italy",
+            "node": "E2",
+            "startnode": "E3",
+            "level": "1",
+            "rank": 2,
+            "group": "E",
+            "abrev": "Italy",
+            "position": 63
+        },
+        {
+            "name": "Norway",
+            "node": "E3",
+            "startnode": "E",
+            "level": "5",
+            "rank": 17,
+            "group": "E",
+            "abrev": "Norway",
+            "position": 20
+        },
+        {
+            "name": "Norway",
+            "node": "E1",
+            "startnode": "E",
+            "level": "5",
+            "rank": 17,
+            "group": "E",
+            "abrev": "Norway",
+            "position": 40
+        },
+        {
+            "name": "Norway",
+            "node": "E2",
+            "startnode": "E",
+            "level": "5",
+            "rank": 17,
+            "group": "E",
+            "abrev": "Norway",
+            "position": 64
+        },
+        {
+            "name": "Holland",
+            "node": "F2",
+            "startnode": "F1",
+            "level": "3",
+            "rank": 7,
+            "group": "F",
+            "abrev": "Holland",
+            "position": 5
+        },
+        {
+            "name": "Holland",
+            "node": "F3",
+            "startnode": "F1",
+            "level": "3",
+            "rank": 7,
+            "group": "F",
+            "abrev": "Holland",
+            "position": 45
+        },
+        {
+            "name": "Holland",
+            "node": "F1",
+            "startnode": "F1",
+            "level": "3",
+            "rank": 7,
+            "group": "F",
+            "abrev": "Holland",
+            "position": 57
+        },
+        {
+            "name": "Saudi Arabia",
+            "node": "F2",
+            "startnode": "F2",
+            "level": "4",
+            "rank": 12,
+            "group": "F",
+            "abrev": "SaudiArabia",
+            "position": 6
+        },
+        {
+            "name": "Saudi Arabia",
+            "node": "F3",
+            "startnode": "F2",
+            "level": "4",
+            "rank": 12,
+            "group": "F",
+            "abrev": "SaudiArabia",
+            "position": 46
+        },
+        {
+            "name": "Saudi Arabia",
+            "node": "F1",
+            "startnode": "F2",
+            "level": "4",
+            "rank": 12,
+            "group": "F",
+            "abrev": "SaudiArabia",
+            "position": 58
+        },
+        {
+            "name": "Belgium",
+            "node": "F2",
+            "startnode": "F3",
+            "level": "4",
+            "rank": 11,
+            "group": "F",
+            "abrev": "Belgium",
+            "position": 7
+        },
+        {
+            "name": "Belgium",
+            "node": "F3",
+            "startnode": "F3",
+            "level": "4",
+            "rank": 11,
+            "group": "F",
+            "abrev": "Belgium",
+            "position": 47
+        },
+        {
+            "name": "Belgium",
+            "node": "F1",
+            "startnode": "F3",
+            "level": "4",
+            "rank": 11,
+            "group": "F",
+            "abrev": "Belgium",
+            "position": 59
+        },
+        {
+            "name": "Morocco",
+            "node": "F2",
+            "startnode": "F",
+            "level": "5",
+            "rank": 23,
+            "group": "F",
+            "abrev": "Morocco",
+            "position": 8
+        },
+        {
+            "name": "Morocco",
+            "node": "F3",
+            "startnode": "F",
+            "level": "5",
+            "rank": 23,
+            "group": "F",
+            "abrev": "Morocco",
+            "position": 48
+        },
+        {
+            "name": "Morocco",
+            "node": "F1",
+            "startnode": "F",
+            "level": "5",
+            "rank": 23,
+            "group": "F",
+            "abrev": "Morocco",
+            "position": 60
+        }
+    ],
+    "1986": [
+        {
+            "name": "Argentina",
+            "node": "A3",
+            "startnode": "A1",
+            "level": "0",
+            "rank": 1,
+            "group": "A",
+            "abrev": "Argentina",
+            "position": 29
+        },
+        {
+            "name": "Argentina",
+            "node": "A2",
+            "startnode": "A1",
+            "level": "0",
+            "rank": 1,
+            "group": "A",
+            "abrev": "Argentina",
+            "position": 37
+        },
+        {
+            "name": "Argentina",
+            "node": "A1",
+            "startnode": "A1",
+            "level": "0",
+            "rank": 1,
+            "group": "A",
+            "abrev": "Argentina",
+            "position": 49
+        },
+        {
+            "name": "Italy",
+            "node": "A3",
+            "startnode": "A2",
+            "level": "4",
+            "rank": 12,
+            "group": "A",
+            "abrev": "Italy",
+            "position": 30
+        },
+        {
+            "name": "Italy",
+            "node": "A2",
+            "startnode": "A2",
+            "level": "4",
+            "rank": 12,
+            "group": "A",
+            "abrev": "Italy",
+            "position": 38
+        },
+        {
+            "name": "Italy",
+            "node": "A1",
+            "startnode": "A2",
+            "level": "4",
+            "rank": 12,
+            "group": "A",
+            "abrev": "Italy",
+            "position": 50
+        },
+        {
+            "name": "Bulgaria",
+            "node": "A3",
+            "startnode": "A3",
+            "level": "4",
+            "rank": 15,
+            "group": "A",
+            "abrev": "Bulgaria",
+            "position": 31
+        },
+        {
+            "name": "Bulgaria",
+            "node": "A2",
+            "startnode": "A3",
+            "level": "4",
+            "rank": 15,
+            "group": "A",
+            "abrev": "Bulgaria",
+            "position": 39
+        },
+        {
+            "name": "Bulgaria",
+            "node": "A1",
+            "startnode": "A3",
+            "level": "4",
+            "rank": 15,
+            "group": "A",
+            "abrev": "Bulgaria",
+            "position": 51
+        },
+        {
+            "name": "So. Korea",
+            "node": "A3",
+            "startnode": "A",
+            "level": "5",
+            "rank": 20,
+            "group": "A",
+            "abrev": "SoKorea",
+            "position": 32
+        },
+        {
+            "name": "So. Korea",
+            "node": "A2",
+            "startnode": "A",
+            "level": "5",
+            "rank": 20,
+            "group": "A",
+            "abrev": "SoKorea",
+            "position": 40
+        },
+        {
+            "name": "So. Korea",
+            "node": "A1",
+            "startnode": "A",
+            "level": "5",
+            "rank": 20,
+            "group": "A",
+            "abrev": "SoKorea",
+            "position": 52
+        },
+        {
+            "name": "Mexico",
+            "node": "B3",
+            "startnode": "B1",
+            "level": "3",
+            "rank": 6,
+            "group": "B",
+            "abrev": "Mexico",
+            "position": 1
+        },
+        {
+            "name": "Mexico",
+            "node": "B1",
+            "startnode": "B1",
+            "level": "3",
+            "rank": 6,
+            "group": "B",
+            "abrev": "Mexico",
+            "position": 25
+        },
+        {
+            "name": "Mexico",
+            "node": "B2",
+            "startnode": "B1",
+            "level": "3",
+            "rank": 6,
+            "group": "B",
+            "abrev": "Mexico",
+            "position": 61
+        },
+        {
+            "name": "Paraguay",
+            "node": "B3",
+            "startnode": "B2",
+            "level": "4",
+            "rank": 13,
+            "group": "B",
+            "abrev": "Paraguay",
+            "position": 2
+        },
+        {
+            "name": "Paraguay",
+            "node": "B1",
+            "startnode": "B2",
+            "level": "4",
+            "rank": 13,
+            "group": "B",
+            "abrev": "Paraguay",
+            "position": 26
+        },
+        {
+            "name": "Paraguay",
+            "node": "B2",
+            "startnode": "B2",
+            "level": "4",
+            "rank": 13,
+            "group": "B",
+            "abrev": "Paraguay",
+            "position": 62
+        },
+        {
+            "name": "Belgium",
+            "node": "B3",
+            "startnode": "B3",
+            "level": "2",
+            "rank": 4,
+            "group": "B",
+            "abrev": "Belgium",
+            "position": 3
+        },
+        {
+            "name": "Belgium",
+            "node": "B1",
+            "startnode": "B3",
+            "level": "2",
+            "rank": 4,
+            "group": "B",
+            "abrev": "Belgium",
+            "position": 27
+        },
+        {
+            "name": "Belgium",
+            "node": "B2",
+            "startnode": "B3",
+            "level": "2",
+            "rank": 4,
+            "group": "B",
+            "abrev": "Belgium",
+            "position": 63
+        },
+        {
+            "name": "Iraq",
+            "node": "B3",
+            "startnode": "B",
+            "level": "5",
+            "rank": 23,
+            "group": "B",
+            "abrev": "Iraq",
+            "position": 4
+        },
+        {
+            "name": "Iraq",
+            "node": "B1",
+            "startnode": "B",
+            "level": "5",
+            "rank": 23,
+            "group": "B",
+            "abrev": "Iraq",
+            "position": 28
+        },
+        {
+            "name": "Iraq",
+            "node": "B2",
+            "startnode": "B",
+            "level": "5",
+            "rank": 23,
+            "group": "B",
+            "abrev": "Iraq",
+            "position": 64
+        },
+        {
+            "name": "USSR",
+            "node": "C1",
+            "startnode": "C1",
+            "level": "4",
+            "rank": 10,
+            "group": "C",
+            "abrev": "USSR",
+            "position": 5
+        },
+        {
+            "name": "USSR",
+            "node": "C2",
+            "startnode": "C1",
+            "level": "4",
+            "rank": 10,
+            "group": "C",
+            "abrev": "USSR",
+            "position": 33
+        },
+        {
+            "name": "France",
+            "node": "C1",
+            "startnode": "C2",
+            "level": "2",
+            "rank": 3,
+            "group": "C",
+            "abrev": "France",
+            "position": 6
+        },
+        {
+            "name": "France",
+            "node": "C2",
+            "startnode": "C2",
+            "level": "2",
+            "rank": 3,
+            "group": "C",
+            "abrev": "France",
+            "position": 34
+        },
+        {
+            "name": "Hungary",
+            "node": "C1",
+            "startnode": "C",
+            "level": "5",
+            "rank": 18,
+            "group": "C",
+            "abrev": "Hungary",
+            "position": 7
+        },
+        {
+            "name": "Hungary",
+            "node": "C2",
+            "startnode": "C",
+            "level": "5",
+            "rank": 18,
+            "group": "C",
+            "abrev": "Hungary",
+            "position": 35
+        },
+        {
+            "name": "Canada",
+            "node": "C1",
+            "startnode": "C",
+            "level": "5",
+            "rank": 24,
+            "group": "C",
+            "abrev": "Canada",
+            "position": 8
+        },
+        {
+            "name": "Canada",
+            "node": "C2",
+            "startnode": "C",
+            "level": "5",
+            "rank": 24,
+            "group": "C",
+            "abrev": "Canada",
+            "position": 36
+        },
+        {
+            "name": "Brazil",
+            "node": "D2",
+            "startnode": "D1",
+            "level": "3",
+            "rank": 5,
+            "group": "D",
+            "abrev": "Brazil",
+            "position": 9
+        },
+        {
+            "name": "Brazil",
+            "node": "D1",
+            "startnode": "D1",
+            "level": "3",
+            "rank": 5,
+            "group": "D",
+            "abrev": "Brazil",
+            "position": 41
+        },
+        {
+            "name": "Spain",
+            "node": "D2",
+            "startnode": "D2",
+            "level": "3",
+            "rank": 7,
+            "group": "D",
+            "abrev": "Spain",
+            "position": 10
+        },
+        {
+            "name": "Spain",
+            "node": "D1",
+            "startnode": "D2",
+            "level": "3",
+            "rank": 7,
+            "group": "D",
+            "abrev": "Spain",
+            "position": 42
+        },
+        {
+            "name": "No. Ireland",
+            "node": "D2",
+            "startnode": "D",
+            "level": "5",
+            "rank": 21,
+            "group": "D",
+            "abrev": "NoIreland",
+            "position": 11
+        },
+        {
+            "name": "No. Ireland",
+            "node": "D1",
+            "startnode": "D",
+            "level": "5",
+            "rank": 21,
+            "group": "D",
+            "abrev": "NoIreland",
+            "position": 43
+        },
+        {
+            "name": "Algeria",
+            "node": "D2",
+            "startnode": "D",
+            "level": "5",
+            "rank": 22,
+            "group": "D",
+            "abrev": "Algeria",
+            "position": 12
+        },
+        {
+            "name": "Algeria",
+            "node": "D1",
+            "startnode": "D",
+            "level": "5",
+            "rank": 22,
+            "group": "D",
+            "abrev": "Algeria",
+            "position": 44
+        },
+        {
+            "name": "Denmark",
+            "node": "E1",
+            "startnode": "E1",
+            "level": "4",
+            "rank": 9,
+            "group": "E",
+            "abrev": "Denmark",
+            "position": 13
+        },
+        {
+            "name": "Denmark",
+            "node": "E2",
+            "startnode": "E1",
+            "level": "4",
+            "rank": 9,
+            "group": "E",
+            "abrev": "Denmark",
+            "position": 17
+        },
+        {
+            "name": "Denmark",
+            "node": "E3",
+            "startnode": "E1",
+            "level": "4",
+            "rank": 9,
+            "group": "E",
+            "abrev": "Denmark",
+            "position": 53
+        },
+        {
+            "name": "W. Germany",
+            "node": "E1",
+            "startnode": "E2",
+            "level": "1",
+            "rank": 2,
+            "group": "E",
+            "abrev": "WGermany",
+            "position": 14
+        },
+        {
+            "name": "W. Germany",
+            "node": "E2",
+            "startnode": "E2",
+            "level": "1",
+            "rank": 2,
+            "group": "E",
+            "abrev": "WGermany",
+            "position": 18
+        },
+        {
+            "name": "W. Germany",
+            "node": "E3",
+            "startnode": "E2",
+            "level": "1",
+            "rank": 2,
+            "group": "E",
+            "abrev": "WGermany",
+            "position": 54
+        },
+        {
+            "name": "Uruguay",
+            "node": "E1",
+            "startnode": "E3",
+            "level": "4",
+            "rank": 16,
+            "group": "E",
+            "abrev": "Uruguay",
+            "position": 15
+        },
+        {
+            "name": "Uruguay",
+            "node": "E2",
+            "startnode": "E3",
+            "level": "4",
+            "rank": 16,
+            "group": "E",
+            "abrev": "Uruguay",
+            "position": 19
+        },
+        {
+            "name": "Uruguay",
+            "node": "E3",
+            "startnode": "E3",
+            "level": "4",
+            "rank": 16,
+            "group": "E",
+            "abrev": "Uruguay",
+            "position": 55
+        },
+        {
+            "name": "Scotland",
+            "node": "E1",
+            "startnode": "E",
+            "level": "5",
+            "rank": 19,
+            "group": "E",
+            "abrev": "Scotland",
+            "position": 16
+        },
+        {
+            "name": "Scotland",
+            "node": "E2",
+            "startnode": "E",
+            "level": "5",
+            "rank": 19,
+            "group": "E",
+            "abrev": "Scotland",
+            "position": 20
+        },
+        {
+            "name": "Scotland",
+            "node": "E3",
+            "startnode": "E",
+            "level": "5",
+            "rank": 19,
+            "group": "E",
+            "abrev": "Scotland",
+            "position": 56
+        },
+        {
+            "name": "Morocco",
+            "node": "F1",
+            "startnode": "F1",
+            "level": "4",
+            "rank": 11,
+            "group": "F",
+            "abrev": "Morocco",
+            "position": 21
+        },
+        {
+            "name": "Morocco",
+            "node": "F3",
+            "startnode": "F1",
+            "level": "4",
+            "rank": 11,
+            "group": "F",
+            "abrev": "Morocco",
+            "position": 45
+        },
+        {
+            "name": "Morocco",
+            "node": "F2",
+            "startnode": "F1",
+            "level": "4",
+            "rank": 11,
+            "group": "F",
+            "abrev": "Morocco",
+            "position": 57
+        },
+        {
+            "name": "England",
+            "node": "F1",
+            "startnode": "F2",
+            "level": "3",
+            "rank": 8,
+            "group": "F",
+            "abrev": "England",
+            "position": 22
+        },
+        {
+            "name": "England",
+            "node": "F3",
+            "startnode": "F2",
+            "level": "3",
+            "rank": 8,
+            "group": "F",
+            "abrev": "England",
+            "position": 46
+        },
+        {
+            "name": "England",
+            "node": "F2",
+            "startnode": "F2",
+            "level": "3",
+            "rank": 8,
+            "group": "F",
+            "abrev": "England",
+            "position": 58
+        },
+        {
+            "name": "Poland",
+            "node": "F1",
+            "startnode": "F3",
+            "level": "4",
+            "rank": 14,
+            "group": "F",
+            "abrev": "Poland",
+            "position": 23
+        },
+        {
+            "name": "Poland",
+            "node": "F3",
+            "startnode": "F3",
+            "level": "4",
+            "rank": 14,
+            "group": "F",
+            "abrev": "Poland",
+            "position": 47
+        },
+        {
+            "name": "Poland",
+            "node": "F2",
+            "startnode": "F3",
+            "level": "4",
+            "rank": 14,
+            "group": "F",
+            "abrev": "Poland",
+            "position": 59
+        },
+        {
+            "name": "Portugal",
+            "node": "F1",
+            "startnode": "F",
+            "level": "5",
+            "rank": 17,
+            "group": "F",
+            "abrev": "Portugal",
+            "position": 24
+        },
+        {
+            "name": "Portugal",
+            "node": "F3",
+            "startnode": "F",
+            "level": "5",
+            "rank": 17,
+            "group": "F",
+            "abrev": "Portugal",
+            "position": 48
+        },
+        {
+            "name": "Portugal",
+            "node": "F2",
+            "startnode": "F",
+            "level": "5",
+            "rank": 17,
+            "group": "F",
+            "abrev": "Portugal",
+            "position": 60
+        }
+    ],
+    "1938": [
+        {
+            "name": "Italy",
+            "node": "A0",
+            "startnode": "A0",
+            "level": "0",
+            "rank": 1,
+            "group": "A",
+            "abrev": "Italy",
+            "position": 13
+        },
+        {
+            "name": "Norway",
+            "node": "B0",
+            "startnode": "B0",
+            "level": "4",
+            "rank": 12,
+            "group": "B",
+            "abrev": "Norway",
+            "position": 14
+        },
+        {
+            "name": "France",
+            "node": "C0",
+            "startnode": "C0",
+            "level": "3",
+            "rank": 8,
+            "group": "C",
+            "abrev": "France",
+            "position": 15
+        },
+        {
+            "name": "Belgium",
+            "node": "D0",
+            "startnode": "D0",
+            "level": "4",
+            "rank": 13,
+            "group": "D",
+            "abrev": "Belgium",
+            "position": 16
+        },
+        {
+            "name": "Brazil",
+            "node": "E0",
+            "startnode": "E0",
+            "level": "2",
+            "rank": 3,
+            "group": "E",
+            "abrev": "Brazil",
+            "position": 1
+        },
+        {
+            "name": "Poland",
+            "node": "F0",
+            "startnode": "F0",
+            "level": "4",
+            "rank": 11,
+            "group": "F",
+            "abrev": "Poland",
+            "position": 2
+        },
+        {
+            "name": "Czechoslovakia",
+            "node": "G0",
+            "startnode": "G0",
+            "level": "3",
+            "rank": 5,
+            "group": "G",
+            "abrev": "Czechoslovakia",
+            "position": 3
+        },
+        {
+            "name": "Holland",
+            "node": "H0",
+            "startnode": "H0",
+            "level": "4",
+            "rank": 14,
+            "group": "H",
+            "abrev": "Holland",
+            "position": 4
+        },
+        {
+            "name": "Hungary",
+            "node": "I0",
+            "startnode": "I0",
+            "level": "1",
+            "rank": 2,
+            "group": "I",
+            "abrev": "Hungary",
+            "position": 5
+        },
+        {
+            "name": "Neth. East Indies",
+            "node": "J0",
+            "startnode": "J0",
+            "level": "4",
+            "rank": 15,
+            "group": "J",
+            "abrev": "NethEastIndies",
+            "position": 6
+        },
+        {
+            "name": "Switzerland",
+            "node": "K0",
+            "startnode": "K0",
+            "level": "3",
+            "rank": 6,
+            "group": "K",
+            "abrev": "Switzerland",
+            "position": 7
+        },
+        {
+            "name": "Germany",
+            "node": "L0",
+            "startnode": "L0",
+            "level": "4",
+            "rank": 10,
+            "group": "L",
+            "abrev": "Germany",
+            "position": 8
+        },
+        {
+            "name": "Sweden",
+            "node": "M0",
+            "startnode": "M0",
+            "level": "2",
+            "rank": 4,
+            "group": "M",
+            "abrev": "Sweden",
+            "position": 9
+        },
+        {
+            "name": "Austria",
+            "node": "N0",
+            "startnode": "N0",
+            "level": "4",
+            "rank": null,
+            "group": "N",
+            "abrev": "Austria",
+            "position": 10
+        },
+        {
+            "name": "Cuba",
+            "node": "O0",
+            "startnode": "O0",
+            "level": "3",
+            "rank": 7,
+            "group": "O",
+            "abrev": "Cuba",
+            "position": 11
+        },
+        {
+            "name": "Romania",
+            "node": "P0",
+            "startnode": "P0",
+            "level": "4",
+            "rank": 9,
+            "group": "P",
+            "abrev": "Romania",
+            "position": 12
+        }
+    ],
+    "1934": [
+        {
+            "name": "Italy",
+            "node": "A0",
+            "startnode": "A0",
+            "level": "0",
+            "rank": 1,
+            "group": "A",
+            "abrev": "Italy",
+            "position": 13
+        },
+        {
+            "name": "USA",
+            "node": "B0",
+            "startnode": "B0",
+            "level": "4",
+            "rank": 16,
+            "group": "B",
+            "abrev": "USA",
+            "position": 14
+        },
+        {
+            "name": "Spain",
+            "node": "C0",
+            "startnode": "C0",
+            "level": "3",
+            "rank": 5,
+            "group": "C",
+            "abrev": "Spain",
+            "position": 15
+        },
+        {
+            "name": "Brazil",
+            "node": "D0",
+            "startnode": "D0",
+            "level": "4",
+            "rank": 14,
+            "group": "D",
+            "abrev": "Brazil",
+            "position": 16
+        },
+        {
+            "name": "Austria",
+            "node": "E0",
+            "startnode": "E0",
+            "level": "2",
+            "rank": 4,
+            "group": "E",
+            "abrev": "Austria",
+            "position": 1
+        },
+        {
+            "name": "France",
+            "node": "F0",
+            "startnode": "F0",
+            "level": "4",
+            "rank": 10,
+            "group": "F",
+            "abrev": "France",
+            "position": 2
+        },
+        {
+            "name": "Hungary",
+            "node": "G0",
+            "startnode": "G0",
+            "level": "3",
+            "rank": 6,
+            "group": "G",
+            "abrev": "Hungary",
+            "position": 3
+        },
+        {
+            "name": "Egypt",
+            "node": "H0",
+            "startnode": "H0",
+            "level": "4",
+            "rank": 13,
+            "group": "H",
+            "abrev": "Egypt",
+            "position": 4
+        },
+        {
+            "name": "Czechoslovakia",
+            "node": "I0",
+            "startnode": "I0",
+            "level": "1",
+            "rank": 2,
+            "group": "I",
+            "abrev": "Czechoslovakia",
+            "position": 5
+        },
+        {
+            "name": "Romania",
+            "node": "J0",
+            "startnode": "J0",
+            "level": "4",
+            "rank": 12,
+            "group": "J",
+            "abrev": "Romania",
+            "position": 6
+        },
+        {
+            "name": "Switzerland",
+            "node": "K0",
+            "startnode": "K0",
+            "level": "3",
+            "rank": 7,
+            "group": "K",
+            "abrev": "Switzerland",
+            "position": 7
+        },
+        {
+            "name": "Holland",
+            "node": "L0",
+            "startnode": "L0",
+            "level": "4",
+            "rank": 11,
+            "group": "L",
+            "abrev": "Holland",
+            "position": 8
+        },
+        {
+            "name": "Germany",
+            "node": "M0",
+            "startnode": "M0",
+            "level": "2",
+            "rank": 3,
+            "group": "M",
+            "abrev": "Germany",
+            "position": 9
+        },
+        {
+            "name": "Belgium",
+            "node": "N0",
+            "startnode": "N0",
+            "level": "4",
+            "rank": 15,
+            "group": "N",
+            "abrev": "Belgium",
+            "position": 10
+        },
+        {
+            "name": "Sweden",
+            "node": "O0",
+            "startnode": "O0",
+            "level": "3",
+            "rank": 8,
+            "group": "O",
+            "abrev": "Sweden",
+            "position": 11
+        },
+        {
+            "name": "Argentina",
+            "node": "P0",
+            "startnode": "P0",
+            "level": "4",
+            "rank": 9,
+            "group": "P",
+            "abrev": "Argentina",
+            "position": 12
+        }
+    ],
+    "1954": [
+        {
+            "name": "Brazil",
+            "node": "A2",
+            "startnode": "A1",
+            "level": "3",
+            "rank": 6,
+            "group": "A",
+            "abrev": "Brazil",
+            "position": 13
+        },
+        {
+            "name": "Brazil",
+            "node": "A1",
+            "startnode": "A1",
+            "level": "3",
+            "rank": 6,
+            "group": "A",
+            "abrev": "Brazil",
+            "position": 29
+        },
+        {
+            "name": "Yugoslavia",
+            "node": "A2",
+            "startnode": "A2",
+            "level": "3",
+            "rank": 8,
+            "group": "A",
+            "abrev": "Yugoslavia",
+            "position": 14
+        },
+        {
+            "name": "Yugoslavia",
+            "node": "A1",
+            "startnode": "A2",
+            "level": "3",
+            "rank": 8,
+            "group": "A",
+            "abrev": "Yugoslavia",
+            "position": 30
+        },
+        {
+            "name": "France",
+            "node": "A2",
+            "startnode": "A",
+            "level": "4",
+            "rank": 9,
+            "group": "A",
+            "abrev": "France",
+            "position": 15
+        },
+        {
+            "name": "France",
+            "node": "A1",
+            "startnode": "A",
+            "level": "4",
+            "rank": 9,
+            "group": "A",
+            "abrev": "France",
+            "position": 31
+        },
+        {
+            "name": "Mexico",
+            "node": "A2",
+            "startnode": "A",
+            "level": "4",
+            "rank": 13,
+            "group": "A",
+            "abrev": "Mexico",
+            "position": 16
+        },
+        {
+            "name": "Mexico",
+            "node": "A1",
+            "startnode": "A",
+            "level": "4",
+            "rank": 13,
+            "group": "A",
+            "abrev": "Mexico",
+            "position": 32
+        },
+        {
+            "name": "Hungary",
+            "node": "B2",
+            "startnode": "B1",
+            "level": "1",
+            "rank": 2,
+            "group": "B",
+            "abrev": "Hungary",
+            "position": 9
+        },
+        {
+            "name": "Hungary",
+            "node": "B1",
+            "startnode": "B1",
+            "level": "1",
+            "rank": 2,
+            "group": "B",
+            "abrev": "Hungary",
+            "position": 25
+        },
+        {
+            "name": "W. Germany",
+            "node": "B2",
+            "startnode": "B2",
+            "level": "0",
+            "rank": 1,
+            "group": "B",
+            "abrev": "WGermany",
+            "position": 10
+        },
+        {
+            "name": "W. Germany",
+            "node": "B1",
+            "startnode": "B2",
+            "level": "0",
+            "rank": 1,
+            "group": "B",
+            "abrev": "WGermany",
+            "position": 26
+        },
+        {
+            "name": "Turkey",
+            "node": "B2",
+            "startnode": "B",
+            "level": "4",
+            "rank": 10,
+            "group": "B",
+            "abrev": "Turkey",
+            "position": 11
+        },
+        {
+            "name": "Turkey",
+            "node": "B1",
+            "startnode": "B",
+            "level": "4",
+            "rank": 10,
+            "group": "B",
+            "abrev": "Turkey",
+            "position": 27
+        },
+        {
+            "name": "So. Korea",
+            "node": "B2",
+            "startnode": "B",
+            "level": "4",
+            "rank": 16,
+            "group": "B",
+            "abrev": "SoKorea",
+            "position": 12
+        },
+        {
+            "name": "So. Korea",
+            "node": "B1",
+            "startnode": "B",
+            "level": "4",
+            "rank": 16,
+            "group": "B",
+            "abrev": "SoKorea",
+            "position": 28
+        },
+        {
+            "name": "Uruguay",
+            "node": "C1",
+            "startnode": "C1",
+            "level": "2",
+            "rank": 4,
+            "group": "C",
+            "abrev": "Uruguay",
+            "position": 1
+        },
+        {
+            "name": "Uruguay",
+            "node": "C2",
+            "startnode": "C1",
+            "level": "2",
+            "rank": 4,
+            "group": "C",
+            "abrev": "Uruguay",
+            "position": 17
+        },
+        {
+            "name": "Austria",
+            "node": "C1",
+            "startnode": "C2",
+            "level": "2",
+            "rank": 3,
+            "group": "C",
+            "abrev": "Austria",
+            "position": 2
+        },
+        {
+            "name": "Austria",
+            "node": "C2",
+            "startnode": "C2",
+            "level": "2",
+            "rank": 3,
+            "group": "C",
+            "abrev": "Austria",
+            "position": 18
+        },
+        {
+            "name": "Czechoslovakia",
+            "node": "C1",
+            "startnode": "C",
+            "level": "4",
+            "rank": 14,
+            "group": "C",
+            "abrev": "Czechoslovakia",
+            "position": 3
+        },
+        {
+            "name": "Czechoslovakia",
+            "node": "C2",
+            "startnode": "C",
+            "level": "4",
+            "rank": 14,
+            "group": "C",
+            "abrev": "Czechoslovakia",
+            "position": 19
+        },
+        {
+            "name": "Scotland",
+            "node": "C1",
+            "startnode": "C",
+            "level": "4",
+            "rank": 15,
+            "group": "C",
+            "abrev": "Scotland",
+            "position": 4
+        },
+        {
+            "name": "Scotland",
+            "node": "C2",
+            "startnode": "C",
+            "level": "4",
+            "rank": 15,
+            "group": "C",
+            "abrev": "Scotland",
+            "position": 20
+        },
+        {
+            "name": "England",
+            "node": "D1",
+            "startnode": "D1",
+            "level": "3",
+            "rank": 7,
+            "group": "D",
+            "abrev": "England",
+            "position": 5
+        },
+        {
+            "name": "England",
+            "node": "D2",
+            "startnode": "D1",
+            "level": "3",
+            "rank": 7,
+            "group": "D",
+            "abrev": "England",
+            "position": 21
+        },
+        {
+            "name": "Switzerland",
+            "node": "D1",
+            "startnode": "D2",
+            "level": "3",
+            "rank": 5,
+            "group": "D",
+            "abrev": "Switzerland",
+            "position": 6
+        },
+        {
+            "name": "Switzerland",
+            "node": "D2",
+            "startnode": "D2",
+            "level": "3",
+            "rank": 5,
+            "group": "D",
+            "abrev": "Switzerland",
+            "position": 22
+        },
+        {
+            "name": "Italy",
+            "node": "D1",
+            "startnode": "D",
+            "level": "4",
+            "rank": 11,
+            "group": "D",
+            "abrev": "Italy",
+            "position": 7
+        },
+        {
+            "name": "Italy",
+            "node": "D2",
+            "startnode": "D",
+            "level": "4",
+            "rank": 11,
+            "group": "D",
+            "abrev": "Italy",
+            "position": 23
+        },
+        {
+            "name": "Belgium",
+            "node": "D1",
+            "startnode": "D",
+            "level": "4",
+            "rank": 12,
+            "group": "D",
+            "abrev": "Belgium",
+            "position": 8
+        },
+        {
+            "name": "Belgium",
+            "node": "D2",
+            "startnode": "D",
+            "level": "4",
+            "rank": 12,
+            "group": "D",
+            "abrev": "Belgium",
+            "position": 24
+        }
+    ],
+    "country": [],
+    "2002": [
+        {
+            "name": "Senegal",
+            "node": "A2",
+            "startnode": "A2",
+            "level": "3",
+            "rank": 7,
+            "group": "A",
+            "abrev": "Senegal",
+            "position": 9
+        },
+        {
+            "name": "Senegal",
+            "node": "A1",
+            "startnode": "A2",
+            "level": "3",
+            "rank": 7,
+            "group": "A",
+            "abrev": "Senegal",
+            "position": 61
+        },
+        {
+            "name": "France",
+            "node": "A2",
+            "startnode": "A",
+            "level": "5",
+            "rank": 28,
+            "group": "A",
+            "abrev": "France",
+            "position": 10
+        },
+        {
+            "name": "France",
+            "node": "A1",
+            "startnode": "A",
+            "level": "5",
+            "rank": 28,
+            "group": "A",
+            "abrev": "France",
+            "position": 62
+        },
+        {
+            "name": "Denmark",
+            "node": "A2",
+            "startnode": "A1",
+            "level": "4",
+            "rank": 10,
+            "group": "A",
+            "abrev": "Denmark",
+            "position": 11
+        },
+        {
+            "name": "Denmark",
+            "node": "A1",
+            "startnode": "A1",
+            "level": "4",
+            "rank": 10,
+            "group": "A",
+            "abrev": "Denmark",
+            "position": 63
+        },
+        {
+            "name": "Uruguay",
+            "node": "A2",
+            "startnode": "A",
+            "level": "5",
+            "rank": 26,
+            "group": "A",
+            "abrev": "Uruguay",
+            "position": 12
+        },
+        {
+            "name": "Uruguay",
+            "node": "A1",
+            "startnode": "A",
+            "level": "5",
+            "rank": 26,
+            "group": "A",
+            "abrev": "Uruguay",
+            "position": 64
+        },
+        {
+            "name": "So. Africa",
+            "node": "B2",
+            "startnode": "B",
+            "level": "5",
+            "rank": 16,
+            "group": "B",
+            "abrev": "SoAfrica",
+            "position": 21
+        },
+        {
+            "name": "So. Africa",
+            "node": "B1",
+            "startnode": "B",
+            "level": "5",
+            "rank": 16,
+            "group": "B",
+            "abrev": "SoAfrica",
+            "position": 41
+        },
+        {
+            "name": "Paraguay",
+            "node": "B2",
+            "startnode": "B2",
+            "level": "4",
+            "rank": 18,
+            "group": "B",
+            "abrev": "Paraguay",
+            "position": 22
+        },
+        {
+            "name": "Paraguay",
+            "node": "B1",
+            "startnode": "B2",
+            "level": "4",
+            "rank": 18,
+            "group": "B",
+            "abrev": "Paraguay",
+            "position": 42
+        },
+        {
+            "name": "Spain",
+            "node": "B2",
+            "startnode": "B1",
+            "level": "3",
+            "rank": 5,
+            "group": "B",
+            "abrev": "Spain",
+            "position": 23
+        },
+        {
+            "name": "Spain",
+            "node": "B1",
+            "startnode": "B1",
+            "level": "3",
+            "rank": 5,
+            "group": "B",
+            "abrev": "Spain",
+            "position": 43
+        },
+        {
+            "name": "Slovenia",
+            "node": "B2",
+            "startnode": "B",
+            "level": "5",
+            "rank": 30,
+            "group": "B",
+            "abrev": "Slovenia",
+            "position": 24
+        },
+        {
+            "name": "Slovenia",
+            "node": "B1",
+            "startnode": "B",
+            "level": "5",
+            "rank": 30,
+            "group": "B",
+            "abrev": "Slovenia",
+            "position": 44
+        },
+        {
+            "name": "Turkey",
+            "node": "C2",
+            "startnode": "C2",
+            "level": "2",
+            "rank": 3,
+            "group": "C",
+            "abrev": "Turkey",
+            "position": 1
+        },
+        {
+            "name": "Turkey",
+            "node": "C1",
+            "startnode": "C2",
+            "level": "2",
+            "rank": 3,
+            "group": "C",
+            "abrev": "Turkey",
+            "position": 49
+        },
+        {
+            "name": "Brazil",
+            "node": "C2",
+            "startnode": "C1",
+            "level": "0",
+            "rank": 1,
+            "group": "C",
+            "abrev": "Brazil",
+            "position": 2
+        },
+        {
+            "name": "Brazil",
+            "node": "C1",
+            "startnode": "C1",
+            "level": "0",
+            "rank": 1,
+            "group": "C",
+            "abrev": "Brazil",
+            "position": 50
+        },
+        {
+            "name": "Costa Rica",
+            "node": "C2",
+            "startnode": "C",
+            "level": "5",
+            "rank": 19,
+            "group": "C",
+            "abrev": "CostaRica",
+            "position": 3
+        },
+        {
+            "name": "Costa Rica",
+            "node": "C1",
+            "startnode": "C",
+            "level": "5",
+            "rank": 19,
+            "group": "C",
+            "abrev": "CostaRica",
+            "position": 51
+        },
+        {
+            "name": "China",
+            "node": "C2",
+            "startnode": "C",
+            "level": "5",
+            "rank": 31,
+            "group": "C",
+            "abrev": "China",
+            "position": 4
+        },
+        {
+            "name": "China",
+            "node": "C1",
+            "startnode": "C",
+            "level": "5",
+            "rank": 31,
+            "group": "C",
+            "abrev": "China",
+            "position": 52
+        },
+        {
+            "name": "Poland",
+            "node": "D2",
+            "startnode": "D",
+            "level": "5",
+            "rank": 25,
+            "group": "D",
+            "abrev": "Poland",
+            "position": 25
+        },
+        {
+            "name": "Poland",
+            "node": "D1",
+            "startnode": "D",
+            "level": "5",
+            "rank": 25,
+            "group": "D",
+            "abrev": "Poland",
+            "position": 33
+        },
+        {
+            "name": "So. Korea",
+            "node": "D2",
+            "startnode": "D1",
+            "level": "2",
+            "rank": 4,
+            "group": "D",
+            "abrev": "SoKorea",
+            "position": 26
+        },
+        {
+            "name": "So. Korea",
+            "node": "D1",
+            "startnode": "D1",
+            "level": "2",
+            "rank": 4,
+            "group": "D",
+            "abrev": "SoKorea",
+            "position": 34
+        },
+        {
+            "name": "Portugal",
+            "node": "D2",
+            "startnode": "D",
+            "level": "5",
+            "rank": 21,
+            "group": "D",
+            "abrev": "Portugal",
+            "position": 27
+        },
+        {
+            "name": "Portugal",
+            "node": "D1",
+            "startnode": "D",
+            "level": "5",
+            "rank": 21,
+            "group": "D",
+            "abrev": "Portugal",
+            "position": 35
+        },
+        {
+            "name": "USA",
+            "node": "D2",
+            "startnode": "D2",
+            "level": "3",
+            "rank": 8,
+            "group": "D",
+            "abrev": "USA",
+            "position": 28
+        },
+        {
+            "name": "USA",
+            "node": "D1",
+            "startnode": "D2",
+            "level": "3",
+            "rank": 8,
+            "group": "D",
+            "abrev": "USA",
+            "position": 36
+        },
+        {
+            "name": "Ireland",
+            "node": "E1",
+            "startnode": "E2",
+            "level": "4",
+            "rank": 12,
+            "group": "E",
+            "abrev": "Ireland",
+            "position": 17
+        },
+        {
+            "name": "Ireland",
+            "node": "E2",
+            "startnode": "E2",
+            "level": "4",
+            "rank": 12,
+            "group": "E",
+            "abrev": "Ireland",
+            "position": 45
+        },
+        {
+            "name": "Cameroon",
+            "node": "E1",
+            "startnode": "E",
+            "level": "5",
+            "rank": 20,
+            "group": "E",
+            "abrev": "Cameroon",
+            "position": 18
+        },
+        {
+            "name": "Cameroon",
+            "node": "E2",
+            "startnode": "E",
+            "level": "5",
+            "rank": 20,
+            "group": "E",
+            "abrev": "Cameroon",
+            "position": 46
+        },
+        {
+            "name": "Saudi Arabia",
+            "node": "E1",
+            "startnode": "E",
+            "level": "5",
+            "rank": 32,
+            "group": "E",
+            "abrev": "SaudiArabia",
+            "position": 19
+        },
+        {
+            "name": "Saudi Arabia",
+            "node": "E2",
+            "startnode": "E",
+            "level": "5",
+            "rank": 32,
+            "group": "E",
+            "abrev": "SaudiArabia",
+            "position": 47
+        },
+        {
+            "name": "Germany",
+            "node": "E1",
+            "startnode": "E1",
+            "level": "1",
+            "rank": 2,
+            "group": "E",
+            "abrev": "Germany",
+            "position": 20
+        },
+        {
+            "name": "Germany",
+            "node": "E2",
+            "startnode": "E1",
+            "level": "1",
+            "rank": 2,
+            "group": "E",
+            "abrev": "Germany",
+            "position": 48
+        },
+        {
+            "name": "Nigeria",
+            "node": "F1",
+            "startnode": "F",
+            "level": "5",
+            "rank": 27,
+            "group": "F",
+            "abrev": "Nigeria",
+            "position": 13
+        },
+        {
+            "name": "Nigeria",
+            "node": "F2",
+            "startnode": "F",
+            "level": "5",
+            "rank": 27,
+            "group": "F",
+            "abrev": "Nigeria",
+            "position": 57
+        },
+        {
+            "name": "Argentina",
+            "node": "F1",
+            "startnode": "F",
+            "level": "5",
+            "rank": 17,
+            "group": "F",
+            "abrev": "Argentina",
+            "position": 14
+        },
+        {
+            "name": "Argentina",
+            "node": "F2",
+            "startnode": "F",
+            "level": "5",
+            "rank": 17,
+            "group": "F",
+            "abrev": "Argentina",
+            "position": 58
+        },
+        {
+            "name": "Sweden",
+            "node": "F1",
+            "startnode": "F1",
+            "level": "4",
+            "rank": 13,
+            "group": "F",
+            "abrev": "Sweden",
+            "position": 15
+        },
+        {
+            "name": "Sweden",
+            "node": "F2",
+            "startnode": "F1",
+            "level": "4",
+            "rank": 13,
+            "group": "F",
+            "abrev": "Sweden",
+            "position": 59
+        },
+        {
+            "name": "England",
+            "node": "F1",
+            "startnode": "F2",
+            "level": "3",
+            "rank": 6,
+            "group": "F",
+            "abrev": "England",
+            "position": 16
+        },
+        {
+            "name": "England",
+            "node": "F2",
+            "startnode": "F2",
+            "level": "3",
+            "rank": 6,
+            "group": "F",
+            "abrev": "England",
+            "position": 60
+        },
+        {
+            "name": "Croatia",
+            "node": "G1",
+            "startnode": "G",
+            "level": "5",
+            "rank": 23,
+            "group": "G",
+            "abrev": "Croatia",
+            "position": 29
+        },
+        {
+            "name": "Croatia",
+            "node": "G2",
+            "startnode": "G",
+            "level": "5",
+            "rank": 23,
+            "group": "G",
+            "abrev": "Croatia",
+            "position": 37
+        },
+        {
+            "name": "Mexico",
+            "node": "G1",
+            "startnode": "G1",
+            "level": "4",
+            "rank": 11,
+            "group": "G",
+            "abrev": "Mexico",
+            "position": 30
+        },
+        {
+            "name": "Mexico",
+            "node": "G2",
+            "startnode": "G1",
+            "level": "4",
+            "rank": 11,
+            "group": "G",
+            "abrev": "Mexico",
+            "position": 38
+        },
+        {
+            "name": "Ecuador",
+            "node": "G1",
+            "startnode": "G",
+            "level": "5",
+            "rank": 24,
+            "group": "G",
+            "abrev": "Ecuador",
+            "position": 31
+        },
+        {
+            "name": "Ecuador",
+            "node": "G2",
+            "startnode": "G",
+            "level": "5",
+            "rank": 24,
+            "group": "G",
+            "abrev": "Ecuador",
+            "position": 39
+        },
+        {
+            "name": "Italy",
+            "node": "G1",
+            "startnode": "G2",
+            "level": "4",
+            "rank": 15,
+            "group": "G",
+            "abrev": "Italy",
+            "position": 32
+        },
+        {
+            "name": "Italy",
+            "node": "G2",
+            "startnode": "G2",
+            "level": "4",
+            "rank": 15,
+            "group": "G",
+            "abrev": "Italy",
+            "position": 40
+        },
+        {
+            "name": "Belgium",
+            "node": "H1",
+            "startnode": "H2",
+            "level": "4",
+            "rank": 14,
+            "group": "H",
+            "abrev": "Belgium",
+            "position": 5
+        },
+        {
+            "name": "Belgium",
+            "node": "H2",
+            "startnode": "H2",
+            "level": "4",
+            "rank": 14,
+            "group": "H",
+            "abrev": "Belgium",
+            "position": 53
+        },
+        {
+            "name": "Japan",
+            "node": "H1",
+            "startnode": "H1",
+            "level": "4",
+            "rank": 9,
+            "group": "H",
+            "abrev": "Japan",
+            "position": 6
+        },
+        {
+            "name": "Japan",
+            "node": "H2",
+            "startnode": "H1",
+            "level": "4",
+            "rank": 9,
+            "group": "H",
+            "abrev": "Japan",
+            "position": 54
+        },
+        {
+            "name": "Russia",
+            "node": "H1",
+            "startnode": "H",
+            "level": "5",
+            "rank": 22,
+            "group": "H",
+            "abrev": "Russia",
+            "position": 7
+        },
+        {
+            "name": "Russia",
+            "node": "H2",
+            "startnode": "H",
+            "level": "5",
+            "rank": 22,
+            "group": "H",
+            "abrev": "Russia",
+            "position": 55
+        },
+        {
+            "name": "Tunisia",
+            "node": "H1",
+            "startnode": "H",
+            "level": "5",
+            "rank": 29,
+            "group": "H",
+            "abrev": "Tunisia",
+            "position": 8
+        },
+        {
+            "name": "Tunisia",
+            "node": "H2",
+            "startnode": "H",
+            "level": "5",
+            "rank": 29,
+            "group": "H",
+            "abrev": "Tunisia",
+            "position": 56
+        }
+    ],
+    "1958": [
+        {
+            "name": "W. Germany",
+            "node": "A1",
+            "startnode": "A1",
+            "level": "2",
+            "rank": 4,
+            "group": "A",
+            "abrev": "WGermany",
+            "position": 1
+        },
+        {
+            "name": "W. Germany",
+            "node": "A2",
+            "startnode": "A1",
+            "level": "2",
+            "rank": 4,
+            "group": "A",
+            "abrev": "WGermany",
+            "position": 21
+        },
+        {
+            "name": "No. Ireland",
+            "node": "A1",
+            "startnode": "A2",
+            "level": "3",
+            "rank": 7,
+            "group": "A",
+            "abrev": "NoIreland",
+            "position": 2
+        },
+        {
+            "name": "No. Ireland",
+            "node": "A2",
+            "startnode": "A2",
+            "level": "3",
+            "rank": 7,
+            "group": "A",
+            "abrev": "NoIreland",
+            "position": 22
+        },
+        {
+            "name": "Czechoslovakia",
+            "node": "A1",
+            "startnode": "A",
+            "level": "4",
+            "rank": 10,
+            "group": "A",
+            "abrev": "Czechoslovakia",
+            "position": 3
+        },
+        {
+            "name": "Czechoslovakia",
+            "node": "A2",
+            "startnode": "A",
+            "level": "4",
+            "rank": 10,
+            "group": "A",
+            "abrev": "Czechoslovakia",
+            "position": 23
+        },
+        {
+            "name": "Argentina",
+            "node": "A1",
+            "startnode": "A",
+            "level": "4",
+            "rank": 13,
+            "group": "A",
+            "abrev": "Argentina",
+            "position": 4
+        },
+        {
+            "name": "Argentina",
+            "node": "A2",
+            "startnode": "A",
+            "level": "4",
+            "rank": 13,
+            "group": "A",
+            "abrev": "Argentina",
+            "position": 24
+        },
+        {
+            "name": "France",
+            "node": "B2",
+            "startnode": "B1",
+            "level": "2",
+            "rank": 3,
+            "group": "B",
+            "abrev": "France",
+            "position": 5
+        },
+        {
+            "name": "France",
+            "node": "B1",
+            "startnode": "B1",
+            "level": "2",
+            "rank": 3,
+            "group": "B",
+            "abrev": "France",
+            "position": 17
+        },
+        {
+            "name": "Yugoslavia",
+            "node": "B2",
+            "startnode": "B2",
+            "level": "3",
+            "rank": 8,
+            "group": "B",
+            "abrev": "Yugoslavia",
+            "position": 6
+        },
+        {
+            "name": "Yugoslavia",
+            "node": "B1",
+            "startnode": "B2",
+            "level": "3",
+            "rank": 8,
+            "group": "B",
+            "abrev": "Yugoslavia",
+            "position": 18
+        },
+        {
+            "name": "Paraguay",
+            "node": "B2",
+            "startnode": "B",
+            "level": "4",
+            "rank": 9,
+            "group": "B",
+            "abrev": "Paraguay",
+            "position": 7
+        },
+        {
+            "name": "Paraguay",
+            "node": "B1",
+            "startnode": "B",
+            "level": "4",
+            "rank": 9,
+            "group": "B",
+            "abrev": "Paraguay",
+            "position": 19
+        },
+        {
+            "name": "Scotland",
+            "node": "B2",
+            "startnode": "B",
+            "level": "4",
+            "rank": 14,
+            "group": "B",
+            "abrev": "Scotland",
+            "position": 8
+        },
+        {
+            "name": "Scotland",
+            "node": "B1",
+            "startnode": "B",
+            "level": "4",
+            "rank": 14,
+            "group": "B",
+            "abrev": "Scotland",
+            "position": 20
+        },
+        {
+            "name": "Sweden",
+            "node": "C2",
+            "startnode": "C1",
+            "level": "1",
+            "rank": 2,
+            "group": "C",
+            "abrev": "Sweden",
+            "position": 13
+        },
+        {
+            "name": "Sweden",
+            "node": "C1",
+            "startnode": "C1",
+            "level": "1",
+            "rank": 2,
+            "group": "C",
+            "abrev": "Sweden",
+            "position": 25
+        },
+        {
+            "name": "Wales",
+            "node": "C2",
+            "startnode": "C2",
+            "level": "3",
+            "rank": 5,
+            "group": "C",
+            "abrev": "Wales",
+            "position": 14
+        },
+        {
+            "name": "Wales",
+            "node": "C1",
+            "startnode": "C2",
+            "level": "3",
+            "rank": 5,
+            "group": "C",
+            "abrev": "Wales",
+            "position": 26
+        },
+        {
+            "name": "Hungary",
+            "node": "C2",
+            "startnode": "C",
+            "level": "4",
+            "rank": 11,
+            "group": "C",
+            "abrev": "Hungary",
+            "position": 15
+        },
+        {
+            "name": "Hungary",
+            "node": "C1",
+            "startnode": "C",
+            "level": "4",
+            "rank": 11,
+            "group": "C",
+            "abrev": "Hungary",
+            "position": 27
+        },
+        {
+            "name": "Mexico",
+            "node": "C2",
+            "startnode": "C",
+            "level": "4",
+            "rank": 16,
+            "group": "C",
+            "abrev": "Mexico",
+            "position": 16
+        },
+        {
+            "name": "Mexico",
+            "node": "C1",
+            "startnode": "C",
+            "level": "4",
+            "rank": 16,
+            "group": "C",
+            "abrev": "Mexico",
+            "position": 28
+        },
+        {
+            "name": "Brazil",
+            "node": "D1",
+            "startnode": "D1",
+            "level": "0",
+            "rank": 1,
+            "group": "D",
+            "abrev": "Brazil",
+            "position": 9
+        },
+        {
+            "name": "Brazil",
+            "node": "D2",
+            "startnode": "D1",
+            "level": "0",
+            "rank": 1,
+            "group": "D",
+            "abrev": "Brazil",
+            "position": 29
+        },
+        {
+            "name": "USSR",
+            "node": "D1",
+            "startnode": "D2",
+            "level": "3",
+            "rank": 6,
+            "group": "D",
+            "abrev": "USSR",
+            "position": 10
+        },
+        {
+            "name": "USSR",
+            "node": "D2",
+            "startnode": "D2",
+            "level": "3",
+            "rank": 6,
+            "group": "D",
+            "abrev": "USSR",
+            "position": 30
+        },
+        {
+            "name": "England",
+            "node": "D1",
+            "startnode": "D",
+            "level": "4",
+            "rank": 12,
+            "group": "D",
+            "abrev": "England",
+            "position": 11
+        },
+        {
+            "name": "England",
+            "node": "D2",
+            "startnode": "D",
+            "level": "4",
+            "rank": 12,
+            "group": "D",
+            "abrev": "England",
+            "position": 31
+        },
+        {
+            "name": "Austria",
+            "node": "D1",
+            "startnode": "D",
+            "level": "4",
+            "rank": 15,
+            "group": "D",
+            "abrev": "Austria",
+            "position": 12
+        },
+        {
+            "name": "Austria",
+            "node": "D2",
+            "startnode": "D",
+            "level": "4",
+            "rank": 15,
+            "group": "D",
+            "abrev": "Austria",
+            "position": 32
+        }
+    ]
+}

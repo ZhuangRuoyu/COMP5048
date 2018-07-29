@@ -1,0 +1,620 @@
+[
+    [
+        "Australia",
+        {
+            "weight": 0.02564102564102564,
+            "confederation": "AFC",
+            "year_participate": [
+                1974,
+                2006
+            ]
+        }
+    ],
+    [
+        "China",
+        {
+            "weight": 0.0,
+            "confederation": "AFC",
+            "year_participate": [
+                2002
+            ]
+        }
+    ],
+    [
+        "Iran",
+        {
+            "weight": 0.02564102564102564,
+            "confederation": "AFC",
+            "year_participate": [
+                1978,
+                1998,
+                2006
+            ]
+        }
+    ],
+    [
+        "Iraq",
+        {
+            "weight": 0.0,
+            "confederation": "AFC",
+            "year_participate": [
+                1986
+            ]
+        }
+    ],
+    [
+        "Japan",
+        {
+            "weight": 0.05128205128205128,
+            "confederation": "AFC",
+            "year_participate": [
+                1998,
+                2002,
+                2006
+            ]
+        }
+    ],
+    [
+        "Kuwait",
+        {
+            "weight": 0.0,
+            "confederation": "AFC",
+            "year_participate": [
+                1982
+            ]
+        }
+    ],
+    [
+        "New Zealand",
+        {
+            "weight": 0.0,
+            "confederation": "AFC",
+            "year_participate": [
+                1982
+            ]
+        }
+    ],
+    [
+        "No. Korea",
+        {
+            "weight": 0.02564102564102564,
+            "confederation": "AFC",
+            "year_participate": [
+                1966
+            ]
+        }
+    ],
+    [
+        "Saudi Arabia",
+        {
+            "weight": 0.02564102564102564,
+            "confederation": "AFC",
+            "year_participate": [
+                1994,
+                1998,
+                2002,
+                2006
+            ]
+        }
+    ],
+    [
+        "UAE",
+        {
+            "weight": 0.0,
+            "confederation": "AFC",
+            "year_participate": [
+                1990
+            ]
+        }
+    ],
+    [
+        "Algeria",
+        {
+            "weight": 0.02564102564102564,
+            "confederation": "CAF",
+            "year_participate": [
+                1982,
+                1986
+            ]
+        }
+    ],
+    [
+        "Angola",
+        {
+            "weight": 0.0,
+            "confederation": "CAF",
+            "year_participate": [
+                2006
+            ]
+        }
+    ],
+    [
+        "Cameroon",
+        {
+            "weight": 0.07692307692307693,
+            "confederation": "CAF",
+            "year_participate": [
+                1982,
+                1990,
+                1994,
+                1998,
+                2002
+            ]
+        }
+    ],
+    [
+        "Egypt",
+        {
+            "weight": 0.0,
+            "confederation": "CAF",
+            "year_participate": [
+                1934,
+                1990
+            ]
+        }
+    ],
+    [
+        "Ghana",
+        {
+            "weight": 0.02564102564102564,
+            "confederation": "CAF",
+            "year_participate": [
+                2006
+            ]
+        }
+    ],
+    [
+        "Ivory Coast",
+        {
+            "weight": 0.01282051282051282,
+            "confederation": "CAF",
+            "year_participate": [
+                2006
+            ]
+        }
+    ],
+    [
+        "Morocco",
+        {
+            "weight": 0.038461538461538464,
+            "confederation": "CAF",
+            "year_participate": [
+                1970,
+                1986,
+                1994,
+                1998
+            ]
+        }
+    ],
+    [
+        "Nigeria",
+        {
+            "weight": 0.0641025641025641,
+            "confederation": "CAF",
+            "year_participate": [
+                1994,
+                1998,
+                2002
+            ]
+        }
+    ],
+    [
+        "Senegal",
+        {
+            "weight": 0.038461538461538464,
+            "confederation": "CAF",
+            "year_participate": [
+                2002
+            ]
+        }
+    ],
+    [
+        "So. Africa",
+        {
+            "weight": 0.038461538461538464,
+            "confederation": "CAF",
+            "year_participate": [
+                1998,
+                2002
+            ]
+        }
+    ],
+    [
+        "Togo",
+        {
+            "weight": 0.0,
+            "confederation": "CAF",
+            "year_participate": [
+                2006
+            ]
+        }
+    ],
+    [
+        "Tunisia",
+        {
+            "weight": 0.038461538461538464,
+            "confederation": "CAF",
+            "year_participate": [
+                1978,
+                1998,
+                2002,
+                2006
+            ]
+        }
+    ],
+    [
+        "Zaire",
+        {
+            "weight": 0.0,
+            "confederation": "CAF",
+            "year_participate": [
+                1974
+            ]
+        }
+    ],
+    [
+        "Canada",
+        {
+            "weight": 0.0,
+            "confederation": "CONCACAF",
+            "year_participate": [
+                1986
+            ]
+        }
+    ],
+    [
+        "Costa Rica",
+        {
+            "weight": 0.05128205128205128,
+            "confederation": "CONCACAF",
+            "year_participate": [
+                1990,
+                2002,
+                2006
+            ]
+        }
+    ],
+    [
+        "Cuba",
+        {
+            "weight": 0.02564102564102564,
+            "confederation": "CONCACAF",
+            "year_participate": [
+                1938
+            ]
+        }
+    ],
+    [
+        "El Salvador",
+        {
+            "weight": 0.0,
+            "confederation": "CONCACAF",
+            "year_participate": [
+                1970,
+                1982
+            ]
+        }
+    ],
+    [
+        "Haiti",
+        {
+            "weight": 0.0,
+            "confederation": "CONCACAF",
+            "year_participate": [
+                1974
+            ]
+        }
+    ],
+    [
+        "Honduras",
+        {
+            "weight": 0.0,
+            "confederation": "CONCACAF",
+            "year_participate": [
+                1982
+            ]
+        }
+    ],
+    [
+        "Jamaica",
+        {
+            "weight": 0.01282051282051282,
+            "confederation": "CONCACAF",
+            "year_participate": [
+                1998
+            ]
+        }
+    ],
+    [
+        "Bolivia",
+        {
+            "weight": 0.0,
+            "confederation": "CONMEBOL",
+            "year_participate": [
+                1930,
+                1950,
+                1994
+            ]
+        }
+    ],
+    [
+        "Colombia",
+        {
+            "weight": 0.038461538461538464,
+            "confederation": "CONMEBOL",
+            "year_participate": [
+                1962,
+                1990,
+                1994,
+                1998
+            ]
+        }
+    ],
+    [
+        "Ecuador",
+        {
+            "weight": 0.038461538461538464,
+            "confederation": "CONMEBOL",
+            "year_participate": [
+                2002,
+                2006
+            ]
+        }
+    ],
+    [
+        "Paraguay",
+        {
+            "weight": 0.11538461538461538,
+            "confederation": "CONMEBOL",
+            "year_participate": [
+                1930,
+                1950,
+                1958,
+                1986,
+                1998,
+                2002,
+                2006
+            ]
+        }
+    ],
+    [
+        "Peru",
+        {
+            "weight": 0.05128205128205128,
+            "confederation": "CONMEBOL",
+            "year_participate": [
+                1930,
+                1970,
+                1978,
+                1982
+            ]
+        }
+    ],
+    [
+        "Trinidad and Tobago",
+        {
+            "weight": 0.01282051282051282,
+            "confederation": "CONMEBOL",
+            "year_participate": [
+                2006
+            ]
+        }
+    ],
+    [
+        "Croatia",
+        {
+            "weight": 0.08974358974358974,
+            "confederation": "UEFA",
+            "year_participate": [
+                1998,
+                2002,
+                2006
+            ]
+        }
+    ],
+    [
+        "Czech Republic",
+        {
+            "weight": 0.01282051282051282,
+            "confederation": "UEFA",
+            "year_participate": [
+                2006
+            ]
+        }
+    ],
+    [
+        "Denmark",
+        {
+            "weight": 0.10256410256410256,
+            "confederation": "UEFA",
+            "year_participate": [
+                1986,
+                1998,
+                2002
+            ]
+        }
+    ],
+    [
+        "E. Germany",
+        {
+            "weight": 0.038461538461538464,
+            "confederation": "UEFA",
+            "year_participate": [
+                1974
+            ]
+        }
+    ],
+    [
+        "Greece",
+        {
+            "weight": 0.0,
+            "confederation": "UEFA",
+            "year_participate": [
+                1994
+            ]
+        }
+    ],
+    [
+        "Ireland",
+        {
+            "weight": 0.07692307692307693,
+            "confederation": "UEFA",
+            "year_participate": [
+                1990,
+                1994,
+                2002
+            ]
+        }
+    ],
+    [
+        "Israel",
+        {
+            "weight": 0.0,
+            "confederation": "UEFA",
+            "year_participate": [
+                1970
+            ]
+        }
+    ],
+    [
+        "Neth. East Indies",
+        {
+            "weight": 0.0,
+            "confederation": "UEFA",
+            "year_participate": [
+                1938
+            ]
+        }
+    ],
+    [
+        "No. Ireland",
+        {
+            "weight": 0.07692307692307693,
+            "confederation": "UEFA",
+            "year_participate": [
+                1958,
+                1982,
+                1986
+            ]
+        }
+    ],
+    [
+        "Norway",
+        {
+            "weight": 0.02564102564102564,
+            "confederation": "UEFA",
+            "year_participate": [
+                1938,
+                1994,
+                1998
+            ]
+        }
+    ],
+    [
+        "Portugal",
+        {
+            "weight": 0.15384615384615385,
+            "confederation": "UEFA",
+            "year_participate": [
+                1966,
+                1986,
+                2002,
+                2006
+            ]
+        }
+    ],
+    [
+        "Romania",
+        {
+            "weight": 0.11538461538461538,
+            "confederation": "UEFA",
+            "year_participate": [
+                1930,
+                1934,
+                1938,
+                1970,
+                1990,
+                1994,
+                1998
+            ]
+        }
+    ],
+    [
+        "Russia",
+        {
+            "weight": 0.02564102564102564,
+            "confederation": "UEFA",
+            "year_participate": [
+                1994
+            ]
+        }
+    ],
+    [
+        "Scotland",
+        {
+            "weight": 0.08974358974358974,
+            "confederation": "UEFA",
+            "year_participate": [
+                1954,
+                1958,
+                1974,
+                1978,
+                1982,
+                1986,
+                1990,
+                1998
+            ]
+        }
+    ],
+    [
+        "Serbia and Montenegro",
+        {
+            "weight": 0.0,
+            "confederation": "UEFA",
+            "year_participate": [
+                2006
+            ]
+        }
+    ],
+    [
+        "Slovenia",
+        {
+            "weight": 0.0,
+            "confederation": "UEFA",
+            "year_participate": [
+                2002
+            ]
+        }
+    ],
+    [
+        "Turkey",
+        {
+            "weight": 0.0641025641025641,
+            "confederation": "UEFA",
+            "year_participate": [
+                1954,
+                2002
+            ]
+        }
+    ],
+    [
+        "Ukraine",
+        {
+            "weight": 0.038461538461538464,
+            "confederation": "UEFA",
+            "year_participate": [
+                2006
+            ]
+        }
+    ],
+    [
+        "Wales",
+        {
+            "weight": 0.0,
+            "confederation": "UEFA",
+            "year_participate": [
+                1958
+            ]
+        }
+    ]
+]

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<meta charset "utf-8">
+<html>
+<head>
+    <!-- <link rel="stylesheet" type="text/css" href="main_viz.css"> -->
+    
+	<link rel="stylesheet" href="../../css/font-awesome/css/font-awesome.min.css" />
+	
+	<link rel="stylesheet" href="../../css/fonts/stylesheet.css" />
+	<link rel="stylesheet" href="../../css/fonts/fonts.css" />
+	<link rel="stylesheet" href="../../css/bootstrap/bootstrap.min.css" />
+	<link rel="stylesheet" href="../../css/animat/animate.min.css" />
+	<link rel="stylesheet" href="../../css/fancybox/jquery.fancybox.css" />
+	<link rel="stylesheet" href="../../css/nivo-lightbox/nivo-lightbox.css" />
+	<link rel="stylesheet" href="../../css/themes/default/default.css" />
+	<link rel="stylesheet" href="../../css/owl-carousel/owl.carousel.css" />
+	<link rel="stylesheet" href="../../css/owl-carousel/owl.theme.css" />
+	<link rel="stylesheet" href="../../css/owl-carousel/owl.transitions.css">
+	
+	<link rel="stylesheet" href="style.css" />
+	<link rel="stylesheet" href="../../css/responsive.css" />
+
+    <script src="//d3js.org/d3.v3.min.js"></script>
+    <script src="//d3js.org/queue.v1.min.js"></script>
+    <script src="//d3js.org/d3-force.v1.min.js"></script>
+    <script src="//d3js.org/d3-path.v1.min.js"></script>
+    <script src="//d3js.org/d3-shape.v1.min.js"></script>
+    <style>
+
+    line.edges, path.edges {
+      fill: none;
+      stroke: grey;
+      opacity: 0.1
+    }
+
+    circle.nodes {
+      fill: white;
+      stroke: black
+    }
+
+    .tooltip {
+        position: absolute;
+        text-align: left;
+        width: 200px;
+        height: 100px;
+        padding: 10px;
+        font: 12px sans-serif;
+        background: lightsteelblue;
+        pointer-events: none;
+        opacity: 0;
+    }
+    </style>
+</head>
+<body>
+
+	<header id="home" class="header">
+		<div class="main_menu_bg navbar-fixed-top">
+			<div class="container">
+				<div class="row">
+					<div class="nave_menu">
+					<nav class="navbar navbar-default">
+					  <div class="container-fluid">
+						<!-- Brand and toggle get grouped for better mobile display -->
+						<div class="navbar-header">
+						  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						  </button>
+						  <!-- <a class="navbar-brand" href="#"> -->
+							<!-- <div class="logo"> -->
+								<!-- <img src="images/vislogo.png" alt="" /> -->
+							<!-- </div> -->
+						  <!-- </a> -->
+						</div>
+
+						<!-- Collect the nav links, forms, and other content for toggling -->
+						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						  
+						  <ul class="nav navbar-nav navbar-right">
+							<li class="active"><a href="../../index.html">HOME</a></li>
+							<li><a href="../../index.html#abouts">MAIN-VISUALIZATION</a></li>
+							<li><a href="../../index.html#abouts2">MATCH-DETAILS</a></li>
+							<li><a href="../../index.html#abouts3">TIMELINE-OVERVIEW</a></li>
+							<li><a href="../../index.html#featured">ANALYSIS-VISUALIZATION</a></li>
+							<!-- <li><a href="#blog">PERFORMANCE</a></li> -->
+							<!-- <li><a href="#contact">TIMELINE</a></li> -->
+							
+						  </ul>
+						</div><!-- /.navbar-collapse -->
+					  </div><!-- /.container-fluid -->
+					</nav>
+					</div>	
+				</div><!--End of row -->
+				
+			</div><!--End of container -->
+			
+		</div>
+	</header> <!--End of header -->
+	
+
+        <div id="Main" style="position:absolute;left:130px;top:250px"></div>
+        <!-- <div id="barChart" style="position:absolute;left:700px;top:700px"><div> -->
+        <div id="linechar"><div>
+        <script type="text/javascript" src="Main_viz0.js"> </script>
+
+            <div class="content" style="position:relative;top:120px;left:120px;text-align:center;width:1000px;">
+                <h1>Main Visualization<h1>
+                <p><span style = "font-size: 180%">Teams</span> from the same confederation are located adjacent to each other with the same color. Nodes stand for various participating countries where stronger teams are revealed with larger sizes. Edge thickness indicates the number of historical matches between two teams where thicker edge means more matches happened between the two countries.</br></br><span style = "font-size: 180%">In</span> addition, green end of the edge indicates the outperformed team. When a certain node is selected, edges connected to that node would be emphasized. Meanwhile, its tooltip would show up, including its name, responding confederation and participated years.</p>
+            </div>        
+        
+    <div class="scrollup">
+		<a href="#"><i class="fa fa-chevron-up"></i></a>
+	</div>
+    
+        
+    <!-- </div> -->
+</body>
+</html>

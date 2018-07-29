@@ -1,0 +1,1146 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>World Cup</title>
+<meta name="keywords" content="" />
+
+	<link rel="stylesheet" href="../../css/font-awesome/css/font-awesome.min.css" />
+	
+	<link rel="stylesheet" href="../../css/fonts/stylesheet.css" />
+	<link rel="stylesheet" href="../../css/fonts/fonts.css" />
+	<link rel="stylesheet" href="../../css/bootstrap/bootstrap.min.css" />
+	<link rel="stylesheet" href="../../css/animat/animate.min.css" />
+	<link rel="stylesheet" href="../../css/fancybox/jquery.fancybox.css" />
+	<link rel="stylesheet" href="../../css/nivo-lightbox/nivo-lightbox.css" />
+	<link rel="stylesheet" href="../../css/themes/default/default.css" />
+	<link rel="stylesheet" href="../../css/owl-carousel/owl.carousel.css" />
+	<link rel="stylesheet" href="../../css/owl-carousel/owl.theme.css" />
+	<link rel="stylesheet" href="../../css/owl-carousel/owl.transitions.css">
+	
+	<link rel="stylesheet" href="style.css" />
+	<link rel="stylesheet" href="../../css/responsive.css" />
+
+
+
+<style>
+/*html,
+        body {
+            font-family: "Trebuchet MS", "Open Sans", Segoe UI light, Verdana, Tahoma, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            height: 100%;
+            width: 100%;
+        }*/
+.background {
+  fill: none;
+  pointer-events: all;
+}
+
+/*.feature{
+  fill: #D3D3D3;
+  cursor: pointer;
+}
+
+.feature.active {
+  fill: #777;
+}
+.feature:hover {
+  fill: #777;
+}
+
+.mesh {
+  fill: none;
+  stroke: #a1a1a1;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}*/
+/*.graticule {
+            fill: none;
+            stroke: #000;
+            stroke-opacity: .3;
+            stroke-width: .5px;
+        }
+        .graticule.outline {
+            stroke: #333;
+            stroke-opacity: 1;
+            stroke-width: 1.5px;
+        }*/
+        /*div.tooltip {
+            line-height: 1;
+            font-weight: bold;
+            font-size: 12px;
+            padding: 6px;
+            background: rgba(255, 255, 255, 0.8);
+            color: #000;
+            border-radius: 4px;
+            border-color: black;
+            border: solid 1px;
+            z-index: 2000;
+            position: absolute;
+        }*/
+        .dragdealer {
+            height: 18px;
+            background: #FFFFFF;
+            z-index: 50;
+        }
+        .dragdealer .handle {
+            top: 0;
+            left: 0;
+
+            cursor: pointer;
+      z-index: 52;
+        }
+        .dragdealer .orange-bar {
+            width: 150px;
+            height: 18px;
+/*            background: #00c7ff;*/
+            background: #99d8c9;
+            color: #444;
+            font-size: 14px;
+            line-height: 19px;
+            text-align: center;
+            font-weight: bold;
+      z-index: 52;
+        }
+        .dragdealer .orange-bar:hover {
+          background: #99d8c9;
+/*            background: #777;*/
+        }
+    /*a {
+       text-decoration: none;
+       color:#b20000;
+    }*/
+    /*#social {
+      position: fixed;
+            top: 0;
+            right: 0;
+            text-decoration: none;
+      text-align:right;
+      padding: 3px;
+            z-index: 800;
+      white-space:nowrap;
+      overflow:hidden;
+      opacity:0;
+        }*/
+</style>
+
+
+<style type="text/css">
+      /* padding-bottom and top for image */
+      .mfp-no-margins img.mfp-img {
+        padding: 0;
+      }
+      /* position of shadow behind the image */
+      .mfp-no-margins .mfp-figure:after {
+        top: 0;
+        bottom: 0;
+      }
+      /* padding for main container */
+      .mfp-no-margins .mfp-container {
+        padding: 0;
+      }
+
+      /*#tooltip {
+        position: absolute;
+        width: 200px;
+        height: auto;
+        padding: 10px;
+        background-color: white;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
+        -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+        -moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+        box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+        pointer-events: none;
+      }
+
+      #tooltip.hidden {
+        display: none;
+      }
+
+      #tooltip p {
+        margin: 0;
+        font-family: sans-serif;
+        font-size: 12px;
+        line-height: 20px;
+      }*/
+
+</style>
+
+</head>
+<body>
+
+	<header id="home" class="header">
+		<div class="main_menu_bg navbar-fixed-top">
+			<div class="container">
+				<div class="row">
+					<div class="nave_menu">
+					<nav class="navbar navbar-default">
+					  <div class="container-fluid">
+						<!-- Brand and toggle get grouped for better mobile display -->
+						<div class="navbar-header">
+						  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						  </button>
+						  <!-- <a class="navbar-brand" href="#"> -->
+							<!-- <div class="logo"> -->
+								<!-- <img src="images/vislogo.png" alt="" /> -->
+							<!-- </div> -->
+						  <!-- </a> -->
+						</div>
+
+						<!-- Collect the nav links, forms, and other content for toggling -->
+						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						  
+						  <ul class="nav navbar-nav navbar-right">
+							<li class="active"><a href="../../index.html">HOME</a></li>
+							<li><a href="../../index.html#abouts">MAIN-VISUALIZATION</a></li>
+							<li><a href="../../index.html#abouts2">MATCH-DETAILS</a></li>
+							<li><a href="../../index.html#abouts3">TIMELINE-OVERVIEW</a></li>
+							<li><a href="../../index.html#featured">ANALYSIS-VISUALIZATION</a></li>
+							<!-- <li><a href="#blog">PERFORMANCE</a></li> -->
+							<!-- <li><a href="#contact">TIMELINE</a></li> -->
+							
+						  </ul>
+						</div><!-- /.navbar-collapse -->
+					  </div><!-- /.container-fluid -->
+					</nav>
+					</div>	
+				</div><!--End of row -->
+				
+			</div><!--End of container -->
+			
+		</div>
+	</header> <!--End of header -->
+	
+            <div class="content" style="position:relative;top:120px;left:800px;width:400px;text-align:right;">
+                <h1>Match Details<h1>
+                <p style="font:sans-serif;"><span style = "font-size: 180%">The</span> match results are analyzed by radial tree layout. Every team is represented by a unique color. The path of its color shows the match results and the color of the centroid represents the champion.</p>
+            </div>
+<!-- <br> -->
+
+<div id="pslider" title="Drag slider to cycle over years" class="dragdealer" style="position:absolute;float:left;top:150px;left:100px;opacity:1;width:495px;background:#ffffff">
+
+<div class="handle orange-bar" id="syear">2006</div>
+
+<!-- <div class="description" style="position:fixed;margin-left:100px;font-size:12px;background:#9999ff;"></div> -->
+
+<!-- <div id="wrapper-FWC"> -->
+
+  <!-- <br> -->
+  <script src="//d3js.org/d3.v3.min.js"></script>
+  <script src="//d3js.org/topojson.v0.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/dragdealer/0.9.8/dragdealer.min.js"></script>
+
+
+  <center><svg></svg></center>
+
+</div>
+
+
+
+
+
+<script>
+
+
+//==========================================================================================================//
+//= Data Load                                                                                              =//
+//==========================================================================================================//
+
+
+
+
+  var margin = {top: 15, right: 10, bottom: 5, left: 100},
+      width = 1800 - margin.left - margin.right,
+      height = 900 - margin.top - margin.bottom;
+  //    height = 533 - margin.top - margin.bottom;
+
+  var color = {"background": "#444",
+              "circleHome": "#9ECCFF",
+              "circleAway": "#B96359",
+              "circleNeutral": "white",
+              "axis": "#eee",
+              "text": "#fff",
+              "line": "#888",
+              "linetest": "#ff0000",
+              "gray": "#666",
+              "groupGray": {"A": "#333", "B": "#666", "C": "#555", "D": "#888", "E": "#777", "F": "#AAA", "G": "#999", "H": "#CCC"}, //grayscale
+              "group": {"A": "#2A3A85", "B": "#FCD412", "C": "#61AA25", "D": "#DB2624", "E": "#0193D9", "F": "#F09D0C", "G": "#09621D", "H": "#86001A"}}; // Fifa Colors
+
+
+// CIRCLE GRAPH
+  var widthCircle = width/2
+  var heightCircle = height
+  // var cxCircle = 800
+  // var cyCircle = heightCircle/2
+
+  var cxCircle = widthCircle/2
+  var cyCircle = heightCircle/2
+  //var levelsCircle = 6
+  //var rLevel = (cxCircle)/(levelsCircle)
+  var radius = cxCircle
+  // var radius = widthCircle/2
+
+  var nodeAttr = {"fill": color.circleNeutral,
+                  "stroke": color.line,
+                  "r": 7,
+                  "stroke-width": "3px",
+                  "opacity": 1}
+
+  var nodeHighlight = {"fill": "#7273B0",
+                      "stroke": "black",
+                      "stroke-width": "3px",
+                      "r": 30}
+
+  var probAttr = {"font-size": "18px",
+                "font-style": "normal",
+                "font-weight": "bold",
+                "fill": "white",
+                "text-anchor": "middle",
+                "vertical-align": "middle",
+                "display": "none"}
+
+  var probHighlight = {"display": "inline"}
+
+
+  var linkAttr = {"stroke": color.line,
+                  "stroke-width": "2px",
+                  "fill": "none"}
+
+
+  var linkAttrtest = {"stroke": "#ff0000",
+                      "stroke-width": "2px",
+                      "fill": "black",
+                      "color": "#ff0000",
+                      "background": "#ff0000"}
+
+  var linkHighlight = {"stroke": "#1659F5",
+                  "stroke-width": "4px",
+                  "fill": "none"}
+
+  var posAdjust = 20;
+
+  var colorScale = d3.scale.linear()
+  .domain([1, 0.2, 0]) // values elevation (m)
+  .range(["#ccc", "#aaa", "#333"]) // green to red
+
+  .interpolate(d3.interpolateHcl)
+
+
+//==========================================================================================================//
+//============================================= CIRCULAR ===================================================
+//=============================================  GRAPH   ===================================================
+//==========================================================================================================//
+
+  var svg = d3.select("svg")
+      .attr("width",1000) 
+      <!-- width + margin.left + margin.right) -->
+      .attr("height", height + margin.top + margin.bottom)
+    .append("g")
+
+
+    svg.append("rect")
+      .attr({
+          "x": -margin.left,
+          "y": -margin.top,
+          <!-- "width": (width + margin.left + margin.right)*2, -->
+          <!-- "height": (height + margin.top + margin.bottom)*2, -->
+          "stroke": "white",
+          "stroke-width": .5,
+          "fill": "#fff",
+          "opacity": 0
+      })
+
+d3.json("groupsall.json",  function(error, group) {
+d3.json("teamstest.json",  function(error, teams) {
+
+var update=function(year, round){
+
+if (round != 0){
+  reset()
+
+}
+
+
+/////////////////////////////////////
+function givecolor(n) {
+  var colors = ["#ff8000",
+                   "#3366cc",
+                   "#6633cc",
+                   "#e67300",
+                   "#57dc90",
+                   "#00ffff",
+                   "#8b0707",
+                   "#ff0000",
+                   "#dc3912",
+                   "#0000FF",
+                   "#109618",
+                   "#aaaa11",
+                   "#ff9900",
+                   "#e5d283",
+                   "#6bbaa7",
+                   "#00FF00",
+                   "#ff0080",
+                   "#990099",
+                   "#0099c6",
+                   "#dd4477",
+                   "#66aa00",
+                   "#FFD700",
+                   "#b82e2e",
+                   "#994499",
+                   "#FFFF00",
+                   "#651067",
+                   "#329262",
+                   "#316395",
+                   "#5574a6",
+                   "#3b3eac",
+                   "#a8a8a8",
+                   "#696969",
+                   "#2a2a2a",
+                   "#000000",
+                   "#22aa99",
+                   "#91a3b0",
+                   "#94618e"];
+  return colors[n];
+}
+
+
+
+////////////////////////////////////
+
+
+
+    svg.append("rect")
+      .attr({
+          "x": -margin.left,
+          "y": -margin.top,
+          <!-- "width": (width + margin.left + margin.right)*2, -->
+          <!-- "height": (height + margin.top + margin.bottom)*2, -->
+          "stroke": "white",
+          "stroke-width": .5,
+          "fill": "#444",
+          "opacity": 0
+      })
+;
+
+    var yearstring = year.toString()
+
+    var data = group[yearstring]
+
+
+    var focusteams = 0
+
+    var allteamnum = 0
+
+//////////////////////////////////////////////////////////////////
+    var teamlist = []
+
+
+    for (ob in teams[year]){
+
+      var startnode =  teams[year][ob].startnode
+      //console.log(startnode)
+      allteamnum += 1
+
+
+      if (startnode.length ==2 && teamlist.includes(startnode) == false){
+
+        //console.log(startnode)
+        teamlist.push(startnode)
+
+        focusteams += 1
+      }
+
+    }
+
+    //console.log(focusteams)
+
+////////////////////////////////////////////////////////////////////
+
+    var nodelevellistorigin = []
+
+    for (ob in group[year]['nodes']){
+      //console.log(ob)
+
+      var level =  group[year]['nodes'][ob].level
+
+
+      if (nodelevellistorigin.includes(level) == false){
+
+        //console.log(level)
+        nodelevellistorigin.push(level)
+
+      }
+
+    }
+
+
+    function remove(array, element) {
+      const index = array.indexOf(element);
+      array.splice(index, 1);
+    }
+
+    nodelevellistorigin.sort(function(a, b){return b-a});
+
+    //console.log(nodelevellistorigin)
+    var nodelevellist = nodelevellistorigin
+    //console.log(nodelevellist)
+    remove(nodelevellist, 0);
+
+    //console.log(nodelevellist)
+
+    var levelsCircle = +nodelevellistorigin[0] + +2
+    var rLevel = (cxCircle)/(levelsCircle)
+
+    var teamnum = allteamnum/2
+
+
+
+    // var level4num = focusteams
+    // var level3num = level4num/2
+    // var level2num = level3num/2
+    // var level1num = level2num/2
+
+
+    //==========================================================================================================//
+    //= Calculate nodes positions and rotation                                                                 =//
+    //==========================================================================================================//
+
+      var nodePosition = {}
+
+      // var level4angle = 360/level4num
+      // var level3angle = 360/level3num
+      // var level2angle = 360/level2num
+      // var level1angle = 360/level1num
+
+      var textangle = 360/(Math.ceil(allteamnum/2)*2)
+
+    var levelnum = focusteams
+    for (j in nodelevellist){
+      var level = nodelevellist[j]
+      //console.log(level)
+
+      var levelangle = 360/levelnum
+      //console.log(levelangle)
+      for (i in data.nodes) {
+          node = data.nodes[i]
+
+          //console.log(node.position)
+
+          if (level == 1){
+
+            if (node.level == level){
+              //console.log(node)
+              rotation = levelangle * node.position - levelangle;
+              //console.log(rotation)
+              r =  rLevel * node.level
+              x = cxCircle + Math.sin(rotation * Math.PI / 180) * r
+              y = cyCircle - Math.cos(rotation * Math.PI / 180) * r
+              nodePosition[node.node] = {'x': x, 'y': y, 'r': r, 'rotation': rotation}
+
+            }
+
+          }else{
+            if (node.level == level){
+              //console.log(node)
+              rotation = - levelangle * node.position + levelangle/2;
+              //console.log(rotation)
+              r =  rLevel * node.level
+              x = cxCircle + Math.sin(rotation * Math.PI / 180) * r
+              y = cyCircle - Math.cos(rotation * Math.PI / 180) * r
+              nodePosition[node.node] = {'x': x, 'y': y, 'r': r, 'rotation': rotation}
+
+            }
+
+          }
+
+      }
+      var levelnum = levelnum/2
+    }
+    ///////////////////////////////////////////////////////////////////////////
+    rotation = 180
+    r = 0
+    x = cxCircle + Math.sin(rotation * Math.PI / 180) * r
+    y = cyCircle - Math.cos(rotation * Math.PI / 180) * r
+    nodePosition['final'] = {'x': x, 'y': y, 'r': r, 'rotation': rotation}
+    /////////////////////////////////////////////////////////////////////////////
+    console.log(nodePosition)
+
+    //==========================================================================================================//
+    //= Groups                                                                                                  =//
+    //==========================================================================================================//
+
+      var gGroups = svg.append("g")
+              .attr("id", "groups")
+
+      var arcBox = d3.svg.arc()
+          .outerRadius(radius)
+          .innerRadius(radius - 2* rLevel);
+
+      var pie = d3.layout.pie()
+          .sort(null)
+          .value(function(d) { return 1; });
+
+      var gGroupsBox = gGroups.selectAll(".arc")
+          .data(pie(data.groups))
+          .enter().append("g")
+          .attr({
+            "class": "arc",
+            "transform": "translate(" + cxCircle + ", " + cyCircle + ")"});
+
+      gGroupsBox.append("path")
+          .attr({
+            "d": arcBox,
+            "fill": function(d) {return color.group[d.data.group]; },
+            "opacity": .08,
+            "stroke": "black",
+            "stroke-width": "1px",
+            "stroke-opacity": 10});
+
+      // ARC BORDER - Transparency of 1st Arc makes borders transparent also
+      gGroupsBox.append("path")
+          .attr({
+            "d": arcBox,
+            //"fill": function(d) { return "#eee"; },
+            "fill": "none",
+            //"fill": 'black',
+            "opacity": 1,
+            "stroke": color.line,
+            "stroke-width": "1px",
+            "stroke-opacity": 1});
+
+
+      // INNER and OUTER RINGS
+      var arcInner = d3.svg.arc()
+          .outerRadius(radius - (nodelevellistorigin[0]/4*2)* rLevel + rLevel/(nodelevellistorigin[0]/4*4))
+          .innerRadius(radius - 2* rLevel);
+
+      var gRings = gGroups.selectAll(".arcInner")
+          .data(pie(data.groups))
+          .enter().append("g")
+          .attr({
+            "class": "arcInner",
+            "transform": "translate(" + cxCircle + ", " + cyCircle + ")"});
+
+      gRings.append("path")
+          .attr({
+            "id": function(d) {return d.data.node},
+            "class": function(d) {return d.data.group},
+            "d": arcInner,
+            "fill": function(d) {return color.gray; },
+            //"fill": function(d) {return color.groupGray[d.data.group]; },
+            "opacity": 0,
+            //"stroke": 'black',
+            "stroke": color.line,
+            "stroke-width": "1px"});
+
+      var arcOuterRing = d3.svg.arc()
+          .outerRadius(radius)
+          .innerRadius(radius - 5);
+
+      gRings.append("path")
+          .attr({
+            "id": function(d) {return d.data.node},
+            "class": function(d) {return d.data.group},
+            "d": arcOuterRing,
+            "fill": function(d) {return color.gray; },
+            //"fill": function(d) {return color.groupGray[d.data.group]; },
+            "opacity": 1,
+            "stroke": color.line,
+            "stroke-width": "1px"});
+
+
+      // LABELS
+      var gLabel = gGroups.selectAll(".arcLabel")
+          .data(data.groups)
+          .enter().append("g")
+          .attr({
+            "class": "arcLabel"});
+
+      gLabel.append("text")
+          .attr({
+            "x": function(d) {
+              //console.log(d)
+              //console.log(cxCircle)
+              return cxCircle;
+            },
+            "y": function(d) {
+                              rotation = nodePosition[d.node].rotation;
+                              //console.log(d.node)
+                              //console.log(d)
+                              //console.log(cyCircle - rLevel * 4 - rLevel/16)
+                              if (-270 < rotation && rotation < -90) return cyCircle + rLevel * nodelevellistorigin[0] + rLevel/nodelevellistorigin[0]
+                              else return cyCircle - rLevel * nodelevellistorigin[0] - rLevel/nodelevellistorigin[0]/nodelevellistorigin[0]},
+            // "x": 10,
+            // "y": 10,
+            "font-size": "20px",
+            "font-style": "normal",
+            "font-weight": "bold",
+            "fill": function(d) { return "black"; },
+            "text-anchor": "middle",
+            "transform": function(d, i) {
+                              rotation = nodePosition[d.node].rotation;
+                              //console.log(rotation)
+                              if (-270 < rotation && rotation < -90){
+                                rotation = rotation +180;
+                                //console.log("=====")
+                                //console.log(rotation)
+                                //console.log("=====")
+                                //console.log(d.node)
+                              }
+                              return "rotate(" + rotation + " " + cxCircle + " " + cyCircle + ")";}
+          })
+          .text(function(d) { return d.label; });
+
+
+
+    //==========================================================================================================//
+    //= Teams                                                                                                  =//
+    //==========================================================================================================//
+
+
+
+      var gTeams = svg.append("g")
+              .attr("id", "barchart")
+
+      var gTeamsNames = gTeams.selectAll("#teams")
+              .data(teams[yearstring])
+              .enter().append("g")
+              .attr("id", "teams")
+
+      //console.log(gTeamsNames)
+
+
+
+      var gTeamsNamestext = gTeamsNames.append("text")
+              .text(function(d) { return d.name; })
+              .attr({
+                // "id": function(d) { return d.abrev + d.node},
+                // "class": function(d) { return d.abrev },
+                "id": function(d) {return d.abrev + d.node},
+                "class": function(d) { return "team" },
+                "x": function(d) {
+                    if (d.position <= teamnum) return 2*rLevel - rLevel/2;
+                    else return (2*radius)-(2*rLevel - rLevel/2)},
+                "y": function(d) { return cyCircle; },
+                "font-size": "18px",
+                "font-style": "normal",
+                "font-weight": "normal",
+                "fill": function(d) { return color.text; },
+                "text-anchor": function(d) {
+                    if (d.position <= teamnum) return "end";
+                    else return "start"},
+                "transform": function(d, i) {
+                    if (year == 1930 || year ==1950){
+                       if (d.position <= teamnum){
+                        rotation = - textangle * (d.position) + 92;
+                       }else{
+                        rotation = - textangle * (d.position-teamnum) + 86;
+                       }
+                       return "rotate(" + rotation + " " + cxCircle + " " + cyCircle + ")";
+                    }else{
+
+                       if (d.position <= teamnum){
+                          rotation = - textangle * (d.position) + 92;
+                       }else{
+                          rotation = - textangle * (d.position-teamnum) + 94;
+                       }
+                       return "rotate(" + rotation + " " + cxCircle + " " + cyCircle + ")";
+                  }
+                }})
+              .attr("stroke-width","1px")
+              .attr("stroke","black")
+              .each(function(d,i) {
+
+
+              	var colortext = function(name, group, color){
+              		d3.select("text#"+name+group+".team").attr("stroke",color)
+
+                }
+
+              	var rank = d.rank
+              	var name = d.abrev
+              	var group12 = d.node
+
+              	colortext(name, group12, givecolor(rank))
+
+              })
+
+
+
+    //==========================================================================================================//
+    //= Edges                                                                                                  =//
+    //==========================================================================================================//
+
+      path = function(d) {
+          var curvature = .4;
+
+          origin = d.node
+          destiny = d.edge
+          //console.log(destiny)
+          origX = nodePosition[origin].x
+          origY = nodePosition[origin].y
+          origR = nodePosition[origin].r
+          origRot = nodePosition[origin].rotation
+
+          destX = nodePosition[destiny].x
+          destY = nodePosition[destiny].y
+          destR = nodePosition[destiny].r
+          destRot = nodePosition[destiny].rotation
+
+          var x0 = origX,
+              y0 = origY,
+              x1 = cxCircle + Math.sin(origRot * Math.PI / 180) * (origR - rLevel * curvature),
+              y1 = cyCircle - Math.cos(origRot * Math.PI / 180) * (origR - rLevel * curvature),
+              x2 = cxCircle + Math.sin(destRot * Math.PI / 180) * (destR + rLevel * curvature),
+              y2 = cyCircle - Math.cos(destRot * Math.PI / 180) * (destR + rLevel * curvature),
+              x3 = destX,
+              y3 = destY
+
+          return "M" + x0 + "," + y0
+               + "L" + x1 + "," + y1
+               + "L" + x2 + "," + y2
+               + "L" + x3 + "," + y3;
+
+      }
+
+      var gLinks = svg.append("g")
+              .attr("id", "link")
+
+
+      var link = gLinks.selectAll(".link")
+              .data(data.nodes.slice(0, data.nodes.length-1))
+              .enter().append("path")
+              .attr({"class": "link",
+                    "id": function(d) {return d.node},
+                    "d": path})
+              // .attr(linkAttr)
+              .attr("fill","none")
+              .attr("stroke-width","5px")
+              .attr("stroke","gray")
+
+
+        d3.selection.prototype.moveToFront = function()
+        {
+          return this.each(function(){
+            this.parentNode.appendChild(this);
+          });
+        };
+
+
+        teamdata = teams[year]
+
+
+        // var edge2 = data["edges"]["edge2"]
+        // var edge3 = data["edges"]["edge3"]
+        // var edge4 = data["edges"]["edge4"]
+
+
+
+        var paintedge = function(){
+
+        	var coloredge = function(name, color){
+        		d3.select("path#"+name+".link").moveToFront().attr("stroke",color)
+            //console.log(color)
+        	}
+
+            var selectnode = function(node,edgelist){
+            	//console.log(node)
+
+            	var result
+
+            	edgelist.forEach(function(d, i) {
+            		//console.log(d)
+            		// console.log(d.includes(node))
+            		if (d.includes(node) == true){
+
+            			//console.log(d)
+            			result = d
+
+
+            		}
+            	})
+
+
+            	//console.log(result)
+
+            	return result
+
+            }
+
+
+          for (i in nodelevellistorigin){
+
+            var level = nodelevellistorigin[i]
+
+            if (i==0){
+
+            teamdata.forEach(function(d, i) {
+
+            //console.log(d)
+            if (parseInt(d.level) <= nodelevellistorigin[0]){
+              coloredge(d.startnode,givecolor(d.rank))
+            }
+
+
+
+            })
+
+            }else{
+
+              var num = +i + +1
+              var edgename = 'edge'+num.toString()
+              //console.log(edgename)
+              var edgelist = data["edges"][edgename]
+              //console.log(edgelist)
+
+            teamdata.forEach(function(d, i) {
+
+            //console.log(d)
+
+
+            if (parseInt(d.level) <= level){
+              //coloredge(d.startnode,givecolor(d.rank))
+
+              coloredge(selectnode(d.startnode,edgelist),givecolor(d.rank))
+
+
+            }
+
+
+
+            })
+
+
+            }
+
+
+            //console.log(i)
+          }
+
+
+        	// teamdata.forEach(function(d, i) {
+
+        	// 	//console.log(d)
+        	// 	if (parseInt(d.level) <= nodelevellistorigin[0]){
+        	// 		coloredge(d.startnode,givecolor(d.rank))
+        	// 	}
+
+
+
+        	// })
+
+        	// teamdata.forEach(function(d, i) {
+
+        	// 	//console.log(d)
+
+
+        	// 	if (parseInt(d.level) <= 3){
+        	// 		//coloredge(d.startnode,givecolor(d.rank))
+
+        	// 		coloredge(selectnode(d.startnode,edge2),givecolor(d.rank))
+
+
+        	// 	}
+
+
+
+        	// })
+
+
+        	// teamdata.forEach(function(d, i) {
+
+
+
+        	// 	if (parseInt(d.level) <= 2){
+        	// 		//coloredge(d.startnode,givecolor(d.rank))
+        	// 		//coloredge(selectnode(d.startnode,edge2),givecolor(d.rank))
+        	// 		coloredge(selectnode(d.startnode,edge3),givecolor(d.rank))
+
+
+        	// 	}
+
+
+
+
+        	// })
+
+        	// teamdata.forEach(function(d, i) {
+
+        	// 	//console.log(d)
+
+
+        	// 	if (parseInt(d.level) <= 1){
+        	// 		//coloredge(d.startnode,givecolor(d.rank))
+        	// 		//coloredge(selectnode(d.startnode,edge2),givecolor(d.rank))
+        	// 		//coloredge(selectnode(d.startnode,edge3),givecolor(d.rank))
+        	// 		coloredge(selectnode(d.startnode,edge4),givecolor(d.rank))
+
+
+        	// 	}
+
+
+        	// })
+
+
+        	// teamdata.forEach(function(d, i) {
+
+        	// 	//console.log(d)
+
+
+        	// 	if (parseInt(d.level) == 0){
+        	// 		//coloredge(d.startnode,givecolor(d.rank))
+        	// 		//coloredge(selectnode(d.startnode,edge2),givecolor(d.rank))
+        	// 		//coloredge(selectnode(d.startnode,edge3),givecolor(d.rank))
+        	// 		coloredge(selectnode(d.startnode,edge4),givecolor(d.rank))
+
+
+
+
+        	// 	}
+
+
+        	// })
+
+
+        }
+
+        paintedge()
+
+
+    //==========================================================================================================//
+    //= Nodes                                                                                                  =//
+    //==========================================================================================================//
+
+      var gNodes = svg.append("g")
+              .attr("id", "nodes")
+
+      var gNodesCircle = gNodes.selectAll(".circle")
+              .data(data.nodes)
+              .enter()
+              .append("circle")
+              .attr({
+                "id": function(d) { return d.node; },
+
+
+
+                "cx": function(d) { return cxCircle; },
+                "cy": function(d) { return cyCircle - (rLevel * d.level); }})
+              .attr("transform", function(d, i) {
+
+                                      rotation = nodePosition[d.node].rotation
+                                      d.rotation = rotation
+                                      return "rotate(" + rotation + " " + cxCircle + " " + cyCircle + ")"; })
+               .attr(nodeAttr)
+
+
+
+
+      var colorcircle = function(color){
+            	d3.select("circle#final").attr({"fill": color,
+                                                "stroke": color.line,
+                                                "r": 15,
+                                                "stroke-width": "3px",
+                                                "opacity": 1})
+
+
+       }
+
+
+
+       teamdata.forEach(function(d, i) {
+
+        		//console.log(d)
+        		if (d.level == '0'){
+        			colorcircle(givecolor(d.rank))
+        		}
+
+
+
+        	})
+
+
+//==========================================================================================================//
+//============================================  FUNCTIONS  =================================================
+//==========================================================================================================//
+
+  function reset() {
+
+
+
+    svg.selectAll("*").remove()
+
+
+
+
+  }
+
+
+
+
+
+d3.select("#pslider").select("#syear").text(year);
+
+
+
+// })
+}
+
+
+
+years = [1930, 1934, 1938, 1950, 1954, 1958, 1962, 1966, 1970, 1986, 1990, 1994, 1998, 2002, 2006]
+//years = [1934]
+
+round = 0
+
+var densityslider = new Dragdealer("pslider", {
+
+            x: 1,
+            steps: years.length,
+            snap: true,
+            animationCallback: function(a) {
+
+              //console.log(a)
+
+              //console.log(Math.round( (years.length-1) * a));
+
+                yr = years[Math.round( (years.length-1)* a)];
+
+                //console.log(yr);
+                //update(yr)
+                update(yr, round);
+                round = yr
+            }
+        });
+
+
+//update(2002)
+
+
+});
+
+});
+
+</script>
+
+</div>
+
+
+</body>
+		
+    <div class="scrollup">
+		<a href="#"><i class="fa fa-chevron-up"></i></a>
+	</div>
+    
+
+</body>
+
+
+</html>

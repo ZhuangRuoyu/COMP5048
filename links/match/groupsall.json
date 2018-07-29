@@ -1,0 +1,3730 @@
+{
+    "1990": {
+        "edges": {
+            "edge3": [
+                "B3C1D2E1",
+                "A1E3B2F2",
+                "A2C2D1F3",
+                "B1D3E2F1"
+            ],
+            "edge4": [
+                "A1E3B2F2B3C1D2E1",
+                "A2C2D1F3B1D3E2F1"
+            ],
+            "edge2": [
+                "B3C1",
+                "D2E1",
+                "A1E3",
+                "B2F2",
+                "D1F3",
+                "A2C2",
+                "E2F1",
+                "B1D3"
+            ]
+        },
+        "groups": [
+            {
+                "label": "1st of A",
+                "group": "A",
+                "position": 1,
+                "node": "A1"
+            },
+            {
+                "label": "3rd of E",
+                "group": "E",
+                "position": 2,
+                "node": "E3"
+            },
+            {
+                "label": "2nd of F",
+                "group": "F",
+                "position": 3,
+                "node": "F2"
+            },
+            {
+                "label": "2nd of B",
+                "group": "B",
+                "position": 4,
+                "node": "B2"
+            },
+            {
+                "label": "1st of D",
+                "group": "D",
+                "position": 5,
+                "node": "D1"
+            },
+            {
+                "label": "3rd of F",
+                "group": "F",
+                "position": 6,
+                "node": "F3"
+            },
+            {
+                "label": "2nd of A",
+                "group": "A",
+                "position": 7,
+                "node": "A2"
+            },
+            {
+                "label": "2nd of C",
+                "group": "C",
+                "position": 8,
+                "node": "C2"
+            },
+            {
+                "label": "1st of F",
+                "group": "F",
+                "position": 9,
+                "node": "F1"
+            },
+            {
+                "label": "2nd of E",
+                "group": "E",
+                "position": 10,
+                "node": "E2"
+            },
+            {
+                "label": "1st of B",
+                "group": "B",
+                "position": 11,
+                "node": "B1"
+            },
+            {
+                "label": "3rd of D",
+                "group": "D",
+                "position": 12,
+                "node": "D3"
+            },
+            {
+                "label": "3rd of B",
+                "group": "B",
+                "position": 13,
+                "node": "B3"
+            },
+            {
+                "label": "1st of C",
+                "group": "C",
+                "position": 14,
+                "node": "C1"
+            },
+            {
+                "label": "2nd of D",
+                "group": "D",
+                "position": 15,
+                "node": "D2"
+            },
+            {
+                "label": "1st of E",
+                "group": "E",
+                "position": 16,
+                "node": "E1"
+            }
+        ],
+        "nodes": [
+            {
+                "position": 13,
+                "node": "B3",
+                "level": 4,
+                "edge": "B3C1"
+            },
+            {
+                "position": 14,
+                "node": "C1",
+                "level": 4,
+                "edge": "B3C1"
+            },
+            {
+                "position": 15,
+                "node": "D2",
+                "level": 4,
+                "edge": "D2E1"
+            },
+            {
+                "position": 16,
+                "node": "E1",
+                "level": 4,
+                "edge": "D2E1"
+            },
+            {
+                "position": 1,
+                "node": "A1",
+                "level": 4,
+                "edge": "A1E3"
+            },
+            {
+                "position": 2,
+                "node": "E3",
+                "level": 4,
+                "edge": "A1E3"
+            },
+            {
+                "position": 3,
+                "node": "F2",
+                "level": 4,
+                "edge": "B2F2"
+            },
+            {
+                "position": 4,
+                "node": "B2",
+                "level": 4,
+                "edge": "B2F2"
+            },
+            {
+                "position": 5,
+                "node": "D1",
+                "level": 4,
+                "edge": "D1F3"
+            },
+            {
+                "position": 6,
+                "node": "F3",
+                "level": 4,
+                "edge": "D1F3"
+            },
+            {
+                "position": 7,
+                "node": "A2",
+                "level": 4,
+                "edge": "A2C2"
+            },
+            {
+                "position": 8,
+                "node": "C2",
+                "level": 4,
+                "edge": "A2C2"
+            },
+            {
+                "position": 9,
+                "node": "F1",
+                "level": 4,
+                "edge": "E2F1"
+            },
+            {
+                "position": 10,
+                "node": "E2",
+                "level": 4,
+                "edge": "E2F1"
+            },
+            {
+                "position": 11,
+                "node": "B1",
+                "level": 4,
+                "edge": "B1D3"
+            },
+            {
+                "position": 12,
+                "node": "D3",
+                "level": 4,
+                "edge": "B1D3"
+            },
+            {
+                "position": 7,
+                "node": "B3C1",
+                "level": 3,
+                "edge": "B3C1D2E1"
+            },
+            {
+                "position": 8,
+                "node": "D2E1",
+                "level": 3,
+                "edge": "B3C1D2E1"
+            },
+            {
+                "position": 1,
+                "node": "A1E3",
+                "level": 3,
+                "edge": "A1E3B2F2"
+            },
+            {
+                "position": 2,
+                "node": "B2F2",
+                "level": 3,
+                "edge": "A1E3B2F2"
+            },
+            {
+                "position": 3,
+                "node": "D1F3",
+                "level": 3,
+                "edge": "A2C2D1F3"
+            },
+            {
+                "position": 4,
+                "node": "A2C2",
+                "level": 3,
+                "edge": "A2C2D1F3"
+            },
+            {
+                "position": 5,
+                "node": "E2F1",
+                "level": 3,
+                "edge": "B1D3E2F1"
+            },
+            {
+                "position": 6,
+                "node": "B1D3",
+                "level": 3,
+                "edge": "B1D3E2F1"
+            },
+            {
+                "position": 4,
+                "node": "B3C1D2E1",
+                "level": 2,
+                "edge": "A1E3B2F2B3C1D2E1"
+            },
+            {
+                "position": 1,
+                "node": "A1E3B2F2",
+                "level": 2,
+                "edge": "A1E3B2F2B3C1D2E1"
+            },
+            {
+                "position": 2,
+                "node": "A2C2D1F3",
+                "level": 2,
+                "edge": "A2C2D1F3B1D3E2F1"
+            },
+            {
+                "position": 3,
+                "node": "B1D3E2F1",
+                "level": 2,
+                "edge": "A2C2D1F3B1D3E2F1"
+            },
+            {
+                "position": 1,
+                "node": "A1E3B2F2B3C1D2E1",
+                "level": 1,
+                "edge": "final"
+            },
+            {
+                "position": 2,
+                "node": "A2C2D1F3B1D3E2F1",
+                "level": 1,
+                "edge": "final"
+            },
+            {
+                "position": 1,
+                "node": "final",
+                "level": 0,
+                "edge": ""
+            }
+        ]
+    },
+    "1934": {
+        "edges": {
+            "edge3": [
+                "A0B0C0D0",
+                "E0F0G0H0",
+                "I0J0K0L0",
+                "M0N0O0P0"
+            ],
+            "edge4": [
+                "A0B0C0D0E0F0G0H0",
+                "I0J0K0L0M0N0O0P0"
+            ],
+            "edge2": [
+                "A0B0",
+                "C0D0",
+                "E0F0",
+                "G0H0",
+                "I0J0",
+                "K0L0",
+                "M0N0",
+                "O0P0"
+            ]
+        },
+        "groups": [
+            {
+                "label": "group E",
+                "group": "E",
+                "position": 1,
+                "node": "E0"
+            },
+            {
+                "label": "group F",
+                "group": "F",
+                "position": 2,
+                "node": "F0"
+            },
+            {
+                "label": "group G",
+                "group": "G",
+                "position": 3,
+                "node": "G0"
+            },
+            {
+                "label": "group H",
+                "group": "H",
+                "position": 4,
+                "node": "H0"
+            },
+            {
+                "label": "group I",
+                "group": "I",
+                "position": 5,
+                "node": "I0"
+            },
+            {
+                "label": "group J",
+                "group": "J",
+                "position": 6,
+                "node": "J0"
+            },
+            {
+                "label": "group K",
+                "group": "K",
+                "position": 7,
+                "node": "K0"
+            },
+            {
+                "label": "group L",
+                "group": "L",
+                "position": 8,
+                "node": "L0"
+            },
+            {
+                "label": "group M",
+                "group": "M",
+                "position": 9,
+                "node": "M0"
+            },
+            {
+                "label": "group N",
+                "group": "N",
+                "position": 10,
+                "node": "N0"
+            },
+            {
+                "label": "group O",
+                "group": "O",
+                "position": 11,
+                "node": "O0"
+            },
+            {
+                "label": "group P",
+                "group": "P",
+                "position": 12,
+                "node": "P0"
+            },
+            {
+                "label": "group A",
+                "group": "A",
+                "position": 13,
+                "node": "A0"
+            },
+            {
+                "label": "group B",
+                "group": "B",
+                "position": 14,
+                "node": "B0"
+            },
+            {
+                "label": "group C",
+                "group": "C",
+                "position": 15,
+                "node": "C0"
+            },
+            {
+                "label": "group D",
+                "group": "D",
+                "position": 16,
+                "node": "D0"
+            }
+        ],
+        "nodes": [
+            {
+                "position": 13,
+                "node": "A0",
+                "level": 4,
+                "edge": "A0B0"
+            },
+            {
+                "position": 14,
+                "node": "B0",
+                "level": 4,
+                "edge": "A0B0"
+            },
+            {
+                "position": 15,
+                "node": "C0",
+                "level": 4,
+                "edge": "C0D0"
+            },
+            {
+                "position": 16,
+                "node": "D0",
+                "level": 4,
+                "edge": "C0D0"
+            },
+            {
+                "position": 1,
+                "node": "E0",
+                "level": 4,
+                "edge": "E0F0"
+            },
+            {
+                "position": 2,
+                "node": "F0",
+                "level": 4,
+                "edge": "E0F0"
+            },
+            {
+                "position": 3,
+                "node": "G0",
+                "level": 4,
+                "edge": "G0H0"
+            },
+            {
+                "position": 4,
+                "node": "H0",
+                "level": 4,
+                "edge": "G0H0"
+            },
+            {
+                "position": 5,
+                "node": "I0",
+                "level": 4,
+                "edge": "I0J0"
+            },
+            {
+                "position": 6,
+                "node": "J0",
+                "level": 4,
+                "edge": "I0J0"
+            },
+            {
+                "position": 7,
+                "node": "K0",
+                "level": 4,
+                "edge": "K0L0"
+            },
+            {
+                "position": 8,
+                "node": "L0",
+                "level": 4,
+                "edge": "K0L0"
+            },
+            {
+                "position": 9,
+                "node": "M0",
+                "level": 4,
+                "edge": "M0N0"
+            },
+            {
+                "position": 10,
+                "node": "N0",
+                "level": 4,
+                "edge": "M0N0"
+            },
+            {
+                "position": 11,
+                "node": "O0",
+                "level": 4,
+                "edge": "O0P0"
+            },
+            {
+                "position": 12,
+                "node": "P0",
+                "level": 4,
+                "edge": "O0P0"
+            },
+            {
+                "position": 7,
+                "node": "A0B0",
+                "level": 3,
+                "edge": "A0B0C0D0"
+            },
+            {
+                "position": 8,
+                "node": "C0D0",
+                "level": 3,
+                "edge": "A0B0C0D0"
+            },
+            {
+                "position": 1,
+                "node": "E0F0",
+                "level": 3,
+                "edge": "E0F0G0H0"
+            },
+            {
+                "position": 2,
+                "node": "G0H0",
+                "level": 3,
+                "edge": "E0F0G0H0"
+            },
+            {
+                "position": 3,
+                "node": "I0J0",
+                "level": 3,
+                "edge": "I0J0K0L0"
+            },
+            {
+                "position": 4,
+                "node": "K0L0",
+                "level": 3,
+                "edge": "I0J0K0L0"
+            },
+            {
+                "position": 5,
+                "node": "M0N0",
+                "level": 3,
+                "edge": "M0N0O0P0"
+            },
+            {
+                "position": 6,
+                "node": "O0P0",
+                "level": 3,
+                "edge": "M0N0O0P0"
+            },
+            {
+                "position": 4,
+                "node": "A0B0C0D0",
+                "level": 2,
+                "edge": "A0B0C0D0E0F0G0H0"
+            },
+            {
+                "position": 1,
+                "node": "E0F0G0H0",
+                "level": 2,
+                "edge": "A0B0C0D0E0F0G0H0"
+            },
+            {
+                "position": 2,
+                "node": "I0J0K0L0",
+                "level": 2,
+                "edge": "I0J0K0L0M0N0O0P0"
+            },
+            {
+                "position": 3,
+                "node": "M0N0O0P0",
+                "level": 2,
+                "edge": "I0J0K0L0M0N0O0P0"
+            },
+            {
+                "position": 1,
+                "node": "A0B0C0D0E0F0G0H0",
+                "level": 1,
+                "edge": "final"
+            },
+            {
+                "position": 2,
+                "node": "I0J0K0L0M0N0O0P0",
+                "level": 1,
+                "edge": "final"
+            },
+            {
+                "position": 1,
+                "node": "final",
+                "level": 0,
+                "edge": ""
+            }
+        ]
+    },
+    "1978": {
+        "edges": {
+            "edge2": [
+                "A2D1",
+                "A1D2"
+            ]
+        },
+        "groups": [
+            {
+                "label": "1st of D",
+                "group": "D",
+                "position": 1,
+                "node": "D1"
+            },
+            {
+                "label": "2nd of D",
+                "group": "D",
+                "position": 2,
+                "node": "D2"
+            },
+            {
+                "label": "1st of A",
+                "group": "A",
+                "position": 3,
+                "node": "A1"
+            },
+            {
+                "label": "2nd of A",
+                "group": "A",
+                "position": 4,
+                "node": "A2"
+            }
+        ],
+        "nodes": [
+            {
+                "position": 4,
+                "node": "A2",
+                "level": 2,
+                "edge": "A2D1"
+            },
+            {
+                "position": 1,
+                "node": "D1",
+                "level": 2,
+                "edge": "A2D1"
+            },
+            {
+                "position": 2,
+                "node": "D2",
+                "level": 2,
+                "edge": "A1D2"
+            },
+            {
+                "position": 3,
+                "node": "A1",
+                "level": 2,
+                "edge": "A1D2"
+            },
+            {
+                "position": 1,
+                "node": "A2D1",
+                "level": 1,
+                "edge": "final"
+            },
+            {
+                "position": 2,
+                "node": "A1D2",
+                "level": 1,
+                "edge": "final"
+            },
+            {
+                "position": 1,
+                "node": "final",
+                "level": 0,
+                "edge": ""
+            }
+        ]
+    },
+    "1970": {
+        "edges": {
+            "edge3": [
+                "A2B1C2D1",
+                "A1B2C1D2"
+            ],
+            "edge2": [
+                "A2B1",
+                "C2D1",
+                "C1D2",
+                "A1B2"
+            ]
+        },
+        "groups": [
+            {
+                "label": "1st of D",
+                "group": "D",
+                "position": 1,
+                "node": "D1"
+            },
+            {
+                "label": "2nd of C",
+                "group": "C",
+                "position": 2,
+                "node": "C2"
+            },
+            {
+                "label": "1st of C",
+                "group": "C",
+                "position": 3,
+                "node": "C1"
+            },
+            {
+                "label": "2nd of D",
+                "group": "D",
+                "position": 4,
+                "node": "D2"
+            },
+            {
+                "label": "2nd of B",
+                "group": "B",
+                "position": 5,
+                "node": "B2"
+            },
+            {
+                "label": "1st of A",
+                "group": "A",
+                "position": 6,
+                "node": "A1"
+            },
+            {
+                "label": "1st of B",
+                "group": "B",
+                "position": 7,
+                "node": "B1"
+            },
+            {
+                "label": "2nd of A",
+                "group": "A",
+                "position": 8,
+                "node": "A2"
+            }
+        ],
+        "nodes": [
+            {
+                "position": 7,
+                "node": "B1",
+                "level": 3,
+                "edge": "A2B1"
+            },
+            {
+                "position": 8,
+                "node": "A2",
+                "level": 3,
+                "edge": "A2B1"
+            },
+            {
+                "position": 1,
+                "node": "D1",
+                "level": 3,
+                "edge": "C2D1"
+            },
+            {
+                "position": 2,
+                "node": "C2",
+                "level": 3,
+                "edge": "C2D1"
+            },
+            {
+                "position": 3,
+                "node": "C1",
+                "level": 3,
+                "edge": "C1D2"
+            },
+            {
+                "position": 4,
+                "node": "D2",
+                "level": 3,
+                "edge": "C1D2"
+            },
+            {
+                "position": 5,
+                "node": "B2",
+                "level": 3,
+                "edge": "A1B2"
+            },
+            {
+                "position": 6,
+                "node": "A1",
+                "level": 3,
+                "edge": "A1B2"
+            },
+            {
+                "position": 4,
+                "node": "A2B1",
+                "level": 2,
+                "edge": "A2B1C2D1"
+            },
+            {
+                "position": 1,
+                "node": "C2D1",
+                "level": 2,
+                "edge": "A2B1C2D1"
+            },
+            {
+                "position": 2,
+                "node": "C1D2",
+                "level": 2,
+                "edge": "A1B2C1D2"
+            },
+            {
+                "position": 3,
+                "node": "A1B2",
+                "level": 2,
+                "edge": "A1B2C1D2"
+            },
+            {
+                "position": 1,
+                "node": "A2B1C2D1",
+                "level": 1,
+                "edge": "final"
+            },
+            {
+                "position": 2,
+                "node": "A1B2C1D2",
+                "level": 1,
+                "edge": "final"
+            },
+            {
+                "position": 1,
+                "node": "final",
+                "level": 0,
+                "edge": ""
+            }
+        ]
+    },
+    "2002": {
+        "edges": {
+            "edge3": [
+                "A1F2C1H2",
+                "A2F1C2H1",
+                "B2E1D2G1",
+                "B1E2D1G2"
+            ],
+            "edge4": [
+                "A1F2C1H2A2F1C2H1",
+                "B2E1D2G1B1E2D1G2"
+            ],
+            "edge2": [
+                "C1H2",
+                "A1F2",
+                "C2H1",
+                "A2F1",
+                "B2E1",
+                "D2G1",
+                "D1G2",
+                "B1E2"
+            ]
+        },
+        "groups": [
+            {
+                "label": "2nd of C",
+                "group": "C",
+                "position": 1,
+                "node": "C2"
+            },
+            {
+                "label": "1st of H",
+                "group": "H",
+                "position": 2,
+                "node": "H1"
+            },
+            {
+                "label": "2nd of A",
+                "group": "A",
+                "position": 3,
+                "node": "A2"
+            },
+            {
+                "label": "1st of F",
+                "group": "F",
+                "position": 4,
+                "node": "F1"
+            },
+            {
+                "label": "1st of E",
+                "group": "E",
+                "position": 5,
+                "node": "E1"
+            },
+            {
+                "label": "2nd of B",
+                "group": "B",
+                "position": 6,
+                "node": "B2"
+            },
+            {
+                "label": "2nd of D",
+                "group": "D",
+                "position": 7,
+                "node": "D2"
+            },
+            {
+                "label": "1st of G",
+                "group": "G",
+                "position": 8,
+                "node": "G1"
+            },
+            {
+                "label": "1st of D",
+                "group": "D",
+                "position": 9,
+                "node": "D1"
+            },
+            {
+                "label": "2nd of G",
+                "group": "G",
+                "position": 10,
+                "node": "G2"
+            },
+            {
+                "label": "1st of B",
+                "group": "B",
+                "position": 11,
+                "node": "B1"
+            },
+            {
+                "label": "2nd of E",
+                "group": "E",
+                "position": 12,
+                "node": "E2"
+            },
+            {
+                "label": "1st of C",
+                "group": "C",
+                "position": 13,
+                "node": "C1"
+            },
+            {
+                "label": "2nd of H",
+                "group": "H",
+                "position": 14,
+                "node": "H2"
+            },
+            {
+                "label": "2nd of F",
+                "group": "F",
+                "position": 15,
+                "node": "F2"
+            },
+            {
+                "label": "1st of A",
+                "group": "A",
+                "position": 16,
+                "node": "A1"
+            }
+        ],
+        "nodes": [
+            {
+                "position": 13,
+                "node": "C1",
+                "level": 4,
+                "edge": "C1H2"
+            },
+            {
+                "position": 14,
+                "node": "H2",
+                "level": 4,
+                "edge": "C1H2"
+            },
+            {
+                "position": 15,
+                "node": "F2",
+                "level": 4,
+                "edge": "A1F2"
+            },
+            {
+                "position": 16,
+                "node": "A1",
+                "level": 4,
+                "edge": "A1F2"
+            },
+            {
+                "position": 1,
+                "node": "C2",
+                "level": 4,
+                "edge": "C2H1"
+            },
+            {
+                "position": 2,
+                "node": "H1",
+                "level": 4,
+                "edge": "C2H1"
+            },
+            {
+                "position": 3,
+                "node": "A2",
+                "level": 4,
+                "edge": "A2F1"
+            },
+            {
+                "position": 4,
+                "node": "F1",
+                "level": 4,
+                "edge": "A2F1"
+            },
+            {
+                "position": 5,
+                "node": "E1",
+                "level": 4,
+                "edge": "B2E1"
+            },
+            {
+                "position": 6,
+                "node": "B2",
+                "level": 4,
+                "edge": "B2E1"
+            },
+            {
+                "position": 7,
+                "node": "D2",
+                "level": 4,
+                "edge": "D2G1"
+            },
+            {
+                "position": 8,
+                "node": "G1",
+                "level": 4,
+                "edge": "D2G1"
+            },
+            {
+                "position": 9,
+                "node": "D1",
+                "level": 4,
+                "edge": "D1G2"
+            },
+            {
+                "position": 10,
+                "node": "G2",
+                "level": 4,
+                "edge": "D1G2"
+            },
+            {
+                "position": 11,
+                "node": "B1",
+                "level": 4,
+                "edge": "B1E2"
+            },
+            {
+                "position": 12,
+                "node": "E2",
+                "level": 4,
+                "edge": "B1E2"
+            },
+            {
+                "position": 7,
+                "node": "C1H2",
+                "level": 3,
+                "edge": "A1F2C1H2"
+            },
+            {
+                "position": 8,
+                "node": "A1F2",
+                "level": 3,
+                "edge": "A1F2C1H2"
+            },
+            {
+                "position": 1,
+                "node": "C2H1",
+                "level": 3,
+                "edge": "A2F1C2H1"
+            },
+            {
+                "position": 2,
+                "node": "A2F1",
+                "level": 3,
+                "edge": "A2F1C2H1"
+            },
+            {
+                "position": 3,
+                "node": "B2E1",
+                "level": 3,
+                "edge": "B2E1D2G1"
+            },
+            {
+                "position": 4,
+                "node": "D2G1",
+                "level": 3,
+                "edge": "B2E1D2G1"
+            },
+            {
+                "position": 5,
+                "node": "D1G2",
+                "level": 3,
+                "edge": "B1E2D1G2"
+            },
+            {
+                "position": 6,
+                "node": "B1E2",
+                "level": 3,
+                "edge": "B1E2D1G2"
+            },
+            {
+                "position": 4,
+                "node": "A1F2C1H2",
+                "level": 2,
+                "edge": "A1F2C1H2A2F1C2H1"
+            },
+            {
+                "position": 1,
+                "node": "A2F1C2H1",
+                "level": 2,
+                "edge": "A1F2C1H2A2F1C2H1"
+            },
+            {
+                "position": 2,
+                "node": "B2E1D2G1",
+                "level": 2,
+                "edge": "B2E1D2G1B1E2D1G2"
+            },
+            {
+                "position": 3,
+                "node": "B1E2D1G2",
+                "level": 2,
+                "edge": "B2E1D2G1B1E2D1G2"
+            },
+            {
+                "position": 1,
+                "node": "A1F2C1H2A2F1C2H1",
+                "level": 1,
+                "edge": "final"
+            },
+            {
+                "position": 2,
+                "node": "B2E1D2G1B1E2D1G2",
+                "level": 1,
+                "edge": "final"
+            },
+            {
+                "position": 1,
+                "node": "final",
+                "level": 0,
+                "edge": ""
+            }
+        ]
+    },
+    "1998": {
+        "edges": {
+            "edge3": [
+                "A1B2C2D1",
+                "E1F2G2H1",
+                "A2B1C1D2",
+                "E2F1G1H2"
+            ],
+            "edge4": [
+                "A1B2C2D1E1F2G2H1",
+                "A2B1C1D2E2F1G1H2"
+            ],
+            "edge2": [
+                "A1B2",
+                "C2D1",
+                "E1F2",
+                "G2H1",
+                "C1D2",
+                "A2B1",
+                "G1H2",
+                "E2F1"
+            ]
+        },
+        "groups": [
+            {
+                "label": "1st of E",
+                "group": "E",
+                "position": 1,
+                "node": "E1"
+            },
+            {
+                "label": "2nd of F",
+                "group": "F",
+                "position": 2,
+                "node": "F2"
+            },
+            {
+                "label": "1st of H",
+                "group": "H",
+                "position": 3,
+                "node": "H1"
+            },
+            {
+                "label": "2nd of G",
+                "group": "G",
+                "position": 4,
+                "node": "G2"
+            },
+            {
+                "label": "1st of C",
+                "group": "C",
+                "position": 5,
+                "node": "C1"
+            },
+            {
+                "label": "2nd of D",
+                "group": "D",
+                "position": 6,
+                "node": "D2"
+            },
+            {
+                "label": "1st of B",
+                "group": "B",
+                "position": 7,
+                "node": "B1"
+            },
+            {
+                "label": "2nd of A",
+                "group": "A",
+                "position": 8,
+                "node": "A2"
+            },
+            {
+                "label": "2nd of H",
+                "group": "H",
+                "position": 9,
+                "node": "H2"
+            },
+            {
+                "label": "1st of G",
+                "group": "G",
+                "position": 10,
+                "node": "G1"
+            },
+            {
+                "label": "1st of F",
+                "group": "F",
+                "position": 11,
+                "node": "F1"
+            },
+            {
+                "label": "2nd of E",
+                "group": "E",
+                "position": 12,
+                "node": "E2"
+            },
+            {
+                "label": "1st of A",
+                "group": "A",
+                "position": 13,
+                "node": "A1"
+            },
+            {
+                "label": "2nd of B",
+                "group": "B",
+                "position": 14,
+                "node": "B2"
+            },
+            {
+                "label": "2nd of C",
+                "group": "C",
+                "position": 15,
+                "node": "C2"
+            },
+            {
+                "label": "1st of D",
+                "group": "D",
+                "position": 16,
+                "node": "D1"
+            }
+        ],
+        "nodes": [
+            {
+                "position": 13,
+                "node": "A1",
+                "level": 4,
+                "edge": "A1B2"
+            },
+            {
+                "position": 14,
+                "node": "B2",
+                "level": 4,
+                "edge": "A1B2"
+            },
+            {
+                "position": 15,
+                "node": "C2",
+                "level": 4,
+                "edge": "C2D1"
+            },
+            {
+                "position": 16,
+                "node": "D1",
+                "level": 4,
+                "edge": "C2D1"
+            },
+            {
+                "position": 1,
+                "node": "E1",
+                "level": 4,
+                "edge": "E1F2"
+            },
+            {
+                "position": 2,
+                "node": "F2",
+                "level": 4,
+                "edge": "E1F2"
+            },
+            {
+                "position": 3,
+                "node": "H1",
+                "level": 4,
+                "edge": "G2H1"
+            },
+            {
+                "position": 4,
+                "node": "G2",
+                "level": 4,
+                "edge": "G2H1"
+            },
+            {
+                "position": 5,
+                "node": "C1",
+                "level": 4,
+                "edge": "C1D2"
+            },
+            {
+                "position": 6,
+                "node": "D2",
+                "level": 4,
+                "edge": "C1D2"
+            },
+            {
+                "position": 7,
+                "node": "B1",
+                "level": 4,
+                "edge": "A2B1"
+            },
+            {
+                "position": 8,
+                "node": "A2",
+                "level": 4,
+                "edge": "A2B1"
+            },
+            {
+                "position": 9,
+                "node": "H2",
+                "level": 4,
+                "edge": "G1H2"
+            },
+            {
+                "position": 10,
+                "node": "G1",
+                "level": 4,
+                "edge": "G1H2"
+            },
+            {
+                "position": 11,
+                "node": "F1",
+                "level": 4,
+                "edge": "E2F1"
+            },
+            {
+                "position": 12,
+                "node": "E2",
+                "level": 4,
+                "edge": "E2F1"
+            },
+            {
+                "position": 7,
+                "node": "A1B2",
+                "level": 3,
+                "edge": "A1B2C2D1"
+            },
+            {
+                "position": 8,
+                "node": "C2D1",
+                "level": 3,
+                "edge": "A1B2C2D1"
+            },
+            {
+                "position": 1,
+                "node": "E1F2",
+                "level": 3,
+                "edge": "E1F2G2H1"
+            },
+            {
+                "position": 2,
+                "node": "G2H1",
+                "level": 3,
+                "edge": "E1F2G2H1"
+            },
+            {
+                "position": 3,
+                "node": "C1D2",
+                "level": 3,
+                "edge": "A2B1C1D2"
+            },
+            {
+                "position": 4,
+                "node": "A2B1",
+                "level": 3,
+                "edge": "A2B1C1D2"
+            },
+            {
+                "position": 5,
+                "node": "G1H2",
+                "level": 3,
+                "edge": "E2F1G1H2"
+            },
+            {
+                "position": 6,
+                "node": "E2F1",
+                "level": 3,
+                "edge": "E2F1G1H2"
+            },
+            {
+                "position": 4,
+                "node": "A1B2C2D1",
+                "level": 2,
+                "edge": "A1B2C2D1E1F2G2H1"
+            },
+            {
+                "position": 1,
+                "node": "E1F2G2H1",
+                "level": 2,
+                "edge": "A1B2C2D1E1F2G2H1"
+            },
+            {
+                "position": 2,
+                "node": "A2B1C1D2",
+                "level": 2,
+                "edge": "A2B1C1D2E2F1G1H2"
+            },
+            {
+                "position": 3,
+                "node": "E2F1G1H2",
+                "level": 2,
+                "edge": "A2B1C1D2E2F1G1H2"
+            },
+            {
+                "position": 1,
+                "node": "A1B2C2D1E1F2G2H1",
+                "level": 1,
+                "edge": "final"
+            },
+            {
+                "position": 2,
+                "node": "A2B1C1D2E2F1G1H2",
+                "level": 1,
+                "edge": "final"
+            },
+            {
+                "position": 1,
+                "node": "final",
+                "level": 0,
+                "edge": ""
+            }
+        ]
+    },
+    "1954": {
+        "edges": {
+            "edge3": [
+                "A1B1C1D1",
+                "A2B2C2D2"
+            ],
+            "edge2": [
+                "A1B1",
+                "C1D1",
+                "A2B2",
+                "C2D2"
+            ]
+        },
+        "groups": [
+            {
+                "label": "1st of C",
+                "group": "C",
+                "position": 1,
+                "node": "C1"
+            },
+            {
+                "label": "1st of D",
+                "group": "D",
+                "position": 2,
+                "node": "D1"
+            },
+            {
+                "label": "2nd of B",
+                "group": "B",
+                "position": 3,
+                "node": "B2"
+            },
+            {
+                "label": "2nd of A",
+                "group": "A",
+                "position": 4,
+                "node": "A2"
+            },
+            {
+                "label": "2nd of C",
+                "group": "C",
+                "position": 5,
+                "node": "C2"
+            },
+            {
+                "label": "2nd of D",
+                "group": "D",
+                "position": 6,
+                "node": "D2"
+            },
+            {
+                "label": "1st of B",
+                "group": "B",
+                "position": 7,
+                "node": "B1"
+            },
+            {
+                "label": "1st of A",
+                "group": "A",
+                "position": 8,
+                "node": "A1"
+            }
+        ],
+        "nodes": [
+            {
+                "position": 7,
+                "node": "B1",
+                "level": 3,
+                "edge": "A1B1"
+            },
+            {
+                "position": 8,
+                "node": "A1",
+                "level": 3,
+                "edge": "A1B1"
+            },
+            {
+                "position": 1,
+                "node": "C1",
+                "level": 3,
+                "edge": "C1D1"
+            },
+            {
+                "position": 2,
+                "node": "D1",
+                "level": 3,
+                "edge": "C1D1"
+            },
+            {
+                "position": 3,
+                "node": "B2",
+                "level": 3,
+                "edge": "A2B2"
+            },
+            {
+                "position": 4,
+                "node": "A2",
+                "level": 3,
+                "edge": "A2B2"
+            },
+            {
+                "position": 5,
+                "node": "C2",
+                "level": 3,
+                "edge": "C2D2"
+            },
+            {
+                "position": 6,
+                "node": "D2",
+                "level": 3,
+                "edge": "C2D2"
+            },
+            {
+                "position": 4,
+                "node": "A1B1",
+                "level": 2,
+                "edge": "A1B1C1D1"
+            },
+            {
+                "position": 1,
+                "node": "C1D1",
+                "level": 2,
+                "edge": "A1B1C1D1"
+            },
+            {
+                "position": 2,
+                "node": "A2B2",
+                "level": 2,
+                "edge": "A2B2C2D2"
+            },
+            {
+                "position": 3,
+                "node": "C2D2",
+                "level": 2,
+                "edge": "A2B2C2D2"
+            },
+            {
+                "position": 1,
+                "node": "A1B1C1D1",
+                "level": 1,
+                "edge": "final"
+            },
+            {
+                "position": 2,
+                "node": "A2B2C2D2",
+                "level": 1,
+                "edge": "final"
+            },
+            {
+                "position": 1,
+                "node": "final",
+                "level": 0,
+                "edge": ""
+            }
+        ]
+    },
+    "1986": {
+        "edges": {
+            "edge3": [
+                "A1E3B2F2",
+                "B3C1D2E1",
+                "A3B1E2F1",
+                "A2C2D1F3"
+            ],
+            "edge4": [
+                "A1E3B2F2B3C1D2E1",
+                "A3B1E2F1A2C2D1F3"
+            ],
+            "edge2": [
+                "A1E3",
+                "B2F2",
+                "B3C1",
+                "D2E1",
+                "E2F1",
+                "A3B1",
+                "A2C2",
+                "D1F3"
+            ]
+        },
+        "groups": [
+            {
+                "label": "3rd of B",
+                "group": "B",
+                "position": 1,
+                "node": "B3"
+            },
+            {
+                "label": "1st of C",
+                "group": "C",
+                "position": 2,
+                "node": "C1"
+            },
+            {
+                "label": "2nd of D",
+                "group": "D",
+                "position": 3,
+                "node": "D2"
+            },
+            {
+                "label": "1st of E",
+                "group": "E",
+                "position": 4,
+                "node": "E1"
+            },
+            {
+                "label": "2nd of E",
+                "group": "E",
+                "position": 5,
+                "node": "E2"
+            },
+            {
+                "label": "1st of F",
+                "group": "F",
+                "position": 6,
+                "node": "F1"
+            },
+            {
+                "label": "1st of B",
+                "group": "B",
+                "position": 7,
+                "node": "B1"
+            },
+            {
+                "label": "3rd of A",
+                "group": "A",
+                "position": 8,
+                "node": "A3"
+            },
+            {
+                "label": "2nd of C",
+                "group": "C",
+                "position": 9,
+                "node": "C2"
+            },
+            {
+                "label": "2nd of A",
+                "group": "A",
+                "position": 10,
+                "node": "A2"
+            },
+            {
+                "label": "1st of D",
+                "group": "D",
+                "position": 11,
+                "node": "D1"
+            },
+            {
+                "label": "3rd of F",
+                "group": "F",
+                "position": 12,
+                "node": "F3"
+            },
+            {
+                "label": "1st of A",
+                "group": "A",
+                "position": 13,
+                "node": "A1"
+            },
+            {
+                "label": "3rd of E",
+                "group": "E",
+                "position": 14,
+                "node": "E3"
+            },
+            {
+                "label": "2nd of F",
+                "group": "F",
+                "position": 15,
+                "node": "F2"
+            },
+            {
+                "label": "2nd of B",
+                "group": "B",
+                "position": 16,
+                "node": "B2"
+            }
+        ],
+        "nodes": [
+            {
+                "position": 13,
+                "node": "A1",
+                "level": 4,
+                "edge": "A1E3"
+            },
+            {
+                "position": 14,
+                "node": "E3",
+                "level": 4,
+                "edge": "A1E3"
+            },
+            {
+                "position": 15,
+                "node": "F2",
+                "level": 4,
+                "edge": "B2F2"
+            },
+            {
+                "position": 16,
+                "node": "B2",
+                "level": 4,
+                "edge": "B2F2"
+            },
+            {
+                "position": 1,
+                "node": "B3",
+                "level": 4,
+                "edge": "B3C1"
+            },
+            {
+                "position": 2,
+                "node": "C1",
+                "level": 4,
+                "edge": "B3C1"
+            },
+            {
+                "position": 3,
+                "node": "D2",
+                "level": 4,
+                "edge": "D2E1"
+            },
+            {
+                "position": 4,
+                "node": "E1",
+                "level": 4,
+                "edge": "D2E1"
+            },
+            {
+                "position": 5,
+                "node": "E2",
+                "level": 4,
+                "edge": "E2F1"
+            },
+            {
+                "position": 6,
+                "node": "F1",
+                "level": 4,
+                "edge": "E2F1"
+            },
+            {
+                "position": 7,
+                "node": "B1",
+                "level": 4,
+                "edge": "A3B1"
+            },
+            {
+                "position": 8,
+                "node": "A3",
+                "level": 4,
+                "edge": "A3B1"
+            },
+            {
+                "position": 9,
+                "node": "C2",
+                "level": 4,
+                "edge": "A2C2"
+            },
+            {
+                "position": 10,
+                "node": "A2",
+                "level": 4,
+                "edge": "A2C2"
+            },
+            {
+                "position": 11,
+                "node": "D1",
+                "level": 4,
+                "edge": "D1F3"
+            },
+            {
+                "position": 12,
+                "node": "F3",
+                "level": 4,
+                "edge": "D1F3"
+            },
+            {
+                "position": 7,
+                "node": "A1E3",
+                "level": 3,
+                "edge": "A1E3B2F2"
+            },
+            {
+                "position": 8,
+                "node": "B2F2",
+                "level": 3,
+                "edge": "A1E3B2F2"
+            },
+            {
+                "position": 1,
+                "node": "B3C1",
+                "level": 3,
+                "edge": "B3C1D2E1"
+            },
+            {
+                "position": 2,
+                "node": "D2E1",
+                "level": 3,
+                "edge": "B3C1D2E1"
+            },
+            {
+                "position": 3,
+                "node": "E2F1",
+                "level": 3,
+                "edge": "A3B1E2F1"
+            },
+            {
+                "position": 4,
+                "node": "A3B1",
+                "level": 3,
+                "edge": "A3B1E2F1"
+            },
+            {
+                "position": 5,
+                "node": "A2C2",
+                "level": 3,
+                "edge": "A2C2D1F3"
+            },
+            {
+                "position": 6,
+                "node": "D1F3",
+                "level": 3,
+                "edge": "A2C2D1F3"
+            },
+            {
+                "position": 4,
+                "node": "A1E3B2F2",
+                "level": 2,
+                "edge": "A1E3B2F2B3C1D2E1"
+            },
+            {
+                "position": 1,
+                "node": "B3C1D2E1",
+                "level": 2,
+                "edge": "A1E3B2F2B3C1D2E1"
+            },
+            {
+                "position": 2,
+                "node": "A3B1E2F1",
+                "level": 2,
+                "edge": "A3B1E2F1A2C2D1F3"
+            },
+            {
+                "position": 3,
+                "node": "A2C2D1F3",
+                "level": 2,
+                "edge": "A3B1E2F1A2C2D1F3"
+            },
+            {
+                "position": 1,
+                "node": "A1E3B2F2B3C1D2E1",
+                "level": 1,
+                "edge": "final"
+            },
+            {
+                "position": 2,
+                "node": "A3B1E2F1A2C2D1F3",
+                "level": 1,
+                "edge": "final"
+            },
+            {
+                "position": 1,
+                "node": "final",
+                "level": 0,
+                "edge": ""
+            }
+        ]
+    },
+    "1966": {
+        "edges": {
+            "edge3": [
+                "A1B2C1D2",
+                "A2B1C2D1"
+            ],
+            "edge2": [
+                "A1B2",
+                "C1D2",
+                "A2B1",
+                "C2D1"
+            ]
+        },
+        "groups": [
+            {
+                "label": "1st of C",
+                "group": "C",
+                "position": 1,
+                "node": "C1"
+            },
+            {
+                "label": "2nd of D",
+                "group": "D",
+                "position": 2,
+                "node": "D2"
+            },
+            {
+                "label": "1st of B",
+                "group": "B",
+                "position": 3,
+                "node": "B1"
+            },
+            {
+                "label": "2nd of A",
+                "group": "A",
+                "position": 4,
+                "node": "A2"
+            },
+            {
+                "label": "1st of D",
+                "group": "D",
+                "position": 5,
+                "node": "D1"
+            },
+            {
+                "label": "2nd of C",
+                "group": "C",
+                "position": 6,
+                "node": "C2"
+            },
+            {
+                "label": "1st of A",
+                "group": "A",
+                "position": 7,
+                "node": "A1"
+            },
+            {
+                "label": "2nd of B",
+                "group": "B",
+                "position": 8,
+                "node": "B2"
+            }
+        ],
+        "nodes": [
+            {
+                "position": 7,
+                "node": "A1",
+                "level": 3,
+                "edge": "A1B2"
+            },
+            {
+                "position": 8,
+                "node": "B2",
+                "level": 3,
+                "edge": "A1B2"
+            },
+            {
+                "position": 1,
+                "node": "C1",
+                "level": 3,
+                "edge": "C1D2"
+            },
+            {
+                "position": 2,
+                "node": "D2",
+                "level": 3,
+                "edge": "C1D2"
+            },
+            {
+                "position": 3,
+                "node": "B1",
+                "level": 3,
+                "edge": "A2B1"
+            },
+            {
+                "position": 4,
+                "node": "A2",
+                "level": 3,
+                "edge": "A2B1"
+            },
+            {
+                "position": 5,
+                "node": "D1",
+                "level": 3,
+                "edge": "C2D1"
+            },
+            {
+                "position": 6,
+                "node": "C2",
+                "level": 3,
+                "edge": "C2D1"
+            },
+            {
+                "position": 4,
+                "node": "A1B2",
+                "level": 2,
+                "edge": "A1B2C1D2"
+            },
+            {
+                "position": 1,
+                "node": "C1D2",
+                "level": 2,
+                "edge": "A1B2C1D2"
+            },
+            {
+                "position": 2,
+                "node": "A2B1",
+                "level": 2,
+                "edge": "A2B1C2D1"
+            },
+            {
+                "position": 3,
+                "node": "C2D1",
+                "level": 2,
+                "edge": "A2B1C2D1"
+            },
+            {
+                "position": 1,
+                "node": "A1B2C1D2",
+                "level": 1,
+                "edge": "final"
+            },
+            {
+                "position": 2,
+                "node": "A2B1C2D1",
+                "level": 1,
+                "edge": "final"
+            },
+            {
+                "position": 1,
+                "node": "final",
+                "level": 0,
+                "edge": ""
+            }
+        ]
+    },
+    "2006": {
+        "edges": {
+            "edge3": [
+                "E1F2G1H2",
+                "A1B2C1D2",
+                "E2F1G2H1",
+                "A2B1C2D1"
+            ],
+            "edge4": [
+                "A1B2C1D2E1F2G1H2",
+                "A2B1C2D1E2F1G2H1"
+            ],
+            "edge2": [
+                "E1F2",
+                "G1H2",
+                "A1B2",
+                "C1D2",
+                "G2H1",
+                "E2F1",
+                "C2D1",
+                "A2B1"
+            ]
+        },
+        "groups": [
+            {
+                "label": "1st of A",
+                "group": "A",
+                "position": 1,
+                "node": "A1"
+            },
+            {
+                "label": "2nd of B",
+                "group": "B",
+                "position": 2,
+                "node": "B2"
+            },
+            {
+                "label": "1st of C",
+                "group": "C",
+                "position": 3,
+                "node": "C1"
+            },
+            {
+                "label": "2nd of D",
+                "group": "D",
+                "position": 4,
+                "node": "D2"
+            },
+            {
+                "label": "2nd of G",
+                "group": "G",
+                "position": 5,
+                "node": "G2"
+            },
+            {
+                "label": "1st of H",
+                "group": "H",
+                "position": 6,
+                "node": "H1"
+            },
+            {
+                "label": "1st of F",
+                "group": "F",
+                "position": 7,
+                "node": "F1"
+            },
+            {
+                "label": "2nd of E",
+                "group": "E",
+                "position": 8,
+                "node": "E2"
+            },
+            {
+                "label": "1st of D",
+                "group": "D",
+                "position": 9,
+                "node": "D1"
+            },
+            {
+                "label": "2nd of C",
+                "group": "C",
+                "position": 10,
+                "node": "C2"
+            },
+            {
+                "label": "1st of B",
+                "group": "B",
+                "position": 11,
+                "node": "B1"
+            },
+            {
+                "label": "2nd of A",
+                "group": "A",
+                "position": 12,
+                "node": "A2"
+            },
+            {
+                "label": "1st of E",
+                "group": "E",
+                "position": 13,
+                "node": "E1"
+            },
+            {
+                "label": "2nd of F",
+                "group": "F",
+                "position": 14,
+                "node": "F2"
+            },
+            {
+                "label": "2nd of H",
+                "group": "H",
+                "position": 15,
+                "node": "H2"
+            },
+            {
+                "label": "1st of G",
+                "group": "G",
+                "position": 16,
+                "node": "G1"
+            }
+        ],
+        "nodes": [
+            {
+                "position": 13,
+                "node": "E1",
+                "level": 4,
+                "edge": "E1F2"
+            },
+            {
+                "position": 14,
+                "node": "F2",
+                "level": 4,
+                "edge": "E1F2"
+            },
+            {
+                "position": 15,
+                "node": "H2",
+                "level": 4,
+                "edge": "G1H2"
+            },
+            {
+                "position": 16,
+                "node": "G1",
+                "level": 4,
+                "edge": "G1H2"
+            },
+            {
+                "position": 1,
+                "node": "A1",
+                "level": 4,
+                "edge": "A1B2"
+            },
+            {
+                "position": 2,
+                "node": "B2",
+                "level": 4,
+                "edge": "A1B2"
+            },
+            {
+                "position": 3,
+                "node": "C1",
+                "level": 4,
+                "edge": "C1D2"
+            },
+            {
+                "position": 4,
+                "node": "D2",
+                "level": 4,
+                "edge": "C1D2"
+            },
+            {
+                "position": 5,
+                "node": "G2",
+                "level": 4,
+                "edge": "G2H1"
+            },
+            {
+                "position": 6,
+                "node": "H1",
+                "level": 4,
+                "edge": "G2H1"
+            },
+            {
+                "position": 7,
+                "node": "F1",
+                "level": 4,
+                "edge": "E2F1"
+            },
+            {
+                "position": 8,
+                "node": "E2",
+                "level": 4,
+                "edge": "E2F1"
+            },
+            {
+                "position": 9,
+                "node": "D1",
+                "level": 4,
+                "edge": "C2D1"
+            },
+            {
+                "position": 10,
+                "node": "C2",
+                "level": 4,
+                "edge": "C2D1"
+            },
+            {
+                "position": 11,
+                "node": "B1",
+                "level": 4,
+                "edge": "A2B1"
+            },
+            {
+                "position": 12,
+                "node": "A2",
+                "level": 4,
+                "edge": "A2B1"
+            },
+            {
+                "position": 7,
+                "node": "E1F2",
+                "level": 3,
+                "edge": "E1F2G1H2"
+            },
+            {
+                "position": 8,
+                "node": "G1H2",
+                "level": 3,
+                "edge": "E1F2G1H2"
+            },
+            {
+                "position": 1,
+                "node": "A1B2",
+                "level": 3,
+                "edge": "A1B2C1D2"
+            },
+            {
+                "position": 2,
+                "node": "C1D2",
+                "level": 3,
+                "edge": "A1B2C1D2"
+            },
+            {
+                "position": 3,
+                "node": "G2H1",
+                "level": 3,
+                "edge": "E2F1G2H1"
+            },
+            {
+                "position": 4,
+                "node": "E2F1",
+                "level": 3,
+                "edge": "E2F1G2H1"
+            },
+            {
+                "position": 5,
+                "node": "C2D1",
+                "level": 3,
+                "edge": "A2B1C2D1"
+            },
+            {
+                "position": 6,
+                "node": "A2B1",
+                "level": 3,
+                "edge": "A2B1C2D1"
+            },
+            {
+                "position": 4,
+                "node": "E1F2G1H2",
+                "level": 2,
+                "edge": "A1B2C1D2E1F2G1H2"
+            },
+            {
+                "position": 1,
+                "node": "A1B2C1D2",
+                "level": 2,
+                "edge": "A1B2C1D2E1F2G1H2"
+            },
+            {
+                "position": 2,
+                "node": "E2F1G2H1",
+                "level": 2,
+                "edge": "A2B1C2D1E2F1G2H1"
+            },
+            {
+                "position": 3,
+                "node": "A2B1C2D1",
+                "level": 2,
+                "edge": "A2B1C2D1E2F1G2H1"
+            },
+            {
+                "position": 1,
+                "node": "A1B2C1D2E1F2G1H2",
+                "level": 1,
+                "edge": "final"
+            },
+            {
+                "position": 2,
+                "node": "A2B1C2D1E2F1G2H1",
+                "level": 1,
+                "edge": "final"
+            },
+            {
+                "position": 1,
+                "node": "final",
+                "level": 0,
+                "edge": ""
+            }
+        ]
+    },
+    "1938": {
+        "edges": {
+            "edge3": [
+                "A0B0C0D0",
+                "E0F0G0H0",
+                "I0J0K0L0",
+                "M0N0O0P0"
+            ],
+            "edge4": [
+                "A0B0C0D0E0F0G0H0",
+                "I0J0K0L0M0N0O0P0"
+            ],
+            "edge2": [
+                "A0B0",
+                "C0D0",
+                "E0F0",
+                "G0H0",
+                "I0J0",
+                "K0L0",
+                "M0N0",
+                "O0P0"
+            ]
+        },
+        "groups": [
+            {
+                "label": "group E",
+                "group": "E",
+                "position": 1,
+                "node": "E0"
+            },
+            {
+                "label": "group F",
+                "group": "F",
+                "position": 2,
+                "node": "F0"
+            },
+            {
+                "label": "group G",
+                "group": "G",
+                "position": 3,
+                "node": "G0"
+            },
+            {
+                "label": "group H",
+                "group": "H",
+                "position": 4,
+                "node": "H0"
+            },
+            {
+                "label": "group I",
+                "group": "I",
+                "position": 5,
+                "node": "I0"
+            },
+            {
+                "label": "group J",
+                "group": "J",
+                "position": 6,
+                "node": "J0"
+            },
+            {
+                "label": "group K",
+                "group": "K",
+                "position": 7,
+                "node": "K0"
+            },
+            {
+                "label": "group L",
+                "group": "L",
+                "position": 8,
+                "node": "L0"
+            },
+            {
+                "label": "group M",
+                "group": "M",
+                "position": 9,
+                "node": "M0"
+            },
+            {
+                "label": "group N",
+                "group": "N",
+                "position": 10,
+                "node": "N0"
+            },
+            {
+                "label": "group O",
+                "group": "O",
+                "position": 11,
+                "node": "O0"
+            },
+            {
+                "label": "group P",
+                "group": "P",
+                "position": 12,
+                "node": "P0"
+            },
+            {
+                "label": "group A",
+                "group": "A",
+                "position": 13,
+                "node": "A0"
+            },
+            {
+                "label": "group B",
+                "group": "B",
+                "position": 14,
+                "node": "B0"
+            },
+            {
+                "label": "group C",
+                "group": "C",
+                "position": 15,
+                "node": "C0"
+            },
+            {
+                "label": "group D",
+                "group": "D",
+                "position": 16,
+                "node": "D0"
+            }
+        ],
+        "nodes": [
+            {
+                "position": 13,
+                "node": "A0",
+                "level": 4,
+                "edge": "A0B0"
+            },
+            {
+                "position": 14,
+                "node": "B0",
+                "level": 4,
+                "edge": "A0B0"
+            },
+            {
+                "position": 15,
+                "node": "C0",
+                "level": 4,
+                "edge": "C0D0"
+            },
+            {
+                "position": 16,
+                "node": "D0",
+                "level": 4,
+                "edge": "C0D0"
+            },
+            {
+                "position": 1,
+                "node": "E0",
+                "level": 4,
+                "edge": "E0F0"
+            },
+            {
+                "position": 2,
+                "node": "F0",
+                "level": 4,
+                "edge": "E0F0"
+            },
+            {
+                "position": 3,
+                "node": "G0",
+                "level": 4,
+                "edge": "G0H0"
+            },
+            {
+                "position": 4,
+                "node": "H0",
+                "level": 4,
+                "edge": "G0H0"
+            },
+            {
+                "position": 5,
+                "node": "I0",
+                "level": 4,
+                "edge": "I0J0"
+            },
+            {
+                "position": 6,
+                "node": "J0",
+                "level": 4,
+                "edge": "I0J0"
+            },
+            {
+                "position": 7,
+                "node": "K0",
+                "level": 4,
+                "edge": "K0L0"
+            },
+            {
+                "position": 8,
+                "node": "L0",
+                "level": 4,
+                "edge": "K0L0"
+            },
+            {
+                "position": 9,
+                "node": "M0",
+                "level": 4,
+                "edge": "M0N0"
+            },
+            {
+                "position": 10,
+                "node": "N0",
+                "level": 4,
+                "edge": "M0N0"
+            },
+            {
+                "position": 11,
+                "node": "O0",
+                "level": 4,
+                "edge": "O0P0"
+            },
+            {
+                "position": 12,
+                "node": "P0",
+                "level": 4,
+                "edge": "O0P0"
+            },
+            {
+                "position": 7,
+                "node": "A0B0",
+                "level": 3,
+                "edge": "A0B0C0D0"
+            },
+            {
+                "position": 8,
+                "node": "C0D0",
+                "level": 3,
+                "edge": "A0B0C0D0"
+            },
+            {
+                "position": 1,
+                "node": "E0F0",
+                "level": 3,
+                "edge": "E0F0G0H0"
+            },
+            {
+                "position": 2,
+                "node": "G0H0",
+                "level": 3,
+                "edge": "E0F0G0H0"
+            },
+            {
+                "position": 3,
+                "node": "I0J0",
+                "level": 3,
+                "edge": "I0J0K0L0"
+            },
+            {
+                "position": 4,
+                "node": "K0L0",
+                "level": 3,
+                "edge": "I0J0K0L0"
+            },
+            {
+                "position": 5,
+                "node": "M0N0",
+                "level": 3,
+                "edge": "M0N0O0P0"
+            },
+            {
+                "position": 6,
+                "node": "O0P0",
+                "level": 3,
+                "edge": "M0N0O0P0"
+            },
+            {
+                "position": 4,
+                "node": "A0B0C0D0",
+                "level": 2,
+                "edge": "A0B0C0D0E0F0G0H0"
+            },
+            {
+                "position": 1,
+                "node": "E0F0G0H0",
+                "level": 2,
+                "edge": "A0B0C0D0E0F0G0H0"
+            },
+            {
+                "position": 2,
+                "node": "I0J0K0L0",
+                "level": 2,
+                "edge": "I0J0K0L0M0N0O0P0"
+            },
+            {
+                "position": 3,
+                "node": "M0N0O0P0",
+                "level": 2,
+                "edge": "I0J0K0L0M0N0O0P0"
+            },
+            {
+                "position": 1,
+                "node": "A0B0C0D0E0F0G0H0",
+                "level": 1,
+                "edge": "final"
+            },
+            {
+                "position": 2,
+                "node": "I0J0K0L0M0N0O0P0",
+                "level": 1,
+                "edge": "final"
+            },
+            {
+                "position": 1,
+                "node": "final",
+                "level": 0,
+                "edge": ""
+            }
+        ]
+    },
+    "1994": {
+        "edges": {
+            "edge3": [
+                "A3B1E2F1",
+                "A1D3B2F2",
+                "A2C2D1E3",
+                "C1F3D2E1"
+            ],
+            "edge4": [
+                "A3B1E2F1A1D3B2F2",
+                "A2C2D1E3C1F3D2E1"
+            ],
+            "edge2": [
+                "A3B1",
+                "E2F1",
+                "B2F2",
+                "A1D3",
+                "D1E3",
+                "A2C2",
+                "D2E1",
+                "C1F3"
+            ]
+        },
+        "groups": [
+            {
+                "label": "2nd of B",
+                "group": "B",
+                "position": 1,
+                "node": "B2"
+            },
+            {
+                "label": "2nd of F",
+                "group": "F",
+                "position": 2,
+                "node": "F2"
+            },
+            {
+                "label": "1st of A",
+                "group": "A",
+                "position": 3,
+                "node": "A1"
+            },
+            {
+                "label": "3rd of D",
+                "group": "D",
+                "position": 4,
+                "node": "D3"
+            },
+            {
+                "label": "3rd of E",
+                "group": "E",
+                "position": 5,
+                "node": "E3"
+            },
+            {
+                "label": "1st of D",
+                "group": "D",
+                "position": 6,
+                "node": "D1"
+            },
+            {
+                "label": "2nd of C",
+                "group": "C",
+                "position": 7,
+                "node": "C2"
+            },
+            {
+                "label": "2nd of A",
+                "group": "A",
+                "position": 8,
+                "node": "A2"
+            },
+            {
+                "label": "2nd of D",
+                "group": "D",
+                "position": 9,
+                "node": "D2"
+            },
+            {
+                "label": "1st of E",
+                "group": "E",
+                "position": 10,
+                "node": "E1"
+            },
+            {
+                "label": "1st of C",
+                "group": "C",
+                "position": 11,
+                "node": "C1"
+            },
+            {
+                "label": "3rd of F",
+                "group": "F",
+                "position": 12,
+                "node": "F3"
+            },
+            {
+                "label": "1st of B",
+                "group": "B",
+                "position": 13,
+                "node": "B1"
+            },
+            {
+                "label": "3rd of A",
+                "group": "A",
+                "position": 14,
+                "node": "A3"
+            },
+            {
+                "label": "1st of F",
+                "group": "F",
+                "position": 15,
+                "node": "F1"
+            },
+            {
+                "label": "2nd of E",
+                "group": "E",
+                "position": 16,
+                "node": "E2"
+            }
+        ],
+        "nodes": [
+            {
+                "position": 13,
+                "node": "B1",
+                "level": 4,
+                "edge": "A3B1"
+            },
+            {
+                "position": 14,
+                "node": "A3",
+                "level": 4,
+                "edge": "A3B1"
+            },
+            {
+                "position": 15,
+                "node": "F1",
+                "level": 4,
+                "edge": "E2F1"
+            },
+            {
+                "position": 16,
+                "node": "E2",
+                "level": 4,
+                "edge": "E2F1"
+            },
+            {
+                "position": 1,
+                "node": "B2",
+                "level": 4,
+                "edge": "B2F2"
+            },
+            {
+                "position": 2,
+                "node": "F2",
+                "level": 4,
+                "edge": "B2F2"
+            },
+            {
+                "position": 3,
+                "node": "A1",
+                "level": 4,
+                "edge": "A1D3"
+            },
+            {
+                "position": 4,
+                "node": "D3",
+                "level": 4,
+                "edge": "A1D3"
+            },
+            {
+                "position": 5,
+                "node": "E3",
+                "level": 4,
+                "edge": "D1E3"
+            },
+            {
+                "position": 6,
+                "node": "D1",
+                "level": 4,
+                "edge": "D1E3"
+            },
+            {
+                "position": 7,
+                "node": "C2",
+                "level": 4,
+                "edge": "A2C2"
+            },
+            {
+                "position": 8,
+                "node": "A2",
+                "level": 4,
+                "edge": "A2C2"
+            },
+            {
+                "position": 9,
+                "node": "D2",
+                "level": 4,
+                "edge": "D2E1"
+            },
+            {
+                "position": 10,
+                "node": "E1",
+                "level": 4,
+                "edge": "D2E1"
+            },
+            {
+                "position": 11,
+                "node": "C1",
+                "level": 4,
+                "edge": "C1F3"
+            },
+            {
+                "position": 12,
+                "node": "F3",
+                "level": 4,
+                "edge": "C1F3"
+            },
+            {
+                "position": 7,
+                "node": "A3B1",
+                "level": 3,
+                "edge": "A3B1E2F1"
+            },
+            {
+                "position": 8,
+                "node": "E2F1",
+                "level": 3,
+                "edge": "A3B1E2F1"
+            },
+            {
+                "position": 1,
+                "node": "B2F2",
+                "level": 3,
+                "edge": "A1D3B2F2"
+            },
+            {
+                "position": 2,
+                "node": "A1D3",
+                "level": 3,
+                "edge": "A1D3B2F2"
+            },
+            {
+                "position": 3,
+                "node": "D1E3",
+                "level": 3,
+                "edge": "A2C2D1E3"
+            },
+            {
+                "position": 4,
+                "node": "A2C2",
+                "level": 3,
+                "edge": "A2C2D1E3"
+            },
+            {
+                "position": 5,
+                "node": "D2E1",
+                "level": 3,
+                "edge": "C1F3D2E1"
+            },
+            {
+                "position": 6,
+                "node": "C1F3",
+                "level": 3,
+                "edge": "C1F3D2E1"
+            },
+            {
+                "position": 4,
+                "node": "A3B1E2F1",
+                "level": 2,
+                "edge": "A3B1E2F1A1D3B2F2"
+            },
+            {
+                "position": 1,
+                "node": "A1D3B2F2",
+                "level": 2,
+                "edge": "A3B1E2F1A1D3B2F2"
+            },
+            {
+                "position": 2,
+                "node": "A2C2D1E3",
+                "level": 2,
+                "edge": "A2C2D1E3C1F3D2E1"
+            },
+            {
+                "position": 3,
+                "node": "C1F3D2E1",
+                "level": 2,
+                "edge": "A2C2D1E3C1F3D2E1"
+            },
+            {
+                "position": 1,
+                "node": "A3B1E2F1A1D3B2F2",
+                "level": 1,
+                "edge": "final"
+            },
+            {
+                "position": 2,
+                "node": "A2C2D1E3C1F3D2E1",
+                "level": 1,
+                "edge": "final"
+            },
+            {
+                "position": 1,
+                "node": "final",
+                "level": 0,
+                "edge": ""
+            }
+        ]
+    },
+    "1962": {
+        "edges": {
+            "edge3": [
+                "A1B2C1D2",
+                "A2B1C2D1"
+            ],
+            "edge2": [
+                "C1D2",
+                "A1B2",
+                "C2D1",
+                "A2B1"
+            ]
+        },
+        "groups": [
+            {
+                "label": "2nd of B",
+                "group": "B",
+                "position": 1,
+                "node": "B2"
+            },
+            {
+                "label": "1st of A",
+                "group": "A",
+                "position": 2,
+                "node": "A1"
+            },
+            {
+                "label": "2nd of C",
+                "group": "C",
+                "position": 3,
+                "node": "C2"
+            },
+            {
+                "label": "1st of D",
+                "group": "D",
+                "position": 4,
+                "node": "D1"
+            },
+            {
+                "label": "2nd of A",
+                "group": "A",
+                "position": 5,
+                "node": "A2"
+            },
+            {
+                "label": "1st of B",
+                "group": "B",
+                "position": 6,
+                "node": "B1"
+            },
+            {
+                "label": "1st of C",
+                "group": "C",
+                "position": 7,
+                "node": "C1"
+            },
+            {
+                "label": "2nd of D",
+                "group": "D",
+                "position": 8,
+                "node": "D2"
+            }
+        ],
+        "nodes": [
+            {
+                "position": 7,
+                "node": "C1",
+                "level": 3,
+                "edge": "C1D2"
+            },
+            {
+                "position": 8,
+                "node": "D2",
+                "level": 3,
+                "edge": "C1D2"
+            },
+            {
+                "position": 1,
+                "node": "B2",
+                "level": 3,
+                "edge": "A1B2"
+            },
+            {
+                "position": 2,
+                "node": "A1",
+                "level": 3,
+                "edge": "A1B2"
+            },
+            {
+                "position": 3,
+                "node": "C2",
+                "level": 3,
+                "edge": "C2D1"
+            },
+            {
+                "position": 4,
+                "node": "D1",
+                "level": 3,
+                "edge": "C2D1"
+            },
+            {
+                "position": 5,
+                "node": "A2",
+                "level": 3,
+                "edge": "A2B1"
+            },
+            {
+                "position": 6,
+                "node": "B1",
+                "level": 3,
+                "edge": "A2B1"
+            },
+            {
+                "position": 4,
+                "node": "C1D2",
+                "level": 2,
+                "edge": "A1B2C1D2"
+            },
+            {
+                "position": 1,
+                "node": "A1B2",
+                "level": 2,
+                "edge": "A1B2C1D2"
+            },
+            {
+                "position": 2,
+                "node": "C2D1",
+                "level": 2,
+                "edge": "A2B1C2D1"
+            },
+            {
+                "position": 3,
+                "node": "A2B1",
+                "level": 2,
+                "edge": "A2B1C2D1"
+            },
+            {
+                "position": 1,
+                "node": "A1B2C1D2",
+                "level": 1,
+                "edge": "final"
+            },
+            {
+                "position": 2,
+                "node": "A2B1C2D1",
+                "level": 1,
+                "edge": "final"
+            },
+            {
+                "position": 1,
+                "node": "final",
+                "level": 0,
+                "edge": ""
+            }
+        ]
+    },
+    "1974": {
+        "edges": {
+            "edge2": [
+                "A2D1",
+                "B2C1"
+            ]
+        },
+        "groups": [
+            {
+                "label": "1st of D",
+                "group": "D",
+                "position": 1,
+                "node": "D1"
+            },
+            {
+                "label": "1st of C",
+                "group": "C",
+                "position": 2,
+                "node": "C1"
+            },
+            {
+                "label": "2nd of B",
+                "group": "B",
+                "position": 3,
+                "node": "B2"
+            },
+            {
+                "label": "2nd of A",
+                "group": "A",
+                "position": 4,
+                "node": "A2"
+            }
+        ],
+        "nodes": [
+            {
+                "position": 4,
+                "node": "A2",
+                "level": 2,
+                "edge": "A2D1"
+            },
+            {
+                "position": 1,
+                "node": "D1",
+                "level": 2,
+                "edge": "A2D1"
+            },
+            {
+                "position": 2,
+                "node": "C1",
+                "level": 2,
+                "edge": "B2C1"
+            },
+            {
+                "position": 3,
+                "node": "B2",
+                "level": 2,
+                "edge": "B2C1"
+            },
+            {
+                "position": 1,
+                "node": "A2D1",
+                "level": 1,
+                "edge": "final"
+            },
+            {
+                "position": 2,
+                "node": "B2C1",
+                "level": 1,
+                "edge": "final"
+            },
+            {
+                "position": 1,
+                "node": "final",
+                "level": 0,
+                "edge": ""
+            }
+        ]
+    },
+    "1930": {
+        "edges": {
+            "edge2": [
+                "A1D1",
+                "B1C1"
+            ]
+        },
+        "groups": [
+            {
+                "label": "1st of D",
+                "group": "D",
+                "position": 1,
+                "node": "D1"
+            },
+            {
+                "label": "1st of C",
+                "group": "C",
+                "position": 2,
+                "node": "C1"
+            },
+            {
+                "label": "1st of B",
+                "group": "B",
+                "position": 3,
+                "node": "B1"
+            },
+            {
+                "label": "1st of A",
+                "group": "A",
+                "position": 4,
+                "node": "A1"
+            }
+        ],
+        "nodes": [
+            {
+                "position": 4,
+                "node": "A1",
+                "level": 2,
+                "edge": "A1D1"
+            },
+            {
+                "position": 1,
+                "node": "D1",
+                "level": 2,
+                "edge": "A1D1"
+            },
+            {
+                "position": 2,
+                "node": "C1",
+                "level": 2,
+                "edge": "B1C1"
+            },
+            {
+                "position": 3,
+                "node": "B1",
+                "level": 2,
+                "edge": "B1C1"
+            },
+            {
+                "position": 1,
+                "node": "A1D1",
+                "level": 1,
+                "edge": "final"
+            },
+            {
+                "position": 2,
+                "node": "B1C1",
+                "level": 1,
+                "edge": "final"
+            },
+            {
+                "position": 1,
+                "node": "final",
+                "level": 0,
+                "edge": ""
+            }
+        ]
+    },
+    "1958": {
+        "edges": {
+            "edge3": [
+                "A1B2C1D2",
+                "A2B1C2D1"
+            ],
+            "edge2": [
+                "C1D2",
+                "A1B2",
+                "C2D1",
+                "A2B1"
+            ]
+        },
+        "groups": [
+            {
+                "label": "1st of A",
+                "group": "A",
+                "position": 1,
+                "node": "A1"
+            },
+            {
+                "label": "2nd of B",
+                "group": "B",
+                "position": 2,
+                "node": "B2"
+            },
+            {
+                "label": "1st of D",
+                "group": "D",
+                "position": 3,
+                "node": "D1"
+            },
+            {
+                "label": "2nd of C",
+                "group": "C",
+                "position": 4,
+                "node": "C2"
+            },
+            {
+                "label": "1st of B",
+                "group": "B",
+                "position": 5,
+                "node": "B1"
+            },
+            {
+                "label": "2nd of A",
+                "group": "A",
+                "position": 6,
+                "node": "A2"
+            },
+            {
+                "label": "1st of C",
+                "group": "C",
+                "position": 7,
+                "node": "C1"
+            },
+            {
+                "label": "2nd of D",
+                "group": "D",
+                "position": 8,
+                "node": "D2"
+            }
+        ],
+        "nodes": [
+            {
+                "position": 7,
+                "node": "C1",
+                "level": 3,
+                "edge": "C1D2"
+            },
+            {
+                "position": 8,
+                "node": "D2",
+                "level": 3,
+                "edge": "C1D2"
+            },
+            {
+                "position": 1,
+                "node": "A1",
+                "level": 3,
+                "edge": "A1B2"
+            },
+            {
+                "position": 2,
+                "node": "B2",
+                "level": 3,
+                "edge": "A1B2"
+            },
+            {
+                "position": 3,
+                "node": "D1",
+                "level": 3,
+                "edge": "C2D1"
+            },
+            {
+                "position": 4,
+                "node": "C2",
+                "level": 3,
+                "edge": "C2D1"
+            },
+            {
+                "position": 5,
+                "node": "B1",
+                "level": 3,
+                "edge": "A2B1"
+            },
+            {
+                "position": 6,
+                "node": "A2",
+                "level": 3,
+                "edge": "A2B1"
+            },
+            {
+                "position": 4,
+                "node": "C1D2",
+                "level": 2,
+                "edge": "A1B2C1D2"
+            },
+            {
+                "position": 1,
+                "node": "A1B2",
+                "level": 2,
+                "edge": "A1B2C1D2"
+            },
+            {
+                "position": 2,
+                "node": "C2D1",
+                "level": 2,
+                "edge": "A2B1C2D1"
+            },
+            {
+                "position": 3,
+                "node": "A2B1",
+                "level": 2,
+                "edge": "A2B1C2D1"
+            },
+            {
+                "position": 1,
+                "node": "A1B2C1D2",
+                "level": 1,
+                "edge": "final"
+            },
+            {
+                "position": 2,
+                "node": "A2B1C2D1",
+                "level": 1,
+                "edge": "final"
+            },
+            {
+                "position": 1,
+                "node": "final",
+                "level": 0,
+                "edge": ""
+            }
+        ]
+    },
+    "1950": {
+        "edges": {
+            "edge2": [
+                "A1B1",
+                "C1D1"
+            ]
+        },
+        "groups": [
+            {
+                "label": "1st of B",
+                "group": "B",
+                "position": 1,
+                "node": "B1"
+            },
+            {
+                "label": "1st of D",
+                "group": "D",
+                "position": 2,
+                "node": "D1"
+            },
+            {
+                "label": "1st of C",
+                "group": "C",
+                "position": 3,
+                "node": "C1"
+            },
+            {
+                "label": "1st of A",
+                "group": "A",
+                "position": 4,
+                "node": "A1"
+            }
+        ],
+        "nodes": [
+            {
+                "position": 4,
+                "node": "A1",
+                "level": 2,
+                "edge": "A1B1"
+            },
+            {
+                "position": 1,
+                "node": "B1",
+                "level": 2,
+                "edge": "A1B1"
+            },
+            {
+                "position": 2,
+                "node": "D1",
+                "level": 2,
+                "edge": "C1D1"
+            },
+            {
+                "position": 3,
+                "node": "C1",
+                "level": 2,
+                "edge": "C1D1"
+            },
+            {
+                "position": 1,
+                "node": "A1B1",
+                "level": 1,
+                "edge": "final"
+            },
+            {
+                "position": 2,
+                "node": "C1D1",
+                "level": 1,
+                "edge": "final"
+            },
+            {
+                "position": 1,
+                "node": "final",
+                "level": 0,
+                "edge": ""
+            }
+        ]
+    },
+    "1982": {
+        "edges": {
+            "edge3": [
+                "A2F1A1F2",
+                "B1E2D2E1"
+            ],
+            "edge2": [
+                "A2F1",
+                "A1F2",
+                "B1E2",
+                "D2E1"
+            ]
+        },
+        "groups": [
+            {
+                "label": "1st of A",
+                "group": "A",
+                "position": 1,
+                "node": "A1"
+            },
+            {
+                "label": "2nd of F",
+                "group": "F",
+                "position": 2,
+                "node": "F2"
+            },
+            {
+                "label": "1st of B",
+                "group": "B",
+                "position": 3,
+                "node": "B1"
+            },
+            {
+                "label": "2nd of E",
+                "group": "E",
+                "position": 4,
+                "node": "E2"
+            },
+            {
+                "label": "2nd of D",
+                "group": "D",
+                "position": 5,
+                "node": "D2"
+            },
+            {
+                "label": "1st of E",
+                "group": "E",
+                "position": 6,
+                "node": "E1"
+            },
+            {
+                "label": "2nd of A",
+                "group": "A",
+                "position": 7,
+                "node": "A2"
+            },
+            {
+                "label": "1st of F",
+                "group": "F",
+                "position": 8,
+                "node": "F1"
+            }
+        ],
+        "nodes": [
+            {
+                "position": 7,
+                "node": "A2",
+                "level": 3,
+                "edge": "A2F1"
+            },
+            {
+                "position": 8,
+                "node": "F1",
+                "level": 3,
+                "edge": "A2F1"
+            },
+            {
+                "position": 1,
+                "node": "A1",
+                "level": 3,
+                "edge": "A1F2"
+            },
+            {
+                "position": 2,
+                "node": "F2",
+                "level": 3,
+                "edge": "A1F2"
+            },
+            {
+                "position": 3,
+                "node": "B1",
+                "level": 3,
+                "edge": "B1E2"
+            },
+            {
+                "position": 4,
+                "node": "E2",
+                "level": 3,
+                "edge": "B1E2"
+            },
+            {
+                "position": 5,
+                "node": "D2",
+                "level": 3,
+                "edge": "D2E1"
+            },
+            {
+                "position": 6,
+                "node": "E1",
+                "level": 3,
+                "edge": "D2E1"
+            },
+            {
+                "position": 4,
+                "node": "A2F1",
+                "level": 2,
+                "edge": "A2F1A1F2"
+            },
+            {
+                "position": 1,
+                "node": "A1F2",
+                "level": 2,
+                "edge": "A2F1A1F2"
+            },
+            {
+                "position": 2,
+                "node": "B1E2",
+                "level": 2,
+                "edge": "B1E2D2E1"
+            },
+            {
+                "position": 3,
+                "node": "D2E1",
+                "level": 2,
+                "edge": "B1E2D2E1"
+            },
+            {
+                "position": 1,
+                "node": "A2F1A1F2",
+                "level": 1,
+                "edge": "final"
+            },
+            {
+                "position": 2,
+                "node": "B1E2D2E1",
+                "level": 1,
+                "edge": "final"
+            },
+            {
+                "position": 1,
+                "node": "final",
+                "level": 0,
+                "edge": ""
+            }
+        ]
+    }
+}

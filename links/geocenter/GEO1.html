@@ -1,0 +1,405 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>The global center of best football performance</title>
+<!-- <link rel="stylesheet" type="text/css" href="main_viz.css"> -->
+	<link rel="stylesheet" href="../../css/font-awesome/css/font-awesome.min.css" />
+	
+	<link rel="stylesheet" href="../../css/fonts/stylesheet.css" />
+	<link rel="stylesheet" href="../../css/fonts/fonts.css" />
+	<link rel="stylesheet" href="../../css/bootstrap/bootstrap.min.css" />
+	<link rel="stylesheet" href="../../css/animat/animate.min.css" />
+	<link rel="stylesheet" href="../../css/fancybox/jquery.fancybox.css" />
+	<link rel="stylesheet" href="../../css/nivo-lightbox/nivo-lightbox.css" />
+	<link rel="stylesheet" href="../../css/themes/default/default.css" />
+	<link rel="stylesheet" href="../../css/owl-carousel/owl.carousel.css" />
+	<link rel="stylesheet" href="../../css/owl-carousel/owl.theme.css" />
+	<link rel="stylesheet" href="../../css/owl-carousel/owl.transitions.css">
+	
+	<link rel="stylesheet" href="style.css" />
+	<link rel="stylesheet" href="../../css/responsive.css" /> 
+   
+<style>
+html,
+        body {
+            font-family: "Trebuchet MS", "Open Sans", Segoe UI light, Verdana, Tahoma, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+            /*overflow: scroll;*/
+            height: 100%;
+            width: 100%;
+        }
+
+.background {
+  fill: #FFFFFF;
+  pointer-events: all;
+}
+
+.feature{
+  fill: #D3D3D3;
+  cursor: pointer;
+}
+
+.feature.active {
+  fill: #777;
+}
+
+.feature:hover {
+  fill: #777;
+}
+
+.mesh {
+  fill: none;
+  stroke: #a1a1a1;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+
+        .dragdealer {
+            height: 18px;
+            background: #FFFFFF;
+            z-index: 50;
+        }
+
+        .dragdealer .handle {
+            top: 0;
+            left: 0;
+
+            cursor: pointer;
+			z-index: 52;
+        }
+        .dragdealer .orange-bar {
+            width: 80px;
+            height: 18px;
+/*            background: #00c7ff;*/
+            background: #99d8c9;
+            color: #444;
+            font-size: 14px;
+            line-height: 19px;
+            text-align: center;
+            font-weight: bold;
+			z-index: 52;
+        }
+
+    </style>
+<script type="text/javascript">var switchTo5x=true;</script>
+<script type="text/javascript" src="https://ws.sharethis.com/button/buttons.js"></script>
+<script type="text/javascript">stLight.options({publisher: "505a26ad-d820-47bd-a500-7f49d04a30f5", doNotHash: true, doNotCopy: false, hashAddressBar: false});</script>
+<body>
+    
+   	<header id="home" class="header">
+		<div class="main_menu_bg navbar-fixed-top">
+			<div class="container">
+				<div class="row">
+					<div class="nave_menu">
+					<nav class="navbar navbar-default">
+					  <div class="container-fluid">
+						<!-- Brand and toggle get grouped for better mobile display -->
+						<div class="navbar-header">
+						  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						  </button>
+						  <!-- <a class="navbar-brand" href="#"> -->
+							<!-- <div class="logo"> -->
+								<!-- <img src="images/vislogo.png" alt="" /> -->
+							<!-- </div> -->
+						  <!-- </a> -->
+						</div>
+
+						<!-- Collect the nav links, forms, and other content for toggling -->
+						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						  
+						  <ul class="nav navbar-nav navbar-right">
+							<li class="active"><a href="../../index.html">HOME</a></li>
+							<li><a href="../../index.html#abouts">MAIN-VISUALIZATION</a></li>
+							<li><a href="../../index.html#abouts2">MATCH-DETAILS</a></li>
+							<li><a href="../../index.html#abouts3">TIMELINE-OVERVIEW</a></li>
+							<li><a href="../../index.html#featured">ANALYSIS-VISUALIZATION</a></li>
+							<!-- <li><a href="#blog">PERFORMANCE</a></li> -->
+							<!-- <li><a href="#contact">TIMELINE</a></li> -->
+							
+						  </ul>
+						</div><!-- /.navbar-collapse -->
+					  </div><!-- /.container-fluid -->
+					</nav>
+					</div>	
+				</div><!--End of row -->
+				
+			</div><!--End of container -->
+			
+		</div>
+	</header> <!--End of header -->
+    
+    <div class="content" style="position:relative;top:100px;text-align:center;">
+        <h1>Geocenter<h1>
+        <p><span style = "font-size: 180%">The</span> geo-centroid of country performance is aiming at revealing the relationship between geographical location and team performance. The barycentre of these points shows the approximate orientation of the leading football level.</p>
+    </div>
+
+<div id="container" style="width:900px;height:600px;margin:0px;opacity:0;border:solid 1px #777;position:absolute;left:100px;top:280px;">
+<div style="position:absolute;float:left;top:440px;left:350px;opacity:1;font-size:24px;">
+<a target="_blank" style="color:#000;background:#FFFFFF;"> The global center of World Cup</a>
+</div>
+<div id="pslider" title="Drag slider to cycle over years" class="dragdealer" style="position:fixed;float:left;top:475px;left:270px;opacity:1;width:495px;background:#e8eaea">
+<div class="description" style="position:fixed;margin-left:100px;font-size:12px;background:#9999ff;"></div>
+<div class="handle orange-bar" id="syear">2006</div>
+</div>
+
+<script src="https://d3js.org/d3.v3.min.js"></script>
+<script src="https://d3js.org/d3.geo.projection.v0.min.js"></script>
+<script src="https://d3js.org/topojson.v1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/dragdealer/0.9.8/dragdealer.min.js"></script>
+<script>
+
+var colors=[
+"#960707",
+"#CA934F",
+"#4c7d4c",
+"#6955c6",
+"#d0c2e8",
+"#b2b2ff"]
+
+var width = document.getElementById("container").offsetWidth - 2,
+    height = document.getElementById("container").offsetHeight - 2,
+    active = d3.select(null);
+
+var projection = d3.geo.naturalEarth();
+
+var defaultZoom = 1.3;
+var defaultTranslateX = -220;
+var defaultTranslateY = -40;
+
+var path = d3.geo.path()
+    .projection(projection);
+
+
+d3.json("world_cup_year_modnew.json",  function(error, cups) {
+
+	var svg = d3.select("#container").append("svg")
+    .attr("width", width)
+    .attr("height", height)
+    .on("click", stopped, true);
+
+    svg.append("rect")
+        .attr("class", "background")
+        .attr("width", width)
+        .attr("height", height)
+        .on("click", reset);
+
+    var g = svg.append("g");
+
+    var zoom = d3.behavior.zoom()
+        .translate([defaultTranslateX, defaultTranslateY])
+        .scale(defaultZoom)
+        .scaleExtent([defaultZoom, 100])
+        .on("zoom", zoomed);
+
+    svg
+        .call(zoom) // delete this line to disable free zooming
+        .call(zoom.event);
+
+function reset() {
+  active.classed("active", false);
+  active = d3.select(null);
+  scale=defaultZoom;
+  translate=[defaultTranslateX, defaultTranslateY];
+  svg.transition()
+      .duration(750)
+      .call(zoom.translate([defaultTranslateX, defaultTranslateY]).scale(defaultZoom).event);
+
+}
+
+function zoomed() {
+  scale=d3.event.scale;
+  translate=d3.event.translate;
+  g.style("stroke-width", 1.5 / d3.event.scale + "px");
+  g.attr("transform", "translate(" + d3.event.translate + ")scale(" + d3.event.scale + ")");
+  d3.selectAll("circle").attr("transform", "translate(" + d3.event.translate + ")scale(" + d3.event.scale + ")")
+  .attr("r",function(d){
+	return (Math.sqrt(2000/Math.max(1,(d.rank-0)))+2)/d3.event.scale;
+  })
+  .attr("stroke-width",1/d3.event.scale);
+  d3.selectAll(".geocenter").attr("transform", "translate(" + d3.event.translate + ")scale(" + d3.event.scale + ")");
+}
+
+function stopped() {
+  if (d3.event.defaultPrevented) d3.event.stopPropagation();
+}
+
+var yr =2006;
+
+d3.json("world.json", function(error, world) {
+  g.selectAll("path")
+      .data(topojson.feature(world, world.objects.countries).features)
+    .enter().append("path")
+      .attr("d", path)
+      .attr("class", "feature");
+      // .on("click", clicked);
+
+  g.append("path")
+      .datum(topojson.mesh(world, world.objects.countries, function(a, b) { return a !== b; }))
+      .attr("class", "mesh")
+      .attr("d", path);
+
+var countries = topojson.feature(world, world.objects.countries).features
+
+var findcountry = function (id){
+
+	for (var i in countries) {
+
+		// console.log(countries[i]);
+
+		if (countries[i].id == id) return d3.geo.centroid(countries[i])
+
+	}
+
+};
+
+var update=function(year){
+
+	var cupdata = cups[year];
+
+	svg.selectAll(".pin")
+                .data(cupdata)
+				.exit().remove();
+
+	svg.selectAll(".pin")
+                .data(cupdata)
+				.enter().append("circle")
+				.attr("class", "pin")
+				// .attr("stroke", "black")
+				.style("opacity",0.8);
+                // .on("mouseout", tiphide);
+
+	svg.selectAll(".pin")
+                .attr("r",function(d){
+					return (Math.sqrt(2000/Math.max(1,(d.rank-0)))+2)/scale;
+				})
+                .attr("cx", function(d) {
+                	// console.log(d3.geo.centroid(countries[d.id])[1]);
+                    return (projection([findcountry(d.id)[0], findcountry(d.id)[1]])[0]-0)*1;
+                })
+                .attr("cy", function(d) {
+                    return (projection([findcountry(d.id)[0], findcountry(d.id)[1]])[1]-0)*1;
+                })
+				.attr("fill", function(d){
+					return colors[parseInt(d.rank/5.5)];
+				})
+				.attr("transform", "translate(" + translate + ")scale(" + scale + ")")
+    			.attr("stroke-width",1/scale);
+
+				center();
+				d3.select("#pslider").select("#syear").text(year);
+
+function center(){
+
+	svg.selectAll(".geocurrent").remove();
+
+	var lat = 0;
+	var lon = 0;
+	var su =0;
+	for (var i in cups[year]) {
+
+		// console.log(cups[year][i]);
+
+		lat = lat + findcountry(cups[year][i].id)[0]*1.0/parseInt(Math.sqrt(cups[year][i].rank))
+		lon = lon + findcountry(cups[year][i].id)[1]*1.0/parseInt(Math.sqrt(cups[year][i].rank))
+		su = su + 1.0/parseInt(Math.sqrt(cups[year][i].rank));
+	}
+
+	lat = lat / su;
+	lon = lon / su;
+	var xs = projection([lat, lon])[0];
+	var ys = projection([lat, lon])[1];
+	svg.append("polygon")
+		.attr("points", xs+","+(ys+15)+" "+(xs+15/defaultZoom)+","+(ys+51/defaultZoom)+" "+(xs-15/defaultZoom)+","+(ys+51/defaultZoom))
+		.attr("transform", "translate(" + translate + ")scale(" + scale + ")")
+    	.attr("class","geocurrent geocenter")
+		.attr("fill", "#0000ff" )
+				.attr("stroke", "black")
+				.attr("stroke-width",1/defaultZoom)
+				.style("opacity",0.8);
+
+};
+
+};
+
+update(yr);
+reset();
+
+function clicked(d) {
+  if (active.node() === this) return reset();
+  active.classed("active", false);
+  active = d3.select(this).classed("active", true);
+
+  var bounds = path.bounds(d),
+      dx = bounds[1][0] - bounds[0][0],
+      dy = bounds[1][1] - bounds[0][1],
+      x = (bounds[0][0] + bounds[1][0]) / 2,
+      y = (bounds[0][1] + bounds[1][1]) / 2;
+
+  scale = .9 / Math.max(dx / width, dy / height);
+
+  translate = [width / 2 - scale * x, height / 2 - scale * y];
+
+  svg.transition()
+      .duration(750)
+      .call(zoom.translate(translate).scale(scale).event);
+}
+
+years = [1930, 1934, 1938, 1950, 1954, 1958, 1962, 1966, 1970, 1974, 1978, 1982, 1986, 1990, 1994, 1998, 2002, 2006]
+
+var densityslider = new Dragdealer("pslider", {
+
+            x: 1,
+            steps: years.length,
+            snap: true,
+            animationCallback: function(a) {
+
+            	//console.log(a)
+                yr = years[Math.round( (years.length-1)* a)];
+                console.log(yr);
+                update(yr);
+            }
+        });
+
+});
+});
+
+var rescale = function() {
+//scale content
+var scal = Math.min((document.getElementById("container").parentElement.offsetWidth) / document.getElementById("container").offsetWidth, (document.getElementById("container").parentElement.offsetHeight) / document.getElementById("container").offsetHeight)
+document.getElementById("container").style.WebkitTransform = "scale(" + scal + ")";
+document.getElementById("container").style.OTransform = "scale(" + scal + ")";
+document.getElementById("container").style.MozTransform = "scale(" + scal + ")";
+document.getElementById("container").style.msTransform = "scale(" + scal + ")";
+document.getElementById("container").style.Transform = "scale(" + scal + ")";
+
+document.getElementById("container").style.WebkitTransformOrigin = "0 0";
+document.getElementById("container").style.OTransformOrigin = "0 0";
+document.getElementById("container").style.MozTransformOrigin = "0 0";
+document.getElementById("container").style.msTransformOrigin = "0 0";
+document.getElementById("container").style.TransformOrigin = "0 0";
+
+};
+
+window.onresize = function() {
+rescale();
+}
+//init content
+rescale();
+d3.select("#container").transition().delay(1000).duration(500).style("opacity", "1");
+// d3.select("#social").transition().delay(3000).duration(500).style("opacity", "1");
+</script>
+</div>
+    <div class="scrollup">
+		<a href="#"><i class="fa fa-chevron-up"></i></a>
+	</div>
+    
+</body>
+</html>
