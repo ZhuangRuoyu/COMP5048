@@ -1,1 +1,0 @@
-The geo-centroid of country performance is aiming at revealing the relationship between the geographical location and the team performance. Rank of each team is quantified and visualized as points on a real world map with different circle radius. The barycentre of these points shows the approximate orientation of the leading football level.
